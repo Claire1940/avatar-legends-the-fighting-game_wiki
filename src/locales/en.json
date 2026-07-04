@@ -79,6 +79,26 @@
         "title": "Combat Mechanics",
         "description": "Flow, Energy Points, enhanced specials, Super Arts, supports, and bending styles.",
         "icon": "Swords"
+      },
+      {
+        "title": "Online Play & Crossplay",
+        "description": "Rollback netcode, crossplay, Ranked, Casual, lobbies, spectator mode, and replays.",
+        "icon": "Globe"
+      },
+      {
+        "title": "Story & Game Modes",
+        "description": "Story Mode, Arcade, Training, Combo Trials, Versus, Spectator, and Art Gallery.",
+        "icon": "Gamepad2"
+      },
+      {
+        "title": "Pre-Order & Beta",
+        "description": "Closed Beta access, Samurai Appa skin, gold colors, and Year 1 Pass vote.",
+        "icon": "Gift"
+      },
+      {
+        "title": "DLC & Year 1 Pass",
+        "description": "Year 1 Pass, confirmed DLC fighters, community vote, and Digital Deluxe extras.",
+        "icon": "Crown"
       }
     ]
   },
@@ -411,6 +431,242 @@
           "summary": "Training Mode includes hitboxes, frame data, save states, and other tools for learning attacks and routes.",
           "beginner_use": "Use Training Mode to test your safest buttons, anti-air options, and support timing.",
           "advanced_hook": "Frame data and hitboxes help competitive players refine punishment, spacing, and matchup preparation."
+        }
+      ]
+    },
+    "avatarLegendsOnlineCrossplay": {
+      "eyebrow": "Online Play",
+      "title": "Avatar Legends: The Fighting Game Online Crossplay, Ranked, and Rollback Netcode",
+      "subtitle": "Avatar Legends: The Fighting Game supports online 1v1 battles with rollback netcode and crossplay across modern platforms and PC. Ranked, Casual, lobbies, spectator mode, and replays are built into the online package.",
+      "intro": "Use this section to check the online features before buying or pre-ordering. The game is designed around competitive 1v1 play, with rollback netcode, crossplay, Ranked and Casual matches, lobbies, spectator mode, and replays.",
+      "items": [
+        {
+          "feature": "Rollback Netcode",
+          "availability": "Included",
+          "details": "The game uses proprietary rollback netcode for smoother online fights and more responsive competitive play."
+        },
+        {
+          "feature": "Crossplay",
+          "availability": "Included",
+          "details": "Crossplay is supported across modern platforms and PC, letting players fight outside a single platform pool."
+        },
+        {
+          "feature": "Ranked Matches",
+          "availability": "Included",
+          "details": "Ranked online play is listed as part of the competitive multiplayer suite."
+        },
+        {
+          "feature": "Casual Matches",
+          "availability": "Included",
+          "details": "Casual online matches are available for players who want online fights without jumping straight into ranked pressure."
+        },
+        {
+          "feature": "Online Lobbies",
+          "availability": "Included",
+          "details": "Lobby play is supported for setting up online sessions with other players."
+        },
+        {
+          "feature": "Spectator Mode",
+          "availability": "Included",
+          "details": "Spectator mode is included for watching matches, learning matchups, or running community lobbies."
+        },
+        {
+          "feature": "Replays",
+          "availability": "Included",
+          "details": "Replay support is listed as part of the online feature set, giving players a way to review fights after the match."
+        },
+        {
+          "feature": "Online Player Count",
+          "availability": "1v1",
+          "details": "Platform stores list online multiplayer as 2-player online play, matching the game's 1v1 fighting format."
+        },
+        {
+          "feature": "Console Online Requirements",
+          "availability": "Platform-dependent",
+          "details": "PS5 online play requires PlayStation Plus. Xbox console online multiplayer requires Xbox Game Pass Essential, Premium, or Ultimate. Steam lists Online PvP support."
+        }
+      ]
+    },
+    "avatarLegendsStoryArcadeModes": {
+      "eyebrow": "Game Modes",
+      "title": "Avatar Legends: The Fighting Game Story, Arcade, and Game Modes",
+      "subtitle": "The game includes single-player, local versus, online versus, training, spectator, and gallery content. Players can use this section to quickly understand every major mode before launch.",
+      "intro": "Avatar Legends: The Fighting Game is built with multiple ways to play: an original Story Mode, character Arcade runs, Offline and Online Versus, Training tools, Combo Trials, Character Lessons, Spectator Mode, and an Art Gallery.",
+      "items": [
+        {
+          "mode": "Story Mode",
+          "category": "Single Player",
+          "details": "An original narrative outlined by Michael Dante DiMartino and Tim Hedrick, centered on shaping the fate of time and space in the main story mode."
+        },
+        {
+          "mode": "Arcade Mode",
+          "category": "Single Player",
+          "details": "Arcade runs feature unique storylines for every playable character."
+        },
+        {
+          "mode": "Offline Versus",
+          "category": "Local Play",
+          "details": "Offline versus mode supports local 1v1 fights for quick matches with friends and family."
+        },
+        {
+          "mode": "Online Versus",
+          "category": "Online Play",
+          "details": "Online play includes Ranked matches, Casual matches, lobbies, spectator mode, replays, rollback netcode, and crossplay."
+        },
+        {
+          "mode": "Training Mode",
+          "category": "Practice",
+          "details": "Training Mode includes advanced tools such as hitboxes, frame data, save states, and other practice features."
+        },
+        {
+          "mode": "Combo Trials",
+          "category": "Practice",
+          "details": "Combo Trials are listed as part of the Standard Edition content for structured character practice."
+        },
+        {
+          "mode": "Character Lessons",
+          "category": "Practice",
+          "details": "Character Lessons are listed alongside Combo Trials as learning content for individual fighters."
+        },
+        {
+          "mode": "Spectator Mode",
+          "category": "Community",
+          "details": "Spectator Mode lets players watch matches, follow lobby sets, and study other players."
+        },
+        {
+          "mode": "Art Gallery",
+          "category": "Collection",
+          "details": "The gallery includes original artwork and concept art celebrating Avatar's characters, world, and hand-drawn fighting game style."
+        }
+      ]
+    },
+    "avatarLegendsPreOrderBeta": {
+      "eyebrow": "Pre-Order",
+      "title": "Avatar Legends: The Fighting Game Pre-Order Bonuses and Closed Beta",
+      "subtitle": "Pre-orders include Closed Beta access from July 2 to July 5, Samurai Appa, exclusive gold colors, and Year 1 Pass voting rights. The Digital Deluxe Edition adds the Year 1 Pass and digital extras.",
+      "intro": "This table separates the preorder bonuses from the Digital Deluxe Edition content so players can quickly see what comes with each edition and what requires a preorder.",
+      "items": [
+        {
+          "content": "Price",
+          "standard_edition": "$29.99",
+          "digital_deluxe_edition": "$49.99",
+          "details": "The Standard Edition is the base game. The Digital Deluxe Edition includes the base game plus premium digital content."
+        },
+        {
+          "content": "Base Game",
+          "standard_edition": "Included",
+          "digital_deluxe_edition": "Included",
+          "details": "Both editions include Avatar Legends: The Fighting Game."
+        },
+        {
+          "content": "Standard Gameplay Content",
+          "standard_edition": "Included",
+          "digital_deluxe_edition": "Included",
+          "details": "Includes 12 playable characters, Story Mode, Arcade Mode, Training Mode, Combo Trials, Character Lessons, Gallery Mode, and online Ranked, Casual, and Lobby multiplayer."
+        },
+        {
+          "content": "Closed Beta Access",
+          "standard_edition": "Included with pre-order",
+          "digital_deluxe_edition": "Included with pre-order",
+          "details": "Closed Beta access runs from July 2 through July 5, 2026. The beta features Aang, Korra, Katara, Toph, Zuko, Sokka, and Azula."
+        },
+        {
+          "content": "Samurai Appa Support Character Skin",
+          "standard_edition": "Included with pre-order",
+          "digital_deluxe_edition": "Included with pre-order",
+          "details": "Samurai Appa is an alternate skin for Appa when selected as a support character."
+        },
+        {
+          "content": "Exclusive Gold Colors",
+          "standard_edition": "Included with pre-order",
+          "digital_deluxe_edition": "Included with pre-order",
+          "details": "Pre-order bonuses include gold color variants for Aang, Korra, Zuko, Katara, Toph, and Sokka."
+        },
+        {
+          "content": "Year 1 Pass Character Vote",
+          "standard_edition": "Included with pre-order",
+          "digital_deluxe_edition": "Included with pre-order",
+          "details": "Pre-order players receive voting rights for a Year 1 Pass character."
+        },
+        {
+          "content": "Digital Artbook",
+          "standard_edition": "Not included",
+          "digital_deluxe_edition": "Included",
+          "details": "The Digital Deluxe Edition includes a curated digital artbook with character art, stages, and more."
+        },
+        {
+          "content": "Original Digital Soundtrack",
+          "standard_edition": "Not included",
+          "digital_deluxe_edition": "Included",
+          "details": "The Digital Deluxe Edition includes the game's digital soundtrack."
+        },
+        {
+          "content": "Unique HUDs",
+          "standard_edition": "Not included",
+          "digital_deluxe_edition": "Included",
+          "details": "Unique HUDs are listed as part of the Digital Deluxe Edition package."
+        },
+        {
+          "content": "Year 1 Pass",
+          "standard_edition": "Not included",
+          "digital_deluxe_edition": "Included",
+          "details": "The Year 1 Pass adds five additional playable characters over the season."
+        }
+      ]
+    },
+    "avatarLegendsDlcYear1Pass": {
+      "eyebrow": "DLC",
+      "title": "Avatar Legends: The Fighting Game DLC and Year 1 Pass",
+      "subtitle": "The Digital Deluxe Edition includes the Year 1 Pass, which adds five additional playable characters. Four are confirmed: Uncle Iroh, Ty Lee, Lin Beifong, and Bolin, with the fifth chosen through a player vote.",
+      "intro": "The Year 1 Pass is the main post-launch roster expansion for Avatar Legends: The Fighting Game. It adds five additional playable characters over the season, including four confirmed fighters and one player-voted character.",
+      "items": [
+        {
+          "roadmap_item": "Year 1 Pass",
+          "type": "Pass Content",
+          "status": "Included in Digital Deluxe Edition",
+          "details": "Adds five additional playable characters over the season."
+        },
+        {
+          "roadmap_item": "Uncle Iroh",
+          "type": "Confirmed DLC Fighter",
+          "status": "Year 1 Pass",
+          "details": "A confirmed additional playable character for the Year 1 Pass."
+        },
+        {
+          "roadmap_item": "Ty Lee",
+          "type": "Confirmed DLC Fighter",
+          "status": "Year 1 Pass",
+          "details": "A confirmed additional playable character for the Year 1 Pass."
+        },
+        {
+          "roadmap_item": "Lin Beifong",
+          "type": "Confirmed DLC Fighter",
+          "status": "Year 1 Pass",
+          "details": "A confirmed additional playable character for the Year 1 Pass."
+        },
+        {
+          "roadmap_item": "Bolin",
+          "type": "Confirmed DLC Fighter",
+          "status": "Year 1 Pass",
+          "details": "A confirmed additional playable character for the Year 1 Pass."
+        },
+        {
+          "roadmap_item": "Fifth Year 1 Pass Character",
+          "type": "Community Vote",
+          "status": "Player-voted slot",
+          "details": "The final Year 1 Pass character is chosen through the Year 1 Character Vote for eligible pre-order players."
+        },
+        {
+          "roadmap_item": "Vote Candidates",
+          "type": "Community Vote",
+          "status": "Announced voting pool",
+          "details": "The announced candidate pool includes Amon, Kuvira, King Bumi, Asami Sato, and Tenzin."
+        },
+        {
+          "roadmap_item": "Digital Deluxe Extras",
+          "type": "Edition Content",
+          "status": "Digital Deluxe Edition",
+          "details": "The Digital Deluxe Edition includes the full game, Year 1 Pass, Original Digital Soundtrack, Digital Artbook, and unique HUDs."
         }
       ]
     }

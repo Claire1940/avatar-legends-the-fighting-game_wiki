@@ -1,18 +1,24 @@
 "use client";
 
-import { Suspense, lazy } from "react";
+import { Suspense, lazy, Fragment } from "react";
 import {
   ArrowRight,
   BookOpen,
   Calendar,
   Check,
+  Clapperboard,
+  Crown,
   Droplets,
   ExternalLink,
+  Eye,
   Flame,
   Gamepad2,
   Gift,
   Globe,
+  GraduationCap,
+  Image,
   Joystick,
+  Medal,
   MonitorSmartphone,
   Mountain,
   Smartphone,
@@ -20,8 +26,11 @@ import {
   Star,
   Swords,
   Target,
+  UserCheck,
   Users,
+  Vote,
   Wind,
+  X,
   Zap,
 } from "lucide-react";
 import type { LucideIcon } from "lucide-react";
@@ -60,6 +69,10 @@ const TOOL_CARD_SECTION_IDS = [
   "characters-and-roster",
   "beginner-guide",
   "combat-mechanics-guide",
+  "online-crossplay-ranked-guide",
+  "story-arcade-game-modes",
+  "pre-order-bonuses-closed-beta",
+  "dlc-year-1-pass",
 ];
 
 // M1 平台卡图标映射（按 label 关键词）
@@ -98,6 +111,80 @@ const MECHANIC_ICONS: Record<string, LucideIcon> = {
   "Training Tools": Target,
 };
 
+// M5 在线特性图标映射（按 feature 关键词）
+function getOnlineFeatureIcon(feature: string): LucideIcon {
+  const s = feature.toLowerCase();
+  if (s.includes("rollback")) return Zap;
+  if (s.includes("crossplay")) return Globe;
+  if (s.includes("ranked")) return Medal;
+  if (s.includes("casual")) return Swords;
+  if (s.includes("lobby")) return Users;
+  if (s.includes("spectator")) return Eye;
+  if (s.includes("replay")) return Clapperboard;
+  if (s.includes("player count")) return UserCheck;
+  if (s.includes("console") || s.includes("requirement")) return MonitorSmartphone;
+  return Globe;
+}
+
+// M6 游戏模式图标映射（按 mode 关键词）
+function getModeIcon(mode: string): LucideIcon {
+  const s = mode.toLowerCase();
+  if (s.includes("story")) return BookOpen;
+  if (s.includes("arcade")) return Gamepad2;
+  if (s.includes("offline")) return Joystick;
+  if (s.includes("online versus")) return Globe;
+  if (s.includes("training")) return Target;
+  if (s.includes("combo")) return Zap;
+  if (s.includes("lesson")) return GraduationCap;
+  if (s.includes("spectator")) return Eye;
+  if (s.includes("gallery") || s.includes("art")) return Image;
+  return Gamepad2;
+}
+
+// M8 DLC 路线图图标映射（按 roadmap_item 关键词）
+function getRoadmapIcon(item: string): LucideIcon {
+  const s = item.toLowerCase();
+  if (s.includes("year 1 pass")) return Crown;
+  if (s.includes("iroh")) return Flame;
+  if (s.includes("ty lee")) return Zap;
+  if (s.includes("lin")) return Mountain;
+  if (s.includes("bolin")) return Droplets;
+  if (s.includes("fifth")) return Vote;
+  if (s.includes("candidate")) return Users;
+  if (s.includes("deluxe")) return Sparkles;
+  return Crown;
+}
+
+// M7 版本对比单元格：根据取值渲染图标 + 文案
+function renderEditionCell(value: string) {
+  const v = value.toLowerCase();
+  if (v === "included") {
+    return (
+      <span className="inline-flex items-center gap-1.5 text-[hsl(var(--nav-theme-light))] font-medium">
+        <Check className="h-4 w-4" />
+        <span className="text-foreground/90">Included</span>
+      </span>
+    );
+  }
+  if (v.includes("not included")) {
+    return (
+      <span className="inline-flex items-center gap-1.5 text-muted-foreground">
+        <X className="h-4 w-4" />
+        <span>Not included</span>
+      </span>
+    );
+  }
+  if (v.includes("pre-order")) {
+    return (
+      <span className="inline-flex items-center gap-1.5 text-[hsl(var(--nav-theme-light))] font-medium">
+        <Star className="h-4 w-4" />
+        <span className="text-foreground/90">{value}</span>
+      </span>
+    );
+  }
+  return <span className="font-semibold text-[hsl(var(--nav-theme-light))]">{value}</span>;
+}
+
 export default function HomePageClient({
   latestArticles,
   moduleLinkMap,
@@ -112,6 +199,10 @@ export default function HomePageClient({
   const m2 = t.modules.avatarLegendsCharactersRoster;
   const m3 = t.modules.avatarLegendsBeginnerGuide;
   const m4 = t.modules.avatarLegendsCombatMechanics;
+  const m5 = t.modules.avatarLegendsOnlineCrossplay;
+  const m6 = t.modules.avatarLegendsStoryArcadeModes;
+  const m7 = t.modules.avatarLegendsPreOrderBeta;
+  const m8 = t.modules.avatarLegendsDlcYear1Pass;
 
   // Structured data
   const structuredData = {
@@ -280,7 +371,7 @@ export default function HomePageClient({
         </div>
       </section>
 
-      {/* Tools Grid - 4 Navigation Cards（Hero → Video → Tools Grid 顺序） */}
+      {/* Tools Grid - 8 Navigation Cards（Hero → Video → Tools Grid 顺序） */}
       <section className="px-4 py-14 md:py-20 bg-white/[0.02]">
         <div className="container mx-auto max-w-5xl">
           <div className="text-center mb-8 md:mb-12 scroll-reveal">
@@ -620,6 +711,230 @@ export default function HomePageClient({
                       </p>
                     </div>
                   </div>
+                </div>
+              );
+            })}
+          </div>
+        </div>
+      </section>
+
+      {/* 广告位 6: 第四模块与第五模块之间的阅读停顿位 */}
+      <AdBanner
+        type="banner-300x250"
+        adKey={process.env.NEXT_PUBLIC_AD_BANNER_300X250}
+        className="md:hidden"
+      />
+      <AdBanner
+        type="banner-468x60"
+        adKey={process.env.NEXT_PUBLIC_AD_BANNER_468X60}
+        className="hidden md:flex"
+      />
+
+      {/* Module 5: Online Crossplay and Ranked (feature-table) */}
+      <section id="online-crossplay-ranked-guide" className="scroll-mt-24 px-4 py-14 md:py-20">
+        <div className="container mx-auto max-w-5xl">
+          <div className="text-center mb-8 md:mb-12 scroll-reveal">
+            <span className="inline-flex items-center gap-2 rounded-full px-3 py-1 bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] text-xs font-semibold uppercase tracking-wide text-[hsl(var(--nav-theme-light))] mb-3">
+              <Globe className="w-3.5 h-3.5" />
+              {m5.eyebrow}
+            </span>
+            <h2 className="text-3xl md:text-5xl font-bold mb-3 md:mb-4">
+              {m5.title}
+            </h2>
+            <p className="text-base md:text-lg text-muted-foreground max-w-3xl mx-auto">
+              {m5.subtitle}
+            </p>
+            <p className="text-sm md:text-base text-muted-foreground/80 max-w-3xl mx-auto mt-3">
+              {m5.intro}
+            </p>
+          </div>
+
+          <div className="overflow-hidden rounded-2xl border border-border bg-white/[0.02]">
+            {m5.items.map((item: any, index: number) => {
+              const Icon = getOnlineFeatureIcon(item.feature);
+              return (
+                <div
+                  key={index}
+                  className="border-b border-border last:border-b-0 p-4 md:p-5 hover:bg-white/[0.015] transition-colors"
+                >
+                  <div className="flex items-center justify-between gap-3 mb-2">
+                    <div className="flex items-center gap-3">
+                      <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-[hsl(var(--nav-theme)/0.1)] flex-shrink-0">
+                        <Icon className="h-5 w-5 text-[hsl(var(--nav-theme-light))]" />
+                      </div>
+                      <h3 className="font-bold text-base md:text-lg leading-tight">
+                        {item.feature}
+                      </h3>
+                    </div>
+                    <span className="inline-flex items-center px-3 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] text-xs font-semibold text-[hsl(var(--nav-theme-light))] flex-shrink-0 text-center">
+                      {item.availability}
+                    </span>
+                  </div>
+                  <p className="text-sm text-muted-foreground md:pl-[3.25rem]">
+                    {item.details}
+                  </p>
+                </div>
+              );
+            })}
+          </div>
+        </div>
+      </section>
+
+      {/* Module 6: Story, Arcade, and Game Modes (mode-card-list) */}
+      <section id="story-arcade-game-modes" className="scroll-mt-24 px-4 py-14 md:py-20 bg-white/[0.02]">
+        <div className="container mx-auto max-w-5xl">
+          <div className="text-center mb-8 md:mb-12 scroll-reveal">
+            <span className="inline-flex items-center gap-2 rounded-full px-3 py-1 bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] text-xs font-semibold uppercase tracking-wide text-[hsl(var(--nav-theme-light))] mb-3">
+              <Gamepad2 className="w-3.5 h-3.5" />
+              {m6.eyebrow}
+            </span>
+            <h2 className="text-3xl md:text-5xl font-bold mb-3 md:mb-4">
+              {m6.title}
+            </h2>
+            <p className="text-base md:text-lg text-muted-foreground max-w-3xl mx-auto">
+              {m6.subtitle}
+            </p>
+            <p className="text-sm md:text-base text-muted-foreground/80 max-w-3xl mx-auto mt-3">
+              {m6.intro}
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+            {m6.items.map((item: any, index: number) => {
+              const Icon = getModeIcon(item.mode);
+              return (
+                <div
+                  key={index}
+                  className="flex flex-col p-5 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors"
+                >
+                  <div className="flex items-center gap-3 mb-3">
+                    <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-[hsl(var(--nav-theme)/0.1)] flex-shrink-0">
+                      <Icon className="h-5 w-5 text-[hsl(var(--nav-theme-light))]" />
+                    </div>
+                    <div>
+                      <h3 className="font-bold text-base leading-tight">{item.mode}</h3>
+                      <p className="text-xs text-muted-foreground uppercase tracking-wide">
+                        {item.category}
+                      </p>
+                    </div>
+                  </div>
+                  <p className="text-sm text-muted-foreground flex-1">{item.details}</p>
+                </div>
+              );
+            })}
+          </div>
+        </div>
+      </section>
+
+      {/* 广告位 7: 第六模块与第七模块之间的移动端横幅 */}
+      {mobileBannerAd && (
+        <AdBanner
+          type={mobileBannerAd.type}
+          adKey={mobileBannerAd.adKey}
+          className="md:hidden"
+        />
+      )}
+
+      {/* Module 7: Pre-Order Bonuses and Closed Beta (comparison-table) */}
+      <section id="pre-order-bonuses-closed-beta" className="scroll-mt-24 px-4 py-14 md:py-20">
+        <div className="container mx-auto max-w-5xl">
+          <div className="text-center mb-8 md:mb-12 scroll-reveal">
+            <span className="inline-flex items-center gap-2 rounded-full px-3 py-1 bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] text-xs font-semibold uppercase tracking-wide text-[hsl(var(--nav-theme-light))] mb-3">
+              <Gift className="w-3.5 h-3.5" />
+              {m7.eyebrow}
+            </span>
+            <h2 className="text-3xl md:text-5xl font-bold mb-3 md:mb-4">
+              {m7.title}
+            </h2>
+            <p className="text-base md:text-lg text-muted-foreground max-w-3xl mx-auto">
+              {m7.subtitle}
+            </p>
+            <p className="text-sm md:text-base text-muted-foreground/80 max-w-3xl mx-auto mt-3">
+              {m7.intro}
+            </p>
+          </div>
+
+          <div className="overflow-x-auto rounded-2xl border border-border">
+            <table className="w-full text-sm border-collapse">
+              <thead>
+                <tr className="bg-[hsl(var(--nav-theme)/0.1)]">
+                  <th className="text-left p-3 md:p-4 font-semibold">
+                    Feature
+                  </th>
+                  <th className="text-left p-3 md:p-4 font-semibold text-[hsl(var(--nav-theme-light))]">
+                    Standard Edition
+                  </th>
+                  <th className="text-left p-3 md:p-4 font-semibold text-[hsl(var(--nav-theme-light))]">
+                    Digital Deluxe
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+                {m7.items.map((item: any, index: number) => (
+                  <Fragment key={index}>
+                    <tr className="border-t border-border align-top">
+                      <td className="p-3 md:p-4 font-medium">{item.content}</td>
+                      <td className="p-3 md:p-4">{renderEditionCell(item.standard_edition)}</td>
+                      <td className="p-3 md:p-4">{renderEditionCell(item.digital_deluxe_edition)}</td>
+                    </tr>
+                    <tr className="border-t border-border bg-white/[0.015]">
+                      <td colSpan={3} className="p-3 md:p-4 text-xs md:text-sm text-muted-foreground">
+                        {item.details}
+                      </td>
+                    </tr>
+                  </Fragment>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      {/* Module 8: DLC and Year 1 Pass (dlc-roadmap) */}
+      <section id="dlc-year-1-pass" className="scroll-mt-24 px-4 py-14 md:py-20 bg-white/[0.02]">
+        <div className="container mx-auto max-w-5xl">
+          <div className="text-center mb-8 md:mb-12 scroll-reveal">
+            <span className="inline-flex items-center gap-2 rounded-full px-3 py-1 bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] text-xs font-semibold uppercase tracking-wide text-[hsl(var(--nav-theme-light))] mb-3">
+              <Crown className="w-3.5 h-3.5" />
+              {m8.eyebrow}
+            </span>
+            <h2 className="text-3xl md:text-5xl font-bold mb-3 md:mb-4">
+              {m8.title}
+            </h2>
+            <p className="text-base md:text-lg text-muted-foreground max-w-3xl mx-auto">
+              {m8.subtitle}
+            </p>
+            <p className="text-sm md:text-base text-muted-foreground/80 max-w-3xl mx-auto mt-3">
+              {m8.intro}
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+            {m8.items.map((item: any, index: number) => {
+              const Icon = getRoadmapIcon(item.roadmap_item);
+              return (
+                <div
+                  key={index}
+                  className="flex flex-col p-5 md:p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors"
+                >
+                  <div className="flex items-center gap-3 mb-3">
+                    <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-[hsl(var(--nav-theme)/0.1)] flex-shrink-0">
+                      <Icon className="h-5 w-5 text-[hsl(var(--nav-theme-light))]" />
+                    </div>
+                    <div>
+                      <h3 className="font-bold text-base md:text-lg leading-tight">
+                        {item.roadmap_item}
+                      </h3>
+                      <p className="text-xs text-muted-foreground uppercase tracking-wide">
+                        {item.type}
+                      </p>
+                    </div>
+                  </div>
+                  <p className="text-sm text-muted-foreground mb-3 flex-1">{item.details}</p>
+                  <span className="inline-flex items-center self-start gap-1 px-2.5 py-0.5 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] text-xs font-medium text-[hsl(var(--nav-theme-light))]">
+                    <Check className="h-3 w-3" />
+                    {item.status}
+                  </span>
                 </div>
               );
             })}

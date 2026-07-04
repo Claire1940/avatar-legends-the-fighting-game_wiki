@@ -60,6 +60,14 @@ export const iconRegistry: Record<string, LucideIcon> = {
   MapPin: LucideIcons.MapPin,
   Play: LucideIcons.Play,
 
+  // Avatar Legends 主题图标 - 在线 / 模式 / 预购 / DLC（Part5 模块 5-8）
+  Crown: LucideIcons.Crown,
+  Vote: LucideIcons.Vote,
+  Image: LucideIcons.Image,
+  Medal: LucideIcons.Medal,
+  Clapperboard: LucideIcons.Clapperboard,
+  UserCheck: LucideIcons.UserCheck,
+
   // 默认回退图标
   HelpCircle: LucideIcons.HelpCircle,
 }
