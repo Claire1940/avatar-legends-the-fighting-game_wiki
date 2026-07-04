@@ -1,12 +1,12 @@
 {
-  "name": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-  "short_name": "Lucid Blocks",
-  "description": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
+  "name": "Avatar Legends: The Fighting Game Wiki - Roster, Moves & Release",
+  "short_name": "Avatar Legends",
+  "description": "Avatar Legends: The Fighting Game wiki covers roster, moves, combat mechanics, story and arcade modes, rollback netcode, crossplay, release date, platforms, pre-order bonuses, and system requirements.",
   "start_url": "/",
   "display": "standalone",
   "orientation": "any",
-  "theme_color": "#1a7a7a",
-  "background_color": "#0a0a0a",
+  "theme_color": "#38b6f0",
+  "background_color": "#0b1626",
   "icons": [
     {
       "src": "/android-chrome-192x192.png",
