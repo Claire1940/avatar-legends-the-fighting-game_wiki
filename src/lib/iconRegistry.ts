@@ -38,6 +38,28 @@ export const iconRegistry: Record<string, LucideIcon> = {
   Clock: LucideIcons.Clock,
   X: LucideIcons.X,
 
+  // Avatar Legends 主题图标 - 工具卡 / 平台
+  Calendar: LucideIcons.Calendar,
+  GraduationCap: LucideIcons.GraduationCap,
+  Swords: LucideIcons.Swords,
+  MonitorSmartphone: LucideIcons.MonitorSmartphone,
+  Joystick: LucideIcons.Joystick,
+  Smartphone: LucideIcons.Smartphone,
+  Gift: LucideIcons.Gift,
+  Globe: LucideIcons.Globe,
+
+  // Avatar Legends 主题图标 - 元素 / 角色
+  Wind: LucideIcons.Wind,
+  Droplets: LucideIcons.Droplets,
+  Mountain: LucideIcons.Mountain,
+  Flame: LucideIcons.Flame,
+  Trophy: LucideIcons.Trophy,
+  Target: LucideIcons.Target,
+  Zap: LucideIcons.Zap,
+  Compass: LucideIcons.Compass,
+  MapPin: LucideIcons.MapPin,
+  Play: LucideIcons.Play,
+
   // 默认回退图标
   HelpCircle: LucideIcons.HelpCircle,
 }

@@ -52,696 +52,365 @@
     }
   },
   "gameFeature": {
-    "title": "Lucid Blocks Gameplay",
-    "description": "Explore surreal biomes, fuse items with Apotheosis, and survive strange creatures in this dreamlike voxel sandbox on Steam."
+    "title": "Avatar Legends: The Fighting Game Gameplay",
+    "description": "Master Flow movement, Energy Points, cinematic Super Arts, support characters, and 12 elemental fighters in a hand-drawn 2D fighting game with rollback netcode and crossplay."
   },
   "tools": {
-    "title": "Lucid Blocks",
-    "titleHighlight": "Resources",
-    "subtitle": "Everything you need to explore, craft, and survive in Lucid Blocks",
+    "title": "Avatar Legends",
+    "titleHighlight": "Fighter Guide",
+    "subtitle": "Everything you need to master Avatar Legends: The Fighting Game, from launch date and platforms to roster, controls, and combat mechanics.",
     "cards": [
       {
-        "icon": "BookOpen",
+        "title": "Release Date & Platforms",
+        "description": "Launch date, Steam, PS5, Xbox, Switch, editions, and pre-order bonuses.",
+        "icon": "Calendar"
+      },
+      {
+        "title": "Characters & Roster",
+        "description": "All 12 launch fighters, their source series, bending style, and role.",
+        "icon": "Users"
+      },
+      {
         "title": "Beginner Guide",
-        "description": "First steps, exploration, and early progression"
+        "description": "Movement, Flow, support characters, Energy Points, and Training Mode basics.",
+        "icon": "GraduationCap"
       },
       {
-        "icon": "Sparkles",
-        "title": "Apotheosis Crafting",
-        "description": "Freeform fusion system and early recipes"
-      },
-      {
-        "icon": "Hammer",
-        "title": "Tools and Weapons",
-        "description": "Frost Pick, Azrael, Hookshot, and more"
-      },
-      {
-        "icon": "Package",
-        "title": "Storage and Inventory",
-        "description": "Cache Cubes, Cabinets, and Qualia storage"
-      },
-      {
-        "icon": "Home",
-        "title": "Qualia and Base Building",
-        "description": "Personal Qualia and home base setup"
-      },
-      {
-        "icon": "Eye",
-        "title": "World Regions",
-        "description": "Fog Meadow, Essence Morass, and more"
-      },
-      {
-        "icon": "AlertTriangle",
-        "title": "Creatures and Enemies",
-        "description": "Manikins, spiders, and how to survive"
-      },
-      {
-        "icon": "ArrowRight",
-        "title": "Mobility Gear",
-        "description": "Hookshot, Glider Glove, Bee Glider"
-      },
-      {
-        "icon": "TrendingUp",
-        "title": "Farming and Growth",
-        "description": "Seed progression and material farming"
-      },
-      {
-        "icon": "Star",
-        "title": "Best Early Unlocks",
-        "description": "Priority upgrades for the first hour"
-      },
-      {
-        "icon": "ClipboardCheck",
-        "title": "Achievement Tracker",
-        "description": "All 19 Steam achievements and conditions"
-      },
-      {
-        "icon": "MessageCircle",
-        "title": "Singleplayer FAQ",
-        "description": "Platform, price, co-op, and language questions"
-      },
-      {
-        "icon": "Gamepad2",
-        "title": "Steam Deck and Controller",
-        "description": "Proton 9.0.4 setup and controller tips"
-      },
-      {
-        "icon": "Settings",
-        "title": "Settings and Accessibility",
-        "description": "Hide hands, Vulkan, and display options"
-      },
-      {
-        "icon": "Clock",
-        "title": "Updates and Patch Notes",
-        "description": "Recent fixes and roadmap notes"
-      },
-      {
-        "icon": "Shield",
-        "title": "Crash Fix",
-        "description": "Vulkan check, logs path, and bug reporting"
+        "title": "Combat Mechanics",
+        "description": "Flow, Energy Points, enhanced specials, Super Arts, supports, and bending styles.",
+        "icon": "Swords"
       }
     ]
   },
   "modules": {
-    "lucidBlocksBeginnerGuide": {
-      "title": "Lucid Blocks Beginner Guide",
-      "displayType": "steps",
-      "intro": "Start by learning how exploration, fusion, and progression connect. Lucid Blocks rewards experimentation, so early progress comes from gathering unusual materials, testing combinations, and unlocking your personal Qualia.",
-      "steps": [
-        {
-          "title": "Explore Before You Commit",
-          "description": "Walk outward, mine common blocks, and keep any strange drops you find. Early progress is less about fixed quests and more about discovering what materials can become."
-        },
-        {
-          "title": "Unlock Your Personal Qualia Early",
-          "description": "Your personal Qualia is one of the most important early milestones. It gives you a reliable place to regroup and build around."
-        },
-        {
-          "title": "Use Osmium for Fast Early Progress",
-          "description": "Osmium is one of the most useful early materials. A popular early route is combining Osmium with sticks to make a Frost Pick for fast mining."
-        },
-        {
-          "title": "Record Good Fusions",
-          "description": "Keep track of successful combinations in your journal. Lucid Blocks has many possible fusion paths, so writing down useful results saves a lot of time."
-        }
-      ],
-      "quickTips": [
-        "Apotheosis does not require a fixed recipe list.",
-        "Infinite world generation means moving higher or deeper can reveal completely different materials.",
-        "Movement tools and utility gear become a major quality-of-life boost once you start unlocking them.",
-        "Getting lost early is normal, but useful tools, storage, and movement options snowball fast once your first good fusions start working."
-      ]
-    },
-    "lucidBlocksApotheosisCrafting": {
-      "title": "Lucid Blocks Apotheosis Crafting",
-      "displayType": "cards",
-      "intro": "Apotheosis is the game's unrestricted fusion system. Instead of memorizing a traditional recipe book, you combine materials, watch the result, and build your own crafting knowledge over time.",
-      "cards": [
-        {
-          "name": "Freeform Fusion",
-          "description": "Apotheosis lets you fuse together different items without needing to follow a fixed recipe list."
-        },
-        {
-          "name": "Multiple Useful Outcomes",
-          "description": "Different materials often push toward certain results. Community discoveries show that similar inputs can still lead to practical tools, storage, or combat upgrades."
-        },
-        {
-          "name": "Journal-First Crafting",
-          "description": "The best way to learn Apotheosis is to track your successful combinations. Your journal quickly becomes your own crafting reference."
-        },
-        {
-          "name": "Community-Tested Early Fusions",
-          "description": "Popular early examples include Osmium plus Stick for a Frost Pick, Stick plus Tungsten Appendage for Azrael, and Azrael plus Magnetite for the Tendril Rapier."
-        }
-      ],
-      "milestones": [
-        "Fuse an item",
-        "Fuse a vermin",
-        "Fuse a divine artifact"
-      ]
-    },
-    "lucidBlocksToolsAndWeapons": {
-      "title": "Lucid Blocks Tools and Weapons",
-      "displayType": "itemCards",
-      "intro": "Lucid Blocks mixes official utility gear with community-discovered early weapons. The best setup is usually a blend of fast mining, safe traversal, and one dependable combat option.",
+    "avatarLegendsReleaseDatePlatforms": {
+      "eyebrow": "Release Info",
+      "title": "Avatar Legends: The Fighting Game Release Date, Price, and Platforms",
+      "subtitle": "The full launch is set for July 23, 2026, with digital pre-orders live on Steam, PlayStation Store, and Xbox / Microsoft Store. The Standard Edition is priced at $29.99, while the Digital Deluxe Edition is priced at $49.99.",
+      "intro": "Use this section to check the current launch date, supported platforms, edition prices, and preorder bonuses in one place. July 2-5, 2026 is the closed beta window for eligible pre-orders, while July 23, 2026 is the full release date.",
       "items": [
         {
-          "name": "Frost Pick",
-          "type": "Mining Tool",
-          "description": "A fast and affordable early pick made from Osmium and Stick. Players use it to speed up early material gathering."
+          "label": "Full Release Date",
+          "value": "July 23, 2026",
+          "details": "Avatar Legends: The Fighting Game is currently listed for release on July 23, 2026 across the main digital storefronts.",
+          "links": [
+            {
+              "label": "Official Site",
+              "href": "https://avatarfighters.com/"
+            },
+            {
+              "label": "Steam Page",
+              "href": "https://store.steampowered.com/app/2424420/Avatar_Legends_The_Fighting_Game/"
+            }
+          ]
         },
         {
-          "name": "Azrael",
-          "type": "Starter Weapon",
-          "description": "A practical early weapon route crafted from Stick and Tungsten Appendage."
+          "label": "PC via Steam",
+          "value": "$29.99 Standard / $49.99 Digital Deluxe",
+          "details": "Steam lists the game as a fast-paced 1v1 fighter with hand-drawn 2D animation, proprietary rollback netcode, full cross-play, and pre-purchase options for both Standard and Digital Deluxe editions.",
+          "links": [
+            {
+              "label": "Pre-Purchase on Steam",
+              "href": "https://store.steampowered.com/app/2424420/Avatar_Legends_The_Fighting_Game/"
+            }
+          ]
         },
         {
-          "name": "Tendril Rapier",
-          "type": "Upgraded Weapon",
-          "description": "A stronger follow-up made by combining Azrael with Magnetite. It is one of the most useful early-mid combat paths shared by players."
+          "label": "PlayStation 5",
+          "value": "$29.99 Standard / $49.99 Digital Deluxe",
+          "details": "The PlayStation Store lists the PS5 release for July 23, 2026, with pre-order access, 1-2 player support, optional online play, and PS Plus required for online multiplayer.",
+          "links": [
+            {
+              "label": "PlayStation Store",
+              "href": "https://store.playstation.com/en-us/concept/10018989/"
+            }
+          ]
         },
         {
-          "name": "Hookshot",
-          "type": "Mobility Tool",
-          "description": "An official traversal item that greatly improves movement and vertical exploration."
+          "label": "Xbox Series X|S and PC",
+          "value": "$29.99 Preorder Bundle / $49.99 Digital Deluxe",
+          "details": "The Xbox store lists the game as optimized for Xbox Series X|S with Xbox Play Anywhere, online multiplayer, shared or split-screen play, cloud saves, and cross-platform multiplayer support.",
+          "links": [
+            {
+              "label": "Xbox Store",
+              "href": "https://www.xbox.com/en-US/games/store/avatar-legends-the-fighting-game/9PH2332VRWSF"
+            }
+          ]
         },
         {
-          "name": "Bee Glider",
-          "type": "Mobility Tool",
-          "description": "An official movement item that helps cover space more safely and efficiently."
+          "label": "Nintendo Switch and Switch 2",
+          "value": "Switch listed for July 23, 2026; Switch 2 and physical edition later in 2026",
+          "details": "Current release coverage lists Nintendo Switch alongside PS5, Xbox Series X|S, and PC for the July 23 digital launch, with Nintendo Switch 2 and physical editions following later in 2026.",
+          "links": [
+            {
+              "label": "Latest Platform Update",
+              "href": "https://www.gematsu.com/2026/06/avatar-legends-the-fighting-game-year-1-pass-dlc-characters-bolin-ty-lee-lin-beifong-and-uncle-iroh-announced"
+            }
+          ]
         },
         {
-          "name": "Ball Wand",
-          "type": "Utility Weapon",
-          "description": "An official ranged utility item that expands your combat and puzzle options."
-        },
-        {
-          "name": "Scuba Diving Gear",
-          "type": "Traversal Gear",
-          "description": "An official utility item for reaching areas that would otherwise slow down exploration."
-        },
-        {
-          "name": "Explosives",
-          "type": "Utility Damage",
-          "description": "Officially highlighted as part of the core toolset and useful for breaking through threats or obstacles."
+          "label": "Pre-Order Bonuses",
+          "value": "Closed Beta access, Samurai Appa skin, exclusive colors, and Year 1 Pass vote",
+          "details": "Pre-orders include closed beta access from July 2-5, a Samurai Appa support character skin, gold color variants for Aang, Korra, Zuko, Katara, Toph, and Sokka, plus voting rights for a Year 1 Pass character.",
+          "links": [
+            {
+              "label": "Pre-Order Details",
+              "href": "https://blog.playstation.com/2026/06/29/avatar-legends-the-fighting-game-spirit-wilds-stage-revealed/"
+            }
+          ]
         }
       ]
     },
-    "lucidBlocksStorageAndInventory": {
-      "title": "Lucid Blocks Storage and Inventory",
-      "displayType": "solutionCards",
-      "intro": "Inventory pressure starts early in Lucid Blocks, so building storage should be one of your first goals. Several real player-tested solutions already stand out.",
-      "solutions": [
-        {
-          "name": "Cache Cube",
-          "role": "Chest-Like Storage",
-          "description": "Cache Cubes are one of the earliest practical storage answers and are treated by players as the game's main chest-style container."
-        },
-        {
-          "name": "Cabinet",
-          "role": "Simple Base Storage",
-          "description": "Cabinets are another confirmed storage option. A shared early recipe uses 1 Cut Wood and 1 String."
-        },
-        {
-          "name": "Personal Qualia",
-          "role": "Long-Term Storage Hub",
-          "description": "Once unlocked, your personal Qualia becomes a natural place to organize materials, craft in peace, and expand your base setup."
-        },
-        {
-          "name": "Journal Tracking",
-          "role": "Inventory Efficiency",
-          "description": "Recording useful combinations in your journal reduces wasted materials and makes inventory management much easier."
-        }
-      ],
-      "managementTips": [
-        "Prioritize one dependable storage option before hoarding rare drops.",
-        "Build around your personal Qualia once it becomes available.",
-        "Keep crafting materials, combat tools, and movement gear separated so upgrades are easier to plan.",
-        "Use your journal as part of inventory management, not just crafting discovery."
-      ]
-    },
-    "lucidBlocksQualiaAndBaseBuilding": {
-      "title": "Lucid Blocks Qualia and Base Building",
-      "displayType": "cards",
-      "intro": "Qualia is one of the most important progression milestones in Lucid Blocks. It gives you a personal space to regroup, store materials, and gradually turn exploration progress into a real home base.",
-      "cards": [
-        {
-          "name": "Personal Qualia",
-          "description": "Unlocking a Qualia is an early milestone that gives you a more reliable place to return to while exploring the wider world."
-        },
-        {
-          "name": "Storage-First Building",
-          "description": "Many players start using their Qualia as a storage hub before turning it into a larger base with organized crafting and building space."
-        },
-        {
-          "name": "Creative Home Building",
-          "description": "Lucid Blocks supports creative building, and players are already using Qualia spaces to make houses and personalized layouts."
-        },
-        {
-          "name": "Progression Hub",
-          "description": "A strong base helps you separate exploration loot, crafting materials, seeds, tools, and mobility gear so your next upgrades are easier to plan."
-        }
-      ],
-      "highlights": [
-        "Enter a qualia",
-        "Store materials safely",
-        "Expand from utility to decoration",
-        "Use base space to support crafting and farming"
-      ]
-    },
-    "lucidBlocksWorldRegions": {
-      "title": "Lucid Blocks World Regions",
-      "displayType": "regionCards",
-      "intro": "Lucid Blocks uses infinite world generation, so players keep discovering new environments and structures. A few named places are already showing up in achievements and community discussions.",
-      "regions": [
-        {
-          "name": "Fog Meadow",
-          "type": "Community-Noted Area",
-          "description": "Fog Meadow is already known among players as a tense area associated with hidden threats and dangerous encounters."
-        },
-        {
-          "name": "Tiamana Leyline",
-          "type": "Discovery Landmark",
-          "description": "The tiamana leyline is important enough to have its own achievement milestone, making it one of the clearest named world discoveries so far."
-        },
-        {
-          "name": "Clonaqualia",
-          "type": "Build Space",
-          "description": "Players are already using Clonaqualia as a place to build houses, store materials, and experiment with more permanent layouts."
-        },
-        {
-          "name": "Essence Morass",
-          "type": "Farming Area",
-          "description": "Essence Morass is being shared by players as a useful farming location, especially for fighting slimes and gaining experience."
-        }
-      ]
-    },
-    "lucidBlocksCreaturesAndEnemies": {
-      "title": "Lucid Blocks Creatures and Enemies",
-      "displayType": "creatureCards",
-      "intro": "Lucid Blocks mixes surreal creatures with real danger. Official descriptions and community posts point to a world full of strange life, hostile threats, and a few standout encounters players remember quickly.",
-      "creatures": [
-        {
-          "name": "Manikins",
-          "role": "Hostile Enemy",
-          "description": "Manikins are one of the officially named foes in the world and part of the game's surreal threat roster."
-        },
-        {
-          "name": "Squishy Gels",
-          "role": "Hostile Enemy",
-          "description": "Squishy gels are another officially named enemy type and help define the game's strange biological style."
-        },
-        {
-          "name": "Higher-Dimensional Beings",
-          "role": "Hostile Enemy",
-          "description": "These beings are presented as part of the world's more abstract and unsettling enemy lineup."
-        },
-        {
-          "name": "Colossal Spiders",
-          "role": "Major Threat",
-          "description": "Spiders are one of the most immediately feared enemies in community discussions and are clearly a memorable danger."
-        },
-        {
-          "name": "Bubblebear",
-          "role": "Named Creature",
-          "description": "Bubblebear is notable enough to have its own achievement, which makes it one of the clearest named creature encounters in the game."
-        },
-        {
-          "name": "Cute Vermin",
-          "role": "Interactable Creature",
-          "description": "Vermin are not only part of fusion progression, they can also be renamed, giving them a more personal role than standard enemies."
-        },
-        {
-          "name": "Blasphemous Creature",
-          "role": "Elite Threat",
-          "description": "The blasphemous creature is tied to a dedicated combat achievement, marking it as a significant enemy encounter."
-        }
-      ]
-    },
-    "lucidBlocksMobilityGear": {
-      "title": "Lucid Blocks Mobility Gear",
-      "displayType": "itemCards",
-      "intro": "Movement upgrades are one of the biggest quality-of-life jumps in Lucid Blocks. Once you unlock your first traversal tools, exploration becomes faster, safer, and much more rewarding.",
+    "avatarLegendsCharactersRoster": {
+      "eyebrow": "Roster",
+      "title": "Avatar Legends: The Fighting Game Characters and Launch Roster",
+      "subtitle": "The launch roster includes 12 playable fighters from Avatar: The Last Airbender, The Legend of Korra, and Avatar lore. Several early favorites also receive preorder-exclusive gold color variants.",
+      "intro": "This roster section helps players quickly scan every launch fighter, their source series, and their combat identity before choosing a main. The game also uses support characters tied to each fighter, giving the same playable character multiple tactical routes.",
       "items": [
         {
-          "name": "Hookshot",
-          "type": "Traversal Tool",
-          "description": "The hookshot is one of the clearest movement milestones in the game and has its own dedicated achievement."
+          "name": "Aang",
+          "source": "Avatar: The Last Airbender",
+          "style": "Airbending Avatar",
+          "role": "Fast, mobile Avatar fighter",
+          "status": "Launch playable fighter",
+          "bonus": "Gold color variant included with pre-orders"
         },
         {
-          "name": "Glider Glove",
-          "type": "Air Mobility",
-          "description": "The glider glove opens up much smoother travel and is another major progression milestone with its own achievement."
+          "name": "Korra",
+          "source": "The Legend of Korra",
+          "style": "Avatar bending",
+          "role": "Aggressive Avatar fighter",
+          "status": "Launch playable fighter",
+          "bonus": "Gold color variant included with pre-orders"
         },
         {
-          "name": "Bee Glider",
-          "type": "Traversal Tool",
-          "description": "Bee gliders are officially highlighted as part of the game's movement toolkit for covering space more efficiently."
+          "name": "Zuko",
+          "source": "Avatar: The Last Airbender",
+          "style": "Firebending",
+          "role": "Fire Nation duelist",
+          "status": "Launch playable fighter",
+          "bonus": "Gold color variant included with pre-orders"
         },
         {
-          "name": "Ball Wand",
-          "type": "Utility Gear",
-          "description": "Ball wands are one of the officially highlighted special tools and expand how you move through or interact with the world."
+          "name": "Katara",
+          "source": "Avatar: The Last Airbender",
+          "style": "Waterbending",
+          "role": "Water Tribe bender",
+          "status": "Launch playable fighter",
+          "bonus": "Gold color variant included with pre-orders"
         },
         {
-          "name": "Scuba Diving Gear",
-          "type": "Exploration Gear",
-          "description": "Scuba diving gear is officially listed as part of the core utility set for reaching areas that would otherwise be harder to explore."
+          "name": "Toph",
+          "source": "Avatar: The Last Airbender",
+          "style": "Earthbending",
+          "role": "Earth Kingdom powerhouse",
+          "status": "Launch playable fighter",
+          "bonus": "Gold color variant included with pre-orders"
         },
         {
-          "name": "Explosives",
-          "type": "Utility Damage",
-          "description": "Explosives are both officially highlighted and linked to an achievement milestone, making them part of the game's core utility progression."
-        }
-      ],
-      "unlockMilestones": [
-        "Command a hookshot",
-        "Fly with the glider glove",
-        "Brandish a projectile wand",
-        "Brandish an explosive"
-      ]
-    },
-    "lucidBlocksFarmingAndGrowth": {
-      "title": "Lucid Blocks Farming and Growth",
-      "displayType": "mixedCards",
-      "intro": "Growth is part of real progression in Lucid Blocks. Farming is not only about planting and harvesting, but also about setting up repeatable material routes that keep your tools, weapons, and crafting options flowing.",
-      "sections": [
-        {
-          "name": "Seed Progression",
-          "description": "Planting and fertilizing seeds is a real milestone in the game, and harvesting a fully-grown nut is part of the same growth path."
+          "name": "Sokka",
+          "source": "Avatar: The Last Airbender",
+          "style": "Non-bender weapons and movement tricks",
+          "role": "Boomerang, club, Meteorite Sword, and tricky repositioning",
+          "status": "Launch playable fighter",
+          "bonus": "Gold color variant included with pre-orders"
         },
         {
-          "name": "Material Farming",
-          "description": "A practical early farming loop is creating Mercury Capsules, which spawn small slimes that drop Tendrils and goo for repeatable crafting materials."
+          "name": "Azula",
+          "source": "Avatar: The Last Airbender",
+          "style": "Blue fire and lightning",
+          "role": "Aerial pressure, traps, and aggressive Firelord Mode offense",
+          "status": "Launch playable fighter",
+          "bonus": "Official character reveal available"
         },
         {
-          "name": "Tool Sustain",
-          "description": "Resource farming becomes much stronger once you can consistently gather Osmium, glass shards, plants, and slime materials for follow-up crafts."
+          "name": "Ozai",
+          "source": "Avatar: The Last Airbender",
+          "style": "Firebending",
+          "role": "Fire Lord fighter",
+          "status": "Launch playable fighter",
+          "bonus": "Base roster fighter"
         },
         {
-          "name": "Base Routine",
-          "description": "The best farming setup supports more than food. It should feed your storage, movement tools, weapon upgrades, and future fusion experiments."
-        }
-      ],
-      "growthMilestones": [
-        "Fertilize a seed",
-        "Harvest a fully-grown nut",
-        "Create repeatable material loops",
-        "Turn farming into long-term progression"
-      ]
-    },
-    "lucidBlocksBestEarlyUnlocks": {
-      "title": "Lucid Blocks Best Early Unlocks",
-      "displayType": "priorityCards",
-      "intro": "The strongest early unlocks are the ones that improve safety, storage, and movement. In Lucid Blocks, a few practical upgrades can make the entire rest of the game much smoother.",
-      "priorities": [
-        {
-          "name": "Personal Qualia",
-          "priority": "Essential",
-          "description": "As soon as you get access to your personal Qualia, your run becomes much more stable. It acts as a reliable hub for storage, building, and regrouping."
+          "name": "Zaheer",
+          "source": "The Legend of Korra",
+          "style": "Airbending",
+          "role": "Red Lotus airbender",
+          "status": "Launch playable fighter",
+          "bonus": "Base roster fighter"
         },
         {
-          "name": "Frost Pick",
-          "priority": "Very High",
-          "description": "A fast and cheap early mining tool made from Osmium and Stick. It is one of the most useful upgrades for accelerating early resource collection."
+          "name": "Kyoshi",
+          "source": "Avatar lore",
+          "style": "Avatar bending and Kyoshi warrior identity",
+          "role": "Legendary Avatar fighter",
+          "status": "Launch playable fighter",
+          "bonus": "Official character reveal available"
         },
         {
-          "name": "Cache Cube",
-          "priority": "Very High",
-          "description": "Storage pressure starts early, so getting your first dependable chest-style container is a major quality-of-life upgrade."
+          "name": "Avatar State Aang",
+          "source": "Avatar: The Last Airbender",
+          "style": "Avatar State",
+          "role": "Separate launch roster version of Aang",
+          "status": "Launch playable fighter",
+          "bonus": "Listed as a separate playable fighter"
         },
         {
-          "name": "Hookshot",
-          "priority": "High",
-          "description": "The hookshot is one of the clearest movement milestones in the game and quickly makes exploration faster and safer."
-        },
-        {
-          "name": "Glider Glove",
-          "priority": "High",
-          "description": "The glider glove adds another major mobility boost and makes long-distance movement far more efficient."
-        },
-        {
-          "name": "Projectile Wand or Bombs",
-          "priority": "High",
-          "description": "A ranged tool or explosive option gives you a safer answer to dangerous enemies and trial-style encounters."
+          "name": "Avatar State Korra",
+          "source": "The Legend of Korra",
+          "style": "Avatar State",
+          "role": "Separate launch roster version of Korra",
+          "status": "Launch playable fighter",
+          "bonus": "Listed as a separate playable fighter"
         }
       ]
     },
-    "lucidBlocksAchievementTracker": {
-      "title": "Lucid Blocks Achievement Tracker",
-      "displayType": "achievementGrid",
-      "intro": "Lucid Blocks currently has 19 Steam achievements, and they naturally split into exploration, crafting, mobility, combat, and growth progression.",
-      "groups": [
+    "avatarLegendsBeginnerGuide": {
+      "eyebrow": "Beginner Guide",
+      "title": "Avatar Legends: The Fighting Game Beginner Guide",
+      "subtitle": "Start with movement, simple attacks, support choices, Flow, and Training Mode before jumping into ranked matches. The game is built to be easy to pick up while still leaving room for serious fighting-game depth.",
+      "intro": "This beginner path teaches new players what to learn first without turning the first hour into a vocabulary exam. Follow the steps in order to understand the basic game loop before chasing advanced combos.",
+      "items": [
         {
-          "name": "Exploration",
-          "achievements": [
-            {
-              "title": "Angel α",
-              "description": "Enter a qualia."
-            },
-            {
-              "title": "Angel γ",
-              "description": "Discover a tiamana leyline."
-            },
-            {
-              "title": "Angel δ",
-              "description": "Overcome a tiamana challenge."
-            },
-            {
-              "title": "Angel ε",
-              "description": "Hidden achievement."
-            }
+          "step": 1,
+          "title": "Pick a Fighter You Understand",
+          "summary": "Start with a familiar character such as Aang, Korra, Zuko, Katara, Toph, Sokka, or Azula.",
+          "details": "The game launches with 12 playable characters. Choose one fighter first and stay with them long enough to learn their movement, normal attacks, Flow options, and support choices.",
+          "tags": [
+            "characters",
+            "roster",
+            "new player"
           ]
         },
         {
-          "name": "Crafting and Summoning",
-          "achievements": [
-            {
-              "title": "Apotheosis α",
-              "description": "Fuse an item."
-            },
-            {
-              "title": "Apotheosis β",
-              "description": "Fuse a vermin."
-            },
-            {
-              "title": "Apotheosis γ",
-              "description": "Fuse a divine artifact."
-            },
-            {
-              "title": "Archangel β",
-              "description": "Summon your faith."
-            }
+          "step": 2,
+          "title": "Choose a Support Character",
+          "summary": "Each fighter can be paired with support characters that add unique abilities.",
+          "details": "Support characters are not just cosmetic extras. They change your tactical options, enhance different strengths, and can help you build a style around pressure, defense, movement, or control.",
+          "tags": [
+            "support characters",
+            "team setup",
+            "strategy"
           ]
         },
         {
-          "name": "Mobility and Utility",
-          "achievements": [
-            {
-              "title": "Virtue α",
-              "description": "Fly with the glider glove."
-            },
-            {
-              "title": "Virtue β",
-              "description": "Command a hookshot."
-            },
-            {
-              "title": "Archangel α",
-              "description": "Brandish a projectile wand."
-            },
-            {
-              "title": "Archangel γ",
-              "description": "Brandish an explosive."
-            }
+          "step": 3,
+          "title": "Learn Movement and Flow First",
+          "summary": "Flow is the core system for fast movement, evasive actions, and character-specific follow-ups.",
+          "details": "Use Flow to dash, evade, slip under projectiles, launch into the air, or chain into character-specific abilities. Learn this before memorizing long combos, because standing still in a fighting game is a quick way to lose.",
+          "tags": [
+            "Flow",
+            "movement",
+            "defense"
           ]
         },
         {
-          "name": "Combat and Creatures",
-          "achievements": [
-            {
-              "title": "Bubblebear Massacre",
-              "description": "Defeat innocent bubblebears."
-            },
-            {
-              "title": "Archangel δ",
-              "description": "Eliminate a blasphemous creature."
-            },
-            {
-              "title": "Angel β",
-              "description": "Die."
-            },
-            {
-              "title": "Dominion γ",
-              "description": "Rename a cute vermin."
-            }
+          "step": 4,
+          "title": "Use Story and Arcade to Learn the Cast",
+          "summary": "Story Mode and Arcade Mode are the safest first stops for casual players.",
+          "details": "Story Mode focuses on the fate of time and space, while Arcade Mode gives every playable character a unique storyline. These modes help you test fighters before committing to online matches.",
+          "tags": [
+            "story mode",
+            "arcade mode",
+            "single-player"
           ]
         },
         {
-          "name": "Growth and Farming",
-          "achievements": [
-            {
-              "title": "Dominion α",
-              "description": "Fertilize a seed."
-            },
-            {
-              "title": "Dominion β",
-              "description": "Harvest a fully-grown nut."
-            },
-            {
-              "title": "Dominion δ",
-              "description": "Hidden achievement."
-            }
+          "step": 5,
+          "title": "Practice in Training Mode",
+          "summary": "Training Mode includes advanced tools such as hitboxes, frame data, and save states.",
+          "details": "Use Training Mode to test attacks, support timing, Flow routes, and Energy usage. This mode is useful for both complete beginners and players who want to study matchups properly.",
+          "tags": [
+            "training mode",
+            "frame data",
+            "hitboxes"
+          ]
+        },
+        {
+          "step": 6,
+          "title": "Play Offline Versus Before Ranked",
+          "summary": "Try Offline Versus, Casual matches, and lobbies before stepping into Ranked play.",
+          "details": "The game supports Offline and Online Versus, Ranked and Casual matches, lobbies, spectator mode, replays, rollback netcode, and cross-play. Use Casual and lobbies to build match experience before climbing ranked.",
+          "tags": [
+            "offline versus",
+            "online versus",
+            "ranked"
+          ]
+        },
+        {
+          "step": 7,
+          "title": "Spend Energy on Big Moments",
+          "summary": "Energy Points power enhanced special moves and cinematic Super Arts.",
+          "details": "Build Energy Points through skilled play, then spend them when an enhanced special move or Super Art can extend pressure, punish a mistake, or close out a round.",
+          "tags": [
+            "Energy Points",
+            "enhanced specials",
+            "Super Arts"
           ]
         }
       ]
     },
-    "lucidBlocksSingleplayerAndPlatformFAQ": {
-      "title": "Lucid Blocks Singleplayer and Platform FAQ",
-      "displayType": "accordion",
-      "intro": "These are the core platform and access questions players keep asking before buying Lucid Blocks.",
-      "faqs": [
+    "avatarLegendsCombatMechanics": {
+      "eyebrow": "Combat System",
+      "title": "Avatar Legends: The Fighting Game Combat Mechanics Guide",
+      "subtitle": "Combat centers on Flow movement, Energy Points, enhanced special moves, cinematic Super Arts, support characters, and distinct bending styles. The result is a simple first layer with enough depth to reward committed players.",
+      "intro": "This guide breaks down the systems players need to understand before building combos or choosing a main. Start with Flow, then learn how Energy, support characters, and character-specific bending styles shape each matchup.",
+      "items": [
         {
-          "question": "Is Lucid Blocks singleplayer?",
-          "answer": "Yes. Lucid Blocks is a singleplayer game."
+          "name": "Flow Mechanic",
+          "category": "Movement and defense",
+          "summary": "Flow lets players dodge, slip under projectiles, launch into the air, or chain into character-specific abilities with a single input.",
+          "beginner_use": "Use Flow to escape obvious pressure and move around projectiles.",
+          "advanced_hook": "Each fighter has unique Flow options, so mastering Flow changes from character to character."
         },
         {
-          "question": "Is multiplayer or co-op planned?",
-          "answer": "No. Multiplayer is not planned for release or future updates."
+          "name": "Energy Points",
+          "category": "Meter management",
+          "summary": "Energy Points are built through skilled play and spent on stronger offensive options.",
+          "beginner_use": "Save Energy until you can clearly use it for pressure, punishment, or round-ending damage.",
+          "advanced_hook": "Meter decisions affect whether you play safely, extend offense, or gamble on a comeback."
         },
         {
-          "question": "Where can I play Lucid Blocks?",
-          "answer": "It is currently available on Steam for Windows."
+          "name": "Enhanced Special Moves",
+          "category": "Powered attacks",
+          "summary": "Enhanced special moves use Energy Points to strengthen key attacks and create bigger tactical swings.",
+          "beginner_use": "Use enhanced specials after confirming that your attack is likely to connect or keep pressure.",
+          "advanced_hook": "Enhanced specials can change spacing, pressure timing, and combo routes."
         },
         {
-          "question": "How much does Lucid Blocks cost?",
-          "answer": "$9.99 on Steam."
+          "name": "Super Arts",
+          "category": "Cinematic finishers",
+          "summary": "Super Arts are powerful cinematic attacks that can turn the tide of battle when used at the right moment.",
+          "beginner_use": "Do not throw Super Arts randomly. Use them after a punish, combo route, or clear opening.",
+          "advanced_hook": "Super Arts reward meter awareness, matchup knowledge, and clean timing."
         },
         {
-          "question": "Does Lucid Blocks support controllers?",
-          "answer": "Yes, but controller play is not recommended because the menus are not designed around it."
+          "name": "Support Characters",
+          "category": "Assist strategy",
+          "summary": "Each fighter can choose from three support characters, each adding unique abilities and strategic options.",
+          "beginner_use": "Pick a support that covers what your fighter lacks, such as mobility, pressure, defense, or control.",
+          "advanced_hook": "Support choice can reshape the same fighter into different matchup plans."
         },
         {
-          "question": "Does Lucid Blocks work on Steam Deck?",
-          "answer": "Yes. Proton 9.0 or 9.0.4 is the commonly recommended setup for Steam Deck."
+          "name": "Bending Styles",
+          "category": "Character identity",
+          "summary": "Characters with the same element still play differently, with movesets shaped by their personality, fighting style, and story role.",
+          "beginner_use": "Do not choose a fighter only by element. Test how they move, attack, and use Flow.",
+          "advanced_hook": "Azula uses aerial mobility, traps, Focused Mode, and Firelord Mode, while Sokka plays around weapons, tricky movement, and Flow cancels instead of bending."
         },
         {
-          "question": "Does Lucid Blocks work on Linux?",
-          "answer": "Yes. Proton 9.0 is reported to work well for Linux and Steam Deck."
+          "name": "Online Combat",
+          "category": "Multiplayer",
+          "summary": "Online play includes rollback netcode, cross-play, Ranked and Casual matches, lobbies, spectator mode, and replays.",
+          "beginner_use": "Start in Casual matches or lobbies before playing Ranked.",
+          "advanced_hook": "Replays and spectator mode help players study habits, matchup mistakes, and pressure sequences."
         },
         {
-          "question": "Will Mac or Android be supported?",
-          "answer": "They may be supported in the future, but they are not current launch platforms."
-        },
-        {
-          "question": "Does Lucid Blocks have translations?",
-          "answer": "No. There are currently no translations planned."
-        },
-        {
-          "question": "Will Lucid Blocks keep getting updates?",
-          "answer": "Yes. Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
-        }
-      ]
-    },
-    "lucidBlocksSteamDeckAndController": {
-      "title": "Lucid Blocks Steam Deck and Controller",
-      "displayType": "accordion",
-      "intro": "Lucid Blocks can run on Steam Deck, but the default setup may need adjustment. Keyboard and mouse remains the smoother option for menus and general play.",
-      "faqs": [
-        {
-          "question": "Does Lucid Blocks work on Steam Deck?",
-          "answer": "Yes. Proton 9.0 works well, and Proton 9.0.4 is a commonly shared fix for Steam Deck issues."
-        },
-        {
-          "question": "What should I do if Steam Deck controls are not working?",
-          "answer": "Force compatibility and switch the game to Proton 9.0.4. The default configuration may not accept controller input correctly."
-        },
-        {
-          "question": "Does Lucid Blocks support controllers?",
-          "answer": "Yes, but controller play is not recommended because the game's menus are not designed around it."
-        },
-        {
-          "question": "Is Linux support possible?",
-          "answer": "Yes. Proton 9.0 is reported to work well for Linux and Steam Deck."
-        },
-        {
-          "question": "What is the best input setup?",
-          "answer": "Keyboard and mouse is the smoothest option for menu navigation and general moment-to-moment play."
-        }
-      ]
-    },
-    "lucidBlocksSettingsAndAccessibility": {
-      "title": "Lucid Blocks Settings and Accessibility",
-      "displayType": "settingCards",
-      "intro": "Lucid Blocks already has a few practical settings and compatibility notes that matter immediately when players first launch the game.",
-      "settings": [
-        {
-          "name": "Display Settings",
-          "type": "Comfort Option",
-          "description": "Display Settings includes an option that lets players hide the on-screen hands."
-        },
-        {
-          "name": "Graphics Compatibility",
-          "type": "System Requirement",
-          "description": "Vulkan support is required for the graphics to render properly. Systems without Vulkan can run into crashes and severe graphical glitches."
-        },
-        {
-          "name": "Input Preference",
-          "type": "Control Setup",
-          "description": "Controller support exists, but keyboard and mouse gives a smoother experience because menus are not built around controller use."
-        },
-        {
-          "name": "Language Support",
-          "type": "Localization",
-          "description": "The current setup is English-only, and no translations are planned right now."
-        }
-      ]
-    },
-    "lucidBlocksUpdatesAndPatchNotes": {
-      "title": "Lucid Blocks Updates and Patch Notes",
-      "displayType": "timeline",
-      "intro": "Lucid Blocks is already receiving quick post-launch fixes and small usability updates.",
-      "entries": [
-        {
-          "title": "Update 2.8.2",
-          "type": "UI Update",
-          "description": "Renamed \"awaken\" to \"exit\" in the main menu."
-        },
-        {
-          "title": "Small Patch for Start-Up Crashes",
-          "type": "Hotfix",
-          "description": "A dedicated patch was released for players whose game was crashing on launch."
-        },
-        {
-          "title": "Post-Launch Content Support",
-          "type": "Roadmap Note",
-          "description": "Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
-        }
-      ]
-    },
-    "lucidBlocksCrashFixAndTroubleshooting": {
-      "title": "Lucid Blocks Crash Fix and Troubleshooting",
-      "displayType": "steps",
-      "intro": "Most immediate launch and crash issues should be checked in a simple order: patch level, graphics support, platform compatibility, and logs.",
-      "steps": [
-        {
-          "title": "Install the Latest Crash Hotfix",
-          "description": "If the game is crashing on start, update first and test again with the latest start-up crash patch."
-        },
-        {
-          "title": "Check Vulkan Support",
-          "description": "Lucid Blocks requires Vulkan support. Systems without Vulkan can suffer from crashes or major rendering problems."
-        },
-        {
-          "title": "Use Proton 9.0.4 on Steam Deck",
-          "description": "If Steam Deck input or launch behavior is broken, force compatibility and switch to Proton 9.0.4."
-        },
-        {
-          "title": "Collect Crash Logs",
-          "description": "Open Windows Run, paste %APPDATA%, go to lucid blocks/logs, and gather the .txt files for troubleshooting."
-        },
-        {
-          "title": "Report the Issue Properly",
-          "description": "Share the logs and device details through the official Discord bug-reports forum or on the Steam community page."
+          "name": "Training Tools",
+          "category": "Practice",
+          "summary": "Training Mode includes hitboxes, frame data, save states, and other tools for learning attacks and routes.",
+          "beginner_use": "Use Training Mode to test your safest buttons, anti-air options, and support timing.",
+          "advanced_hook": "Frame data and hitboxes help competitive players refine punishment, spacing, and matchup preparation."
         }
       ]
     }
@@ -749,31 +418,31 @@
   "faq": {
     "title": "Frequently Asked",
     "titleHighlight": "Questions",
-    "subtitle": "Everything you need to know about Lucid Blocks",
+    "subtitle": "Everything you need to know about Avatar Legends: The Fighting Game",
     "questions": [
       {
-        "question": "Is Lucid Blocks a singleplayer game?",
-        "answer": "Yes. Lucid Blocks is a singleplayer-only game with no multiplayer or co-op planned."
+        "question": "When is the Avatar Legends: The Fighting Game release date?",
+        "answer": "Avatar Legends: The Fighting Game is currently listed for a full release on July 23, 2026 across Steam, PlayStation 5, Xbox Series X|S, and Nintendo Switch, with pre-orders open on each storefront."
       },
       {
-        "question": "What is the Apotheosis system in Lucid Blocks?",
-        "answer": "Apotheosis is Lucid Blocks' freeform fusion crafting system. Instead of following fixed recipes, you combine materials and discover your own crafting paths."
+        "question": "How many playable characters are in Avatar Legends: The Fighting Game?",
+        "answer": "Avatar Legends: The Fighting Game launches with 12 playable fighters pulled from Avatar: The Last Airbender, The Legend of Korra, and Avatar lore, with five more added through the Year 1 Pass."
       },
       {
-        "question": "Where can I play Lucid Blocks?",
-        "answer": "Lucid Blocks is currently available on Steam for Windows. Linux and Steam Deck support is available through Proton 9.0."
+        "question": "What platforms support Avatar Legends: The Fighting Game?",
+        "answer": "Avatar Legends: The Fighting Game supports PC via Steam, PlayStation 5, Xbox Series X|S, and Nintendo Switch for the July 23, 2026 digital launch, with Nintendo Switch 2 and physical editions following later in 2026."
       },
       {
-        "question": "How much does Lucid Blocks cost?",
-        "answer": "Lucid Blocks costs $9.99 on Steam."
+        "question": "Does Avatar Legends: The Fighting Game support crossplay and rollback netcode?",
+        "answer": "Yes. Avatar Legends: The Fighting Game uses proprietary rollback netcode and supports full crossplay across modern platforms and PC, with Ranked, Casual, lobbies, spectator mode, and replays built in."
       },
       {
-        "question": "Does Lucid Blocks support controllers?",
-        "answer": "Yes, but controller play is not recommended because the menus are not designed around it. Keyboard and mouse is the smoother option."
+        "question": "How much does Avatar Legends: The Fighting Game cost?",
+        "answer": "Avatar Legends: The Fighting Game is priced at $29.99 for the Standard Edition and $49.99 for the Digital Deluxe Edition, which adds the Year 1 Pass, digital artbook, soundtrack, and unique HUDs."
       },
       {
-        "question": "Will Lucid Blocks receive updates?",
-        "answer": "Yes. Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
+        "question": "Is there a Closed Beta for Avatar Legends: The Fighting Game?",
+        "answer": "Yes. Avatar Legends: The Fighting Game runs a Closed Beta from July 2 through July 5, 2026 for eligible pre-orders, featuring Aang, Korra, Katara, Toph, Zuko, Sokka, and Azula."
       }
     ]
   },
@@ -802,124 +471,124 @@
   },
   "pages": {
     "guides": {
-      "title": "Lucid Blocks Guides",
-      "description": "Complete gameplay guides from beginner basics to advanced Apotheosis strategies. Master survival and crafting.",
-      "metaTitle": "Lucid Blocks Guides - Beginner to Advanced Strategies",
-      "metaDescription": "Complete Lucid Blocks guides covering beginner tips, Apotheosis system, survival strategies, and expert tactics for mastering the surreal sandbox.",
+      "title": "Avatar Legends: The Fighting Game Guides",
+      "description": "Complete gameplay guides from beginner basics to advanced combat mechanics, roster overviews, and online play tips.",
+      "metaTitle": "Avatar Legends: The Fighting Game Guides - Beginner to Advanced Strategies",
+      "metaDescription": "Complete Avatar Legends: The Fighting Game guides covering beginner tips, combat mechanics, roster overviews, and online play strategies.",
       "categoryLabel": "GAME GUIDES",
       "whatIs": "What are Guides?",
-      "whatIsDescription": "Comprehensive guides covering gameplay mechanics, survival strategies, and the Apotheosis crafting system. Learn everything from first steps to advanced techniques.",
+      "whatIsDescription": "Comprehensive guides covering gameplay mechanics, combat systems, and the full launch roster. Learn everything from first steps to advanced techniques.",
       "why": "Why read guides?",
       "whySteps": {
         "step1Title": "Learn Core Mechanics",
-        "step1Description": "Understand the Apotheosis system and avoid common beginner mistakes",
+        "step1Description": "Understand Flow, Energy Points, and support characters to avoid common beginner mistakes",
         "step2Title": "Fast Progression",
-        "step2Description": "Follow proven paths to survive and thrive in the surreal world",
+        "step2Description": "Follow proven paths to master movement, defense, and offense",
         "step3Title": "Master Strategies",
-        "step3Description": "Develop advanced tactics for exploration and crafting"
+        "step3Description": "Develop advanced tactics for matchups and ranked play"
       },
       "featured": "Featured & Essential",
       "all": "All Guides"
     },
     "crafting": {
-      "title": "Lucid Blocks Crafting",
-      "description": "Master the Apotheosis fusion system with essence mechanics, recipes, and crafting strategies for powerful items.",
-      "metaTitle": "Lucid Blocks Crafting - Apotheosis System & Recipes",
-      "metaDescription": "Master Lucid Blocks Apotheosis crafting system. Learn essence mechanics, fusion recipes, and strategies for creating powerful tools and weapons.",
-      "categoryLabel": "CRAFTING SYSTEM",
-      "whatIs": "What is Crafting?",
-      "whatIsDescription": "The Apotheosis system is a unique essence-driven fusion mechanic where you combine up to six items to discover new recipes. No fixed crafting menus—experimentation is key.",
-      "why": "Why master crafting?",
+      "title": "Avatar Legends: The Fighting Game Combat Mechanics",
+      "description": "Master Flow, Energy Points, enhanced specials, Super Arts, support characters, and bending styles.",
+      "metaTitle": "Avatar Legends: The Fighting Game Combat Mechanics - Flow & Super Arts",
+      "metaDescription": "Master Avatar Legends: The Fighting Game combat mechanics. Learn Flow movement, Energy Points, enhanced specials, Super Arts, and support character strategy.",
+      "categoryLabel": "COMBAT SYSTEM",
+      "whatIs": "What are Combat Mechanics?",
+      "whatIsDescription": "Combat in Avatar Legends: The Fighting Game is built around Flow movement, Energy Points, enhanced special moves, cinematic Super Arts, and support characters that reshape each fighter.",
+      "why": "Why master combat mechanics?",
       "whySteps": {
-        "step1Title": "Unlock Powerful Items",
-        "step1Description": "Discover essential tools, weapons, and mobility gear through fusion",
-        "step2Title": "Understand Essences",
-        "step2Description": "Learn how item essences combine to create predictable results",
-        "step3Title": "Optimize Resources",
-        "step3Description": "Use dilution mechanics to maximize output from cheap materials"
+        "step1Title": "Understand Flow",
+        "step1Description": "Flow is the core movement and defense system every fighter relies on",
+        "step2Title": "Manage Energy",
+        "step2Description": "Spend Energy Points on enhanced specials and Super Arts at the right moment",
+        "step3Title": "Pick Supports",
+        "step3Description": "Choose support characters that cover what your fighter lacks"
       },
       "featured": "Featured & Essential",
-      "all": "All Crafting Guides"
+      "all": "All Combat Guides"
     },
     "items": {
-      "title": "Lucid Blocks Items",
-      "description": "Detailed item guides covering tools, weapons, mobility gear, and storage solutions with crafting recipes and usage tips.",
-      "metaTitle": "Lucid Blocks Items - Tools, Weapons & Gear Guide",
-      "metaDescription": "Complete item database for Lucid Blocks including tools, weapons, mobility gear, and storage. Learn how to craft and use every item effectively.",
-      "categoryLabel": "ITEMS & EQUIPMENT",
-      "whatIs": "What are Items?",
-      "whatIsDescription": "Comprehensive guides for tools, weapons, mobility gear, and functional items. Learn crafting recipes, usage strategies, and optimal combinations.",
-      "why": "Why check item guides?",
+      "title": "Avatar Legends: The Fighting Game Modes",
+      "description": "Story Mode, Arcade Mode, Training Mode, Combo Trials, Offline Versus, Online Versus, Spectator, and Art Gallery.",
+      "metaTitle": "Avatar Legends: The Fighting Game Modes - Story, Arcade, Training",
+      "metaDescription": "Explore every Avatar Legends: The Fighting Game mode including Story, Arcade, Training, Combo Trials, Versus, Spectator, and Art Gallery.",
+      "categoryLabel": "GAME MODES",
+      "whatIs": "What are Game Modes?",
+      "whatIsDescription": "Avatar Legends: The Fighting Game ships with Story Mode, Arcade Mode, Offline Versus, Online Versus, Training Mode, Combo Trials, Character Lessons, Spectator Mode, and an Art Gallery.",
+      "why": "Why explore game modes?",
       "whySteps": {
-        "step1Title": "Learn Crafting Recipes",
-        "step1Description": "Discover how to craft essential tools and weapons using Apotheosis",
-        "step2Title": "Optimize Equipment",
-        "step2Description": "Choose the best items for your playstyle and progression stage",
-        "step3Title": "Improve Survival",
-        "step3Description": "Equip mobility gear and weapons to navigate the dangerous world"
+        "step1Title": "Learn the Cast",
+        "step1Description": "Story and Arcade modes let you test every fighter safely",
+        "step2Title": "Train Smart",
+        "step2Description": "Training Mode and Combo Trials build real matchup knowledge",
+        "step3Title": "Play Together",
+        "step3Description": "Versus, lobbies, and Spectator Mode cover local and online play"
       },
       "featured": "Featured & Essential",
-      "all": "All Items"
+      "all": "All Modes"
     },
     "biomes": {
-      "title": "Lucid Blocks Biomes",
-      "description": "Explore world regions, environmental features, resource locations, and survival tips for each biome.",
-      "metaTitle": "Lucid Blocks Biomes - World Regions & Exploration",
-      "metaDescription": "Explore Lucid Blocks biomes including Tiamana Leylines, Fog Meadow, and surreal regions. Find resources, avoid dangers, and navigate the infinite world.",
-      "categoryLabel": "WORLD REGIONS",
-      "whatIs": "What are Biomes?",
-      "whatIsDescription": "Guides to different world regions, environmental features, resource distribution, and danger zones. Learn what to expect and how to prepare for each area.",
-      "why": "Why explore biomes?",
+      "title": "Avatar Legends: The Fighting Game Online Play",
+      "description": "Rollback netcode, crossplay, Ranked, Casual, lobbies, spectator mode, and replays.",
+      "metaTitle": "Avatar Legends: The Fighting Game Online - Crossplay & Rollback Netcode",
+      "metaDescription": "Avatar Legends: The Fighting Game online play guide covers rollback netcode, crossplay, Ranked, Casual, lobbies, spectator mode, and replays.",
+      "categoryLabel": "ONLINE PLAY",
+      "whatIs": "What is Online Play?",
+      "whatIsDescription": "Online play in Avatar Legends: The Fighting Game runs on proprietary rollback netcode with full crossplay, plus Ranked, Casual, lobbies, spectator mode, and replays.",
+      "why": "Why understand online play?",
       "whySteps": {
-        "step1Title": "Find Resources",
-        "step1Description": "Locate rare materials and essences specific to each region",
-        "step2Title": "Avoid Dangers",
-        "step2Description": "Understand environmental hazards and hostile creatures",
-        "step3Title": "Plan Exploration",
-        "step3Description": "Prepare the right tools and gear for each biome type"
+        "step1Title": "Rollback Netcode",
+        "step1Description": "Proprietary rollback netcode keeps online fights responsive",
+        "step2Title": "Crossplay",
+        "step2Description": "Fight players across PC, PS5, Xbox, and Switch",
+        "step3Title": "Ranked Roadmap",
+        "step3Description": "Use Casual and lobbies before climbing Ranked"
       },
       "featured": "Featured & Essential",
-      "all": "All Biomes"
+      "all": "All Online Guides"
     },
     "building": {
-      "title": "Lucid Blocks Building",
-      "description": "Master Qualia personal dimensions, base building, storage management, and creative construction techniques.",
-      "metaTitle": "Lucid Blocks Building - Qualia & Base Construction",
-      "metaDescription": "Master Lucid Blocks building with Qualia personal dimensions, base construction, storage solutions, and creative building techniques.",
-      "categoryLabel": "BUILDING & BASES",
-      "whatIs": "What is Building?",
-      "whatIsDescription": "Guides to the Qualia personal dimension system, base construction, storage management, and creative building. Learn to create your safe haven in the surreal world.",
-      "why": "Why build bases?",
+      "title": "Avatar Legends: The Fighting Game Release Info",
+      "description": "Release date, platforms, editions, pricing, pre-order bonuses, and Closed Beta details.",
+      "metaTitle": "Avatar Legends: The Fighting Game Release Date, Platforms & Editions",
+      "metaDescription": "Avatar Legends: The Fighting Game release guide covers the July 23, 2026 launch date, platforms, Standard and Digital Deluxe editions, and pre-order bonuses.",
+      "categoryLabel": "RELEASE INFO",
+      "whatIs": "What is the Release Info?",
+      "whatIsDescription": "Avatar Legends: The Fighting Game launches July 23, 2026 on Steam, PS5, Xbox Series X|S, and Switch. The Standard Edition is $29.99 and the Digital Deluxe Edition is $49.99.",
+      "why": "Why check release info?",
       "whySteps": {
-        "step1Title": "Create Safe Spaces",
-        "step1Description": "Establish secure bases for storage and crafting operations",
-        "step2Title": "Manage Resources",
-        "step2Description": "Organize materials efficiently with storage solutions",
-        "step3Title": "Unlock Qualia",
-        "step3Description": "Access personal pocket dimensions for ultimate convenience"
+        "step1Title": "Confirmed Date",
+        "step1Description": "The full launch is set for July 23, 2026",
+        "step2Title": "Edition Choices",
+        "step2Description": "Compare Standard and Digital Deluxe editions",
+        "step3Title": "Pre-Order Bonuses",
+        "step3Description": "Closed Beta access, Samurai Appa, gold colors, and Year 1 Pass vote"
       },
       "featured": "Featured & Essential",
-      "all": "All Building Guides"
+      "all": "All Release Info"
     },
     "support": {
-      "title": "Lucid Blocks Support",
-      "description": "Technical support, platform compatibility, performance optimization, and troubleshooting for common issues.",
-      "metaTitle": "Lucid Blocks Support - Technical Help & Fixes",
-      "metaDescription": "Get technical support for Lucid Blocks including Steam Deck setup, crash fixes, performance optimization, and platform compatibility guides.",
-      "categoryLabel": "TECHNICAL SUPPORT",
-      "whatIs": "What is Support?",
-      "whatIsDescription": "Technical guides covering platform compatibility, performance optimization, crash fixes, and common issues. Get help with Steam Deck, multiplayer questions, and settings.",
-      "why": "Why check support?",
+      "title": "Avatar Legends: The Fighting Game DLC and Year 1 Pass",
+      "description": "Year 1 Pass, confirmed DLC fighters, community character vote, and Digital Deluxe extras.",
+      "metaTitle": "Avatar Legends: The Fighting Game DLC - Year 1 Pass & Characters",
+      "metaDescription": "Avatar Legends: The Fighting Game DLC guide covers the Year 1 Pass, confirmed fighters, community character vote, and Digital Deluxe Edition extras.",
+      "categoryLabel": "DLC & UPDATES",
+      "whatIs": "What is the DLC?",
+      "whatIsDescription": "The Year 1 Pass adds five additional playable characters to Avatar Legends: The Fighting Game, including four confirmed fighters and one player-voted character.",
+      "why": "Why follow the DLC?",
       "whySteps": {
-        "step1Title": "Fix Technical Issues",
-        "step1Description": "Resolve crashes, performance problems, and compatibility issues",
-        "step2Title": "Optimize Performance",
-        "step2Description": "Configure settings for best experience on your platform",
-        "step3Title": "Platform Compatibility",
-        "step3Description": "Learn about Steam Deck, controller support, and system requirements"
+        "step1Title": "Year 1 Pass",
+        "step1Description": "Five additional playable characters over the season",
+        "step2Title": "Confirmed Fighters",
+        "step2Description": "Uncle Iroh, Ty Lee, Lin Beifong, and Bolin",
+        "step3Title": "Community Vote",
+        "step3Description": "Players vote on the fifth Year 1 Pass character"
       },
       "featured": "Featured & Essential",
-      "all": "All Support Articles"
+      "all": "All DLC Guides"
     }
   }
 }
