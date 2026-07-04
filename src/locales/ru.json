@@ -34,27 +34,27 @@
     "articlesComingSoon": "Статьи скоро появятся"
   },
   "hero": {
-    "badge": "__PROTECTED_c0b0161c__ Воксельная песочница на выживание",
-    "title": "Lucid Blocks Вики",
-    "description": "Исследуйте сказочные биомы, объединяйте предметы с помощью Apotheosis, свободно стройте и выживайте среди странных существ в этой сюрреалистичной песочнице с открытым миром на Steam.",
-    "getFreeCodesCTA": "Изучить руководство по крафту",
-    "playOnSteamCTA": "Играть на Steam",
+    "badge": "Нарисованный от руки 2D-файтинг стихий",
+    "title": "Avatar Legends: The Fighting Game Wiki",
+    "description": "Овладейте стихиями в 1v1-файтинге Avatar с 12 играбельными бойцами, персонажами поддержки, сюжетным, аркадным и тренировочным режимами, rollback netcode и кроссплеем.",
+    "getFreeCodesCTA": "Открыть гайд по ростеру",
+    "playOnSteamCTA": "Предзаказ в Steam",
     "stats": {
       "stat1": {
-        "value": "1 325",
-        "label": "Игроков онлайн"
+        "value": "23 июл 2026",
+        "label": "Дата выхода"
       },
       "stat2": {
-        "value": "1 986",
-        "label": "Пиковый онлайн"
+        "value": "12",
+        "label": "Играбельных бойцов"
       },
       "stat3": {
-        "value": "97%",
-        "label": "Положительных отзывов"
+        "value": "$29.99",
+        "label": "Стандартная цена"
       },
       "stat4": {
-        "value": "12 марта 2026",
-        "label": "Дата выхода"
+        "value": "6",
+        "label": "Поддерживаемых языков"
       }
     }
   },
@@ -181,27 +181,27 @@
     ]
   },
   "cta": {
-    "title": "Готовы исследовать Lucid Blocks?",
-    "description": "Присоединяйтесь к сообществу Lucid Blocks в Discord, где вас ждут руководства, обновления и обсуждения!",
-    "joinCommunity": "Присоединиться к Discord",
-    "joinGame": "Играть на Steam"
+    "title": "Готовы овладеть стихиями?",
+    "description": "Присоединяйтесь к сообществу Avatar Legends: The Fighting Game в Discord, чтобы получать гайды по ростеру, списки приёмов, обсуждения matchups и новости о релизе!",
+    "joinCommunity": "Войти в Discord",
+    "joinGame": "Предзаказ в Steam"
   },
   "footer": {
-    "title": "Вики Lucid Blocks",
-    "description": "Ваш полноценный ресурсный центр по крафту, биомам, существам, достижениям и руководствам по выживанию в Lucid Blocks.",
+    "title": "Avatar Legends: The Fighting Game Wiki",
+    "description": "Ваш полный ресурсный центр по ростеру, приёмам, поддержке, режимам, онлайн-игре, релизу и системным требованиям Avatar Legends: The Fighting Game.",
     "resources": "Ресурсы",
     "community": "Сообщество",
-    "legal": "Юридическая информация",
+    "legal": "Правовая информация",
     "discord": "Discord",
     "twitter": "X / Twitter",
-    "steamCommunity": "Сообщество Steam",
+    "steamCommunity": "YouTube",
     "steamStore": "Магазин Steam",
-    "about": "О проекте",
+    "about": "О нас",
     "privacy": "Политика конфиденциальности",
     "terms": "Условия использования",
-    "copyrightNotice": "Авторское право",
-    "copyright": "© 2026 Вики Lucid Blocks. Не связано с разработчиками Lucid Blocks.",
-    "disclaimer": "Неофициальный фанатский ресурс."
+    "copyrightNotice": "Авторские права",
+    "copyright": "© 2026 Avatar Legends: The Fighting Game Wiki. Не аффилировано с разработчиками Avatar Legends: The Fighting Game.",
+    "disclaimer": "Неофициальный ресурсный сайт, созданный фанатами."
   },
   "pages": {
     "guides": {

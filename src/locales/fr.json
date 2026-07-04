@@ -34,27 +34,27 @@
     "articlesComingSoon": "Articles à venir"
   },
   "hero": {
-    "badge": "Minuscules gnomes. Grandes maisons. Braquages furtifs entre amis.",
-    "title": "Lucid Blocks wiki",
-    "description": "Votre centre pour Lucid Blocks : comment fonctionnent les braquages, les tâches de Haut-Gnome, la fabrication et les améliorations, les ennemis, les commandes et les moyens les plus rapides de survivre à chaque partie.",
-    "getFreeCodesCTA": "Télécharger la démo",
-    "playOnSteamCTA": "Ajouter à la liste de souhaits sur Steam",
+    "badge": "Jeu de combat élémentaire 2D dessiné à la main",
+    "title": "Avatar Legends: The Fighting Game Wiki",
+    "description": "Maîtrisez les éléments dans un jeu de combat Avatar 1v1 avec 12 combattants jouables, personnages de soutien, modes histoire, arcade et entraînement, rollback netcode et crossplay.",
+    "getFreeCodesCTA": "Voir le guide du roster",
+    "playOnSteamCTA": "Précommander sur Steam",
     "stats": {
       "stat1": {
-        "value": "15K",
-        "label": "Pic de CCU (Démo)"
+        "value": "23 juil. 2026",
+        "label": "Date de sortie"
       },
       "stat2": {
-        "value": "6",
-        "label": "Joueurs en coopération"
+        "value": "12",
+        "label": "Combattants jouables"
       },
       "stat3": {
-        "value": "31/01/2026",
-        "label": "Sortie de la démo"
+        "value": "$29.99",
+        "label": "Prix standard"
       },
       "stat4": {
-        "value": "PC (Steam)",
-        "label": "Plateforme"
+        "value": "6",
+        "label": "Langues prises en charge"
       }
     }
   },
@@ -819,27 +819,27 @@
     ]
   },
   "cta": {
-    "title": "Prêt à commencer à braquer ?",
-    "description": "Rejoignez la communauté Lucid Blocks sur Discord pour des groupes de coopération, des mises à jour et des discussions sur les mods !",
+    "title": "Prêt à maîtriser les éléments ?",
+    "description": "Rejoignez la communauté Avatar Legends: The Fighting Game sur Discord pour des guides de roster, des listes de coups, des discussions de matchups et des actualités de sortie !",
     "joinCommunity": "Rejoindre Discord",
-    "joinGame": "Obtenir la démo sur Steam"
+    "joinGame": "Précommander sur Steam"
   },
   "footer": {
-    "title": "Lucid Blocks Wiki",
-    "description": "Votre centre de ressources complet pour les braquages furtifs, les stratégies de coopération, les mods et les guides communautaires de Lucid Blocks.",
+    "title": "Avatar Legends: The Fighting Game Wiki",
+    "description": "Votre centre de ressources complet pour le roster, les coups, les soutiens, les modes, le jeu en ligne, la sortie et les configurations de Avatar Legends: The Fighting Game.",
     "resources": "Ressources",
     "community": "Communauté",
-    "legal": "Légal",
+    "legal": "Mentions légales",
     "discord": "Discord",
     "twitter": "X / Twitter",
-    "steamCommunity": "Communauté Steam",
-    "steamStore": "Magasin Steam",
+    "steamCommunity": "YouTube",
+    "steamStore": "Boutique Steam",
     "about": "À propos",
     "privacy": "Politique de confidentialité",
     "terms": "Conditions d'utilisation",
-    "copyrightNotice": "Droits d'auteur",
-    "copyright": "© 2026 Lucid Blocks Wiki. Non affilié aux développeurs de Lucid Blocks.",
-    "disclaimer": "Site web de ressources non officiel créé par des fans."
+    "copyrightNotice": "Copyright",
+    "copyright": "© 2026 Avatar Legends: The Fighting Game Wiki. Non affilié aux développeurs de Avatar Legends: The Fighting Game.",
+    "disclaimer": "Site de ressources non officiel créé par des fans."
   },
   "pages": {
     "guides": {

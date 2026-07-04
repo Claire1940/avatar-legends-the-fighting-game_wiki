@@ -32,7 +32,7 @@ export default function CTASection({
               className="bg-[hsl(var(--nav-theme))] hover:bg-[hsl(var(--nav-theme)/0.9)] text-white px-6 md:px-8 py-5 md:py-6 text-base md:text-lg"
             >
               <a
-                href="https://discord.com/invite/lucidblocks"
+                href="https://discord.gg/fB3WDnVVda"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -41,7 +41,7 @@ export default function CTASection({
               </a>
             </Button>
             <a
-              href="https://store.steampowered.com/app/3495730/Lucid_Blocks/"
+              href="https://store.steampowered.com/app/2424420/Avatar_Legends_The_Fighting_Game/"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md border border-border hover:bg-white/10 px-6 md:px-8 py-5 md:py-6 text-base md:text-lg font-medium transition-colors"

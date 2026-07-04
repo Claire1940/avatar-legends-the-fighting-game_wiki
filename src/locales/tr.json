@@ -34,27 +34,27 @@
     "articlesComingSoon": "Makaleler yakında"
   },
   "hero": {
-    "badge": "Ufak cüceler. Büyük evler. Arkadaşlarla gizli soygunlar.",
-    "title": "Lucid Blocks wiki",
-    "description": "Lucid Blocks için merkeziniz: soygunlar nasıl işliyor, Yüksek Cüce işleri, üretim & geliştirmeler, düşmanlar, kontroller ve her koşuda hayatta kalmanın en hızlı yolları.",
-    "getFreeCodesCTA": "Demo İndir",
-    "playOnSteamCTA": "Steam'de İstek Listesine Ekle",
+    "badge": "El çizimi 2D Element Dövüş Oyunu",
+    "title": "Avatar Legends: The Fighting Game Wiki",
+    "description": "12 oynanabilir dövüşçü, destek karakterleri, hikaye, arcade, antrenman, yerel versus, rollback netcode ve crossplay ile 1v1 Avatar dövüş oyununda elementlere hükmet.",
+    "getFreeCodesCTA": "Kadro rehberini gör",
+    "playOnSteamCTA": "Steam'de ön sipariş ver",
     "stats": {
       "stat1": {
-        "value": "15B",
-        "label": "En Yüksek Eş Zamanlı Kullanıcı (Demo)"
+        "value": "23 Tem 2026",
+        "label": "Çıkış tarihi"
       },
       "stat2": {
-        "value": "6",
-        "label": "İşbirliği Oyuncusu"
+        "value": "12",
+        "label": "Oynanabilir dövüşçü"
       },
       "stat3": {
-        "value": "31.01.2026",
-        "label": "Demo Yayın Tarihi"
+        "value": "$29.99",
+        "label": "Standart fiyat"
       },
       "stat4": {
-        "value": "PC (Steam)",
-        "label": "Platform"
+        "value": "6",
+        "label": "Desteklenen diller"
       }
     }
   },
@@ -819,27 +819,27 @@
     ]
   },
   "cta": {
-    "title": "Soygun Yapmaya Hazır mısınız?",
-    "description": "İşbirliği grupları, güncellemeler ve mod tartışmaları için Discord'da Lucid Blocks topluluğuna katılın!",
-    "joinCommunity": "Discord'a Katıl",
-    "joinGame": "Steam'de Demo Al"
+    "title": "Elementlere hükmetmeye hazır mısın?",
+    "description": "Kadro rehberleri, hareket listeleri, matchup tartışmaları ve çıkış güncellemeleri için Discord'daki Avatar Legends: The Fighting Game topluluğuna katıl!",
+    "joinCommunity": "Discord'a katıl",
+    "joinGame": "Steam'de ön sipariş ver"
   },
   "footer": {
-    "title": "Lucid Blocks Wiki",
-    "description": "Lucid Blocks gizli soygunları, işbirliği stratejileri, modlar ve topluluk rehberleri için eksiksiz kaynak merkeziniz.",
+    "title": "Avatar Legends: The Fighting Game Wiki",
+    "description": "Avatar Legends: The Fighting Game kadrosu, hareketleri, destekleri, modları, çevrimiçi oyun, çıkış ve sistem özellikleri için eksiksiz kaynak merkeziniz.",
     "resources": "Kaynaklar",
     "community": "Topluluk",
     "legal": "Yasal",
     "discord": "Discord",
     "twitter": "X / Twitter",
-    "steamCommunity": "Steam Topluluğu",
+    "steamCommunity": "YouTube",
     "steamStore": "Steam Mağazası",
     "about": "Hakkında",
     "privacy": "Gizlilik Politikası",
     "terms": "Hizmet Şartları",
-    "copyrightNotice": "Telif Hakkı",
-    "copyright": "© 2026 Lucid Blocks Wiki. Lucid Blocks geliştiricileriyle bağlantılı değildir.",
-    "disclaimer": "Resmi olmayan hayran yapımı kaynak web sitesi."
+    "copyrightNotice": "Telif hakkı",
+    "copyright": "© 2026 Avatar Legends: The Fighting Game Wiki. Avatar Legends: The Fighting Game geliştiricileriyle bağlantılı değildir.",
+    "disclaimer": "Hayranlar tarafından yapılmış resmi olmayan kaynak web sitesi."
   },
   "pages": {
     "guides": {

@@ -1,13 +1,13 @@
 {
   "seo": {
     "home": {
-      "title": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "description": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
-      "keywords": "Lucid Blocks, Lucid Blocks wiki, crafting, biomes, achievements, survival, Steam",
-      "ogTitle": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "ogDescription": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
-      "twitterTitle": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "twitterDescription": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, and survival tips for the surreal voxel sandbox on Steam."
+      "title": "Avatar Legends: The Fighting Game Wiki - Roster & Moves",
+      "description": "Avatar Legends Fighting Game guide covers roster, moves, supports, story, arcade, training, rollback netcode, platforms, preorder bonuses, and release updates.",
+      "keywords": "avatar legends the fighting game, Avatar Legends, roster, moves, release date, rollback netcode",
+      "ogTitle": "Avatar Legends: The Fighting Game Wiki - Roster & Moves",
+      "ogDescription": "Avatar Legends Fighting Game guide covers roster, moves, supports, story, arcade, training, rollback netcode, platforms, preorder bonuses, and release updates.",
+      "twitterTitle": "Avatar Legends: The Fighting Game Wiki - Roster & Moves",
+      "twitterDescription": "Avatar Legends Fighting Game guide covers roster, moves, platforms, preorder bonuses, and release updates."
     }
   },
   "nav": {
@@ -34,27 +34,27 @@
     "articlesComingSoon": "Articles coming soon"
   },
   "hero": {
-    "badge": "Surreal Voxel Survival Sandbox",
-    "title": "Lucid Blocks Wiki",
-    "description": "Explore dreamlike biomes, fuse items with Apotheosis, build freely, and survive strange creatures in this surreal open-world sandbox on Steam.",
-    "getFreeCodesCTA": "Explore Crafting Guide",
-    "playOnSteamCTA": "Play on Steam",
+    "badge": "Hand-Drawn 2D Elemental Fighter",
+    "title": "Avatar Legends: The Fighting Game Wiki",
+    "description": "Master the elements in a 1v1 Avatar fighting game with 12 playable fighters, support characters, story, arcade, training, local versus, rollback netcode, and crossplay.",
+    "getFreeCodesCTA": "View Roster Guide",
+    "playOnSteamCTA": "Pre-Purchase on Steam",
     "stats": {
       "stat1": {
-        "value": "1,325",
-        "label": "Players Online"
+        "value": "Jul 23, 2026",
+        "label": "Release Date"
       },
       "stat2": {
-        "value": "1,986",
-        "label": "Peak CCU"
+        "value": "12",
+        "label": "Playable Fighters"
       },
       "stat3": {
-        "value": "97%",
-        "label": "Positive Reviews"
+        "value": "$29.99",
+        "label": "Standard Price"
       },
       "stat4": {
-        "value": "Mar 12, 2026",
-        "label": "Release Date"
+        "value": "6",
+        "label": "Supported Languages"
       }
     }
   },
@@ -785,26 +785,26 @@
     ]
   },
   "cta": {
-    "title": "Ready to Explore Lucid Blocks?",
-    "description": "Join the Lucid Blocks community on Discord for guides, updates, and discussions!",
+    "title": "Ready to Master the Elements?",
+    "description": "Join the Avatar Legends: The Fighting Game community on Discord for roster guides, move lists, matchup discussions, and release updates!",
     "joinCommunity": "Join Discord",
-    "joinGame": "Play on Steam"
+    "joinGame": "Pre-Purchase on Steam"
   },
   "footer": {
-    "title": "Lucid Blocks Wiki",
-    "description": "Your complete resource hub for Lucid Blocks crafting, biomes, creatures, achievements, and survival guides.",
+    "title": "Avatar Legends: The Fighting Game Wiki",
+    "description": "Your complete resource hub for Avatar Legends: The Fighting Game roster, moves, supports, modes, online play, release, and system specs.",
     "resources": "Resources",
     "community": "Community",
     "legal": "Legal",
     "discord": "Discord",
     "twitter": "X / Twitter",
-    "steamCommunity": "Steam Community",
+    "steamCommunity": "YouTube",
     "steamStore": "Steam Store",
     "about": "About",
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",
     "copyrightNotice": "Copyright",
-    "copyright": "© 2026 Lucid Blocks Wiki. Not affiliated with the developers of Lucid Blocks.",
+    "copyright": "© 2026 Avatar Legends: The Fighting Game Wiki. Not affiliated with the developers of Avatar Legends: The Fighting Game.",
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
