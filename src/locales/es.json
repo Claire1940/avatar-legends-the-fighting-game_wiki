@@ -1,1 +1,878 @@
-{}
+{
+  "seo": {
+    "home": {
+      "title": "Wiki de Avatar Legends: The Fighting Game - Plantel y Movimientos",
+      "description": "La guía de Avatar Legends Fighting Game cubre el plantel, movimientos, personajes de apoyo, historia, arcade, entrenamiento, rollback netcode, plataformas, bonificaciones de preventa y actualizaciones de lanzamiento.",
+      "keywords": "avatar legends the fighting game, Avatar Legends, plantel, movimientos, fecha de lanzamiento, rollback netcode",
+      "ogTitle": "Wiki de Avatar Legends: The Fighting Game - Plantel y Movimientos",
+      "ogDescription": "La guía de Avatar Legends Fighting Game cubre el plantel, movimientos, personajes de apoyo, historia, arcade, entrenamiento, rollback netcode, plataformas, bonificaciones de preventa y actualizaciones de lanzamiento.",
+      "twitterTitle": "Wiki de Avatar Legends: The Fighting Game - Plantel y Movimientos",
+      "twitterDescription": "La guía de Avatar Legends Fighting Game cubre el plantel, movimientos, plataformas, bonificaciones de preventa y actualizaciones de lanzamiento."
+    }
+  },
+  "nav": {
+    "release": "Lanzamiento",
+    "roster": "Plantel",
+    "platforms": "Plataformas",
+    "beta": "Beta",
+    "editions": "Ediciones",
+    "dlc": "DLC",
+    "online": "En línea"
+  },
+  "common": {
+    "home": "Inicio",
+    "more": "Más",
+    "playNow": "Jugar en Steam",
+    "switchLanguage": "Cambiar idioma",
+    "switchTheme": "Cambiar tema",
+    "lightMode": "Modo claro",
+    "darkMode": "Modo oscuro",
+    "notFound": "Página no encontrada",
+    "notFoundDescription": "La página que estás buscando no existe.",
+    "backToHome": "Volver al inicio",
+    "relatedArticles": "Artículos relacionados",
+    "readMore": "Leer más",
+    "articlesComingSoon": "Próximamente más artículos"
+  },
+  "hero": {
+    "badge": "Juego de lucha elemental en 2D dibujado a mano",
+    "title": "Wiki de Avatar Legends: The Fighting Game",
+    "description": "Domina los elementos en un juego de lucha de Avatar 1v1 con 12 luchadores jugables, personajes de apoyo, historia, arcade, entrenamiento, versus local, rollback netcode y crossplay.",
+    "getFreeCodesCTA": "Ver guía del plantel",
+    "playOnSteamCTA": "Comprar por adelantado en Steam",
+    "stats": {
+      "stat1": {
+        "value": "Jul 23, 2026",
+        "label": "Fecha de lanzamiento"
+      },
+      "stat2": {
+        "value": "12",
+        "label": "Luchadores jugables"
+      },
+      "stat3": {
+        "value": "$29.99",
+        "label": "Precio estándar"
+      },
+      "stat4": {
+        "value": "6",
+        "label": "Idiomas compatibles"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "Gameplay de Avatar Legends: The Fighting Game",
+    "description": "Domina el movimiento Flow, los Puntos de Energía, los Super Arts cinemáticos, los personajes de apoyo y 12 luchadores elementales en un juego de lucha en 2D dibujado a mano con rollback netcode y crossplay."
+  },
+  "tools": {
+    "title": "Avatar Legends",
+    "titleHighlight": "Guía de luchadores",
+    "subtitle": "Todo lo que necesitas para dominar Avatar Legends: The Fighting Game, desde la fecha de lanzamiento y las plataformas hasta el roster, los controles y las mecánicas de combate.",
+    "cards": [
+      {
+        "title": "Fecha de lanzamiento y plataformas",
+        "description": "Fecha de lanzamiento, Steam, PS5, Xbox, Switch, ediciones y bonificaciones de preventa.",
+        "icon": "Calendar"
+      },
+      {
+        "title": "Personajes y roster",
+        "description": "Los 12 luchadores de lanzamiento, su serie de origen, estilo de bending y rol.",
+        "icon": "Users"
+      },
+      {
+        "title": "Guía para principiantes",
+        "description": "Movimiento, Flow, personajes de apoyo, Puntos de Energía y conceptos básicos del Modo Entrenamiento.",
+        "icon": "GraduationCap"
+      },
+      {
+        "title": "Mecánicas de combate",
+        "description": "Flow, Puntos de Energía, especiales potenciados, Super Arts, supports y estilos de bending.",
+        "icon": "Swords"
+      },
+      {
+        "title": "Juego online y crossplay",
+        "description": "Rollback netcode, crossplay, Ranked, Casual, lobbies, modo espectador y repeticiones.",
+        "icon": "Globe"
+      },
+      {
+        "title": "Modo historia y modos de juego",
+        "description": "Modo Historia, Arcade, Entrenamiento, Desafíos de combo, Versus, Espectador y Galería de arte.",
+        "icon": "Gamepad2"
+      },
+      {
+        "title": "Preventa y beta",
+        "description": "Acceso a la beta cerrada, skin de Appa samurái, colores dorados y votación del Pase del Año 1.",
+        "icon": "Gift"
+      },
+      {
+        "title": "DLC y Pase del Año 1",
+        "description": "Pase del Año 1, luchadores de DLC confirmados, votación de la comunidad y extras de la Edición Digital Deluxe.",
+        "icon": "Crown"
+      }
+    ]
+  },
+  "modules": {
+    "avatarLegendsReleaseDatePlatforms": {
+      "eyebrow": "Información de lanzamiento",
+      "title": "Fecha de lanzamiento, precio y plataformas de Avatar Legends: The Fighting Game",
+      "subtitle": "El lanzamiento completo está previsto para el July 23, 2026, con preventas digitales activas en Steam, PlayStation Store y Xbox / Microsoft Store. La Edición Estándar tiene un precio de $29.99, mientras que la Edición Digital Deluxe tiene un precio de $49.99.",
+      "intro": "Usa esta sección para consultar la fecha de lanzamiento actual, las plataformas compatibles, los precios de las ediciones y las bonificaciones de preventa en un solo lugar. Del July 2-5, 2026 es el periodo de la beta cerrada para las preventas elegibles, mientras que el July 23, 2026 es la fecha del lanzamiento completo.",
+      "items": [
+        {
+          "label": "Fecha de lanzamiento oficial",
+          "value": "July 23, 2026",
+          "details": "Avatar Legends: The Fighting Game está programado actualmente para salir el July 23, 2026 en las principales tiendas digitales.",
+          "links": [
+            {
+              "label": "Sitio oficial",
+              "href": "https://avatarfighters.com/"
+            },
+            {
+              "label": "Página de Steam",
+              "href": "https://store.steampowered.com/app/2424420/Avatar_Legends_The_Fighting_Game/"
+            }
+          ]
+        },
+        {
+          "label": "PC vía Steam",
+          "value": "$29.99 Standard / $49.99 Digital Deluxe",
+          "details": "Steam lista el juego como un fighter 1v1 de ritmo rápido con animación 2D dibujada a mano, rollback netcode propietario, full cross-play y opciones de pre-compra para las ediciones Standard y Digital Deluxe.",
+          "links": [
+            {
+              "label": "Pre-Purchase en Steam",
+              "href": "https://store.steampowered.com/app/2424420/Avatar_Legends_The_Fighting_Game/"
+            }
+          ]
+        },
+        {
+          "label": "PlayStation 5",
+          "value": "$29.99 Standard / $49.99 Digital Deluxe",
+          "details": "La PlayStation Store lista el lanzamiento para PS5 para el July 23, 2026, con acceso por pre-order, soporte para 1-2 jugadores, juego online opcional y se requiere PS Plus para el multijugador online.",
+          "links": [
+            {
+              "label": "PlayStation Store",
+              "href": "https://store.playstation.com/en-us/concept/10018989/"
+            }
+          ]
+        },
+        {
+          "label": "Xbox Series X|S y PC",
+          "value": "$29.99 Preorder Bundle / $49.99 Digital Deluxe",
+          "details": "La tienda de Xbox lista el juego como optimizado para Xbox Series X|S con Xbox Play Anywhere, multijugador online, juego compartido o en pantalla dividida, guardado en la nube y soporte para multijugador multiplataforma.",
+          "links": [
+            {
+              "label": "Xbox Store",
+              "href": "https://www.xbox.com/en-US/games/store/avatar-legends-the-fighting-game/9PH2332VRWSF"
+            }
+          ]
+        },
+        {
+          "label": "Nintendo Switch y Switch 2",
+          "value": "Switch listada para el July 23, 2026; Switch 2 y edición física más adelante en 2026",
+          "details": "La cobertura actual de lanzamiento sitúa a Nintendo Switch junto a PS5, Xbox Series X|S y PC para el lanzamiento digital del July 23, con Nintendo Switch 2 y las ediciones físicas llegando más adelante en 2026.",
+          "links": [
+            {
+              "label": "Última actualización de plataformas",
+              "href": "https://www.gematsu.com/2026/06/avatar-legends-the-fighting-game-year-1-pass-dlc-characters-bolin-ty-lee-lin-beifong-and-uncle-iroh-announced"
+            }
+          ]
+        },
+        {
+          "label": "Bonificaciones de reserva",
+          "value": "Acceso a la Beta cerrada, skin de Samurai Appa, colores exclusivos y votación para el Year 1 Pass",
+          "details": "Las reservas incluyen acceso a la beta cerrada del July 2-5, una skin de personaje de soporte de Samurai Appa, variantes de color dorado para Aang, Korra, Zuko, Katara, Toph y Sokka, además de derechos de voto para un personaje del Year 1 Pass.",
+          "links": [
+            {
+              "label": "Detalles de la reserva",
+              "href": "https://blog.playstation.com/2026/06/29/avatar-legends-the-fighting-game-spirit-wilds-stage-revealed/"
+            }
+          ]
+        }
+      ]
+    },
+    "avatarLegendsCharactersRoster": {
+      "eyebrow": "Roster",
+      "title": "Personajes y Roster de lanzamiento de Avatar Legends: The Fighting Game",
+      "subtitle": "El roster de lanzamiento incluye 12 fighters jugables de Avatar: The Last Airbender, The Legend of Korra y el lore de Avatar. Varios favoritos iniciales también reciben variantes de color dorado exclusivas de la reserva.",
+      "intro": "Esta sección del roster ayuda a los jugadores a identificar rápidamente a cada fighter de lanzamiento, su serie de origen y su identidad de combate antes de elegir a su main. El juego también utiliza personajes de soporte vinculados a cada fighter, otorgando al mismo personaje jugable múltiples rutas tácticas.",
+      "items": [
+        {
+          "name": "Aang",
+          "source": "Avatar: The Last Airbender",
+          "style": "Avatar Maestro Aire",
+          "role": "Fighter Avatar rápido y móvil",
+          "status": "Fighter jugable de lanzamiento",
+          "bonus": "Variante de color dorado incluida con las reservas"
+        },
+        {
+          "name": "Korra",
+          "source": "The Legend of Korra",
+          "style": "Maestría Avatar",
+          "role": "Fighter Avatar agresivo",
+          "status": "Fighter jugable de lanzamiento",
+          "bonus": "Variante de color dorado incluida con las reservas"
+        },
+        {
+          "name": "Zuko",
+          "source": "Avatar: The Last Airbender",
+          "style": "Fuego control",
+          "role": "Duelista de la Nación del Fuego",
+          "status": "Luchador jugable de lanzamiento",
+          "bonus": "Variante de color dorado incluida con las reservas"
+        },
+        {
+          "name": "Katara",
+          "source": "Avatar: The Last Airbender",
+          "style": "Agua control",
+          "role": "Maestro agua de la Tribu del Agua",
+          "status": "Luchador jugable de lanzamiento",
+          "bonus": "Variante de color dorado incluida con las reservas"
+        },
+        {
+          "name": "Toph",
+          "source": "Avatar: The Last Airbender",
+          "style": "Tierra control",
+          "role": "Fuerza del Reino de la Tierra",
+          "status": "Luchador jugable de lanzamiento",
+          "bonus": "Variante de color dorado incluida con las reservas"
+        },
+        {
+          "name": "Sokka",
+          "source": "Avatar: The Last Airbender",
+          "style": "Armas de no maestro y trucos de movimiento",
+          "role": "Búmeran, garrote, espada de meteorito y reposicionamiento astuto",
+          "status": "Luchador jugable de lanzamiento",
+          "bonus": "Variante de color dorado incluida con las reservas"
+        },
+        {
+          "name": "Azula",
+          "source": "Avatar: The Last Airbender",
+          "style": "Fuego azul y relámpagos",
+          "role": "Presión aérea, trampas y ofensiva agresiva en Modo Señor del Fuego",
+          "status": "Luchador jugable de lanzamiento",
+          "bonus": "Revelación oficial de personaje disponible"
+        },
+        {
+          "name": "Ozai",
+          "source": "Avatar: The Last Airbender",
+          "style": "Fuego control",
+          "role": "Luchador Señor del Fuego",
+          "status": "Luchador jugable de lanzamiento",
+          "bonus": "Luchador de la plantilla base"
+        },
+        {
+          "name": "Zaheer",
+          "source": "The Legend of Korra",
+          "style": "Aire control",
+          "role": "airbender del Loto Rojo",
+          "status": "fighter jugable de lanzamiento",
+          "bonus": "fighter del roster base"
+        },
+        {
+          "name": "Kyoshi",
+          "source": "Lore de Avatar",
+          "style": "Bending de Avatar e identidad de guerrera Kyoshi",
+          "role": "fighter Avatar legendario",
+          "status": "fighter jugable de lanzamiento",
+          "bonus": "Revelación oficial de personaje disponible"
+        },
+        {
+          "name": "Aang en Estado Avatar",
+          "source": "Avatar: The Last Airbender",
+          "style": "Estado Avatar",
+          "role": "Versión de Aang independiente en el roster de lanzamiento",
+          "status": "fighter jugable de lanzamiento",
+          "bonus": "Listado como un fighter jugable independiente"
+        },
+        {
+          "name": "Korra en Estado Avatar",
+          "source": "The Legend of Korra",
+          "style": "Estado Avatar",
+          "role": "Versión de Korra independiente en el roster de lanzamiento",
+          "status": "fighter jugable de lanzamiento",
+          "bonus": "Listado como un fighter jugable independiente"
+        }
+      ]
+    },
+    "avatarLegendsBeginnerGuide": {
+      "eyebrow": "Guía para principiantes",
+      "title": "Guía para principiantes de Avatar Legends: The Fighting Game",
+      "subtitle": "Empieza con el movimiento, ataques simples, elecciones de support, Flow y el Training Mode antes de saltar a partidas clasificatorias. El juego está diseñado para ser fácil de aprender, pero con la profundidad de un juego de lucha serio.",
+      "intro": "Este camino para principiantes enseña a los nuevos jugadores qué aprender primero sin convertir la primera hora en un examen de vocabulario. Sigue los pasos en orden para entender el game loop básico antes de buscar combos avanzados.",
+      "items": [
+        {
+          "step": 1,
+          "title": "Elige un fighter que entiendas",
+          "summary": "Empieza con un personaje familiar como Aang, Korra, Zuko, Katara, Toph, Sokka o Azula.",
+          "details": "El juego se lanza con 12 personajes jugables. Elige primero un fighter y quédate con él lo suficiente para aprender su movimiento, ataques normales, opciones de Flow y elecciones de support.",
+          "tags": [
+            "personajes",
+            "roster",
+            "nuevo jugador"
+          ]
+        },
+        {
+          "step": 2,
+          "title": "Elige un personaje de support",
+          "summary": "Cada fighter puede emparejarse con personajes de support que añaden habilidades únicas.",
+          "details": "Los personajes de support no son solo extras cosméticos. Cambian tus opciones tácticas, potencian diferentes fortalezas y pueden ayudarte a construir un estilo basado en la presión, defensa, movimiento o control.",
+          "tags": [
+            "personajes de support",
+            "configuración de equipo",
+            "estrategia"
+          ]
+        },
+        {
+          "step": 3,
+          "title": "Aprende primero el movimiento y el Flow",
+          "summary": "Flow es el sistema central para el movimiento rápido, acciones evasivas y seguimientos específicos de personaje.",
+          "details": "Usa Flow para hacer dash, evadir, pasar por debajo de proyectiles, lanzarte al aire o encadenar habilidades específicas de personaje. Aprende esto antes de memorizar combos largos, porque quedarse quieto en un juego de lucha es una forma rápida de perder.",
+          "tags": [
+            "Flow",
+            "movimiento",
+            "defensa"
+          ]
+        },
+        {
+          "step": 4,
+          "title": "Usa los modos Historia y Arcade para conocer al elenco",
+          "summary": "El Modo Historia y el Modo Arcade son las primeras paradas más seguras para los jugadores casuales.",
+          "details": "El Modo Historia se centra en el destino del tiempo y el espacio, mientras que el Modo Arcade le da a cada personaje jugable una historia única. Estos modos te ayudan a probar a los luchadores antes de comprometerte con partidas en línea.",
+          "tags": [
+            "modo historia",
+            "modo arcade",
+            "un jugador"
+          ]
+        },
+        {
+          "step": 5,
+          "title": "Practica en el Modo Entrenamiento",
+          "summary": "El Modo Entrenamiento incluye herramientas avanzadas como hitboxes, frame data y estados de guardado.",
+          "details": "Usa el Modo Entrenamiento para probar ataques, el tiempo de los apoyos, rutas de Flow y el uso de Energía. Este modo es útil tanto para principiantes como para jugadores que quieran estudiar los enfrentamientos adecuadamente.",
+          "tags": [
+            "modo entrenamiento",
+            "frame data",
+            "hitboxes"
+          ]
+        },
+        {
+          "step": 6,
+          "title": "Juega Versus local antes que Clasificatorio",
+          "summary": "Prueba el Versus local, las partidas casuales y las salas antes de entrar en las partidas clasificatorias.",
+          "details": "El juego cuenta con Versus local y en línea, partidas clasificatorias y casuales, salas, modo espectador, repeticiones, rollback netcode y crossplay. Usa las partidas casuales y las salas para ganar experiencia antes de subir en el ranking.",
+          "tags": [
+            "versus local",
+            "versus en línea",
+            "clasificatorio"
+          ]
+        },
+        {
+          "step": 7,
+          "title": "Gasta Energía en los momentos clave",
+          "summary": "Los Puntos de Energía potencian los movimientos especiales mejorados y las Super Arts cinemáticas.",
+          "details": "Acumula Puntos de Energía mediante un juego hábil, y luego gástalos cuando un movimiento especial mejorado o una Super Art pueda extender la presión, castigar un error o cerrar una ronda.",
+          "tags": [
+            "Puntos de Energía",
+            "especiales mejorados",
+            "Super Arts"
+          ]
+        }
+      ]
+    },
+    "avatarLegendsCombatMechanics": {
+      "eyebrow": "Sistema de combate",
+      "title": "Guía de mecánicas de combate de Avatar Legends: The Fighting Game",
+      "subtitle": "El combate se centra en el movimiento Flow, los Puntos de Energía, los movimientos especiales mejorados, las Super Arts cinemáticas, los personajes de apoyo y los distintos estilos de control. El resultado es una primera capa sencilla con suficiente profundidad para recompensar a los jugadores dedicados.",
+      "intro": "Esta guía desglosa los sistemas que los jugadores deben entender antes de crear combos o elegir a un personaje principal. Empieza con el Flow, luego aprende cómo la Energía, los personajes de apoyo y los estilos de control específicos de cada personaje dan forma a cada enfrentamiento.",
+      "items": [
+        {
+          "name": "Mecánica de Flow",
+          "category": "Movimiento y defensa",
+          "summary": "El Flow permite a los jugadores esquivar, pasar por debajo de proyectiles, lanzarse al aire o encadenar habilidades específicas de cada personaje con un solo comando.",
+          "beginner_use": "Usa el Flow para escapar de una presión evidente y moverte alrededor de los proyectiles.",
+          "advanced_hook": "Cada luchador tiene opciones de Flow únicas, por lo que dominar el Flow cambia de un personaje a otro."
+        },
+        {
+          "name": "Puntos de Energía",
+          "category": "Gestión del medidor",
+          "summary": "Los Puntos de Energía se acumulan mediante un juego hábil y se gastan en opciones ofensivas más fuertes.",
+          "beginner_use": "Ahorra Energía hasta que puedas usarla claramente para presionar, castigar o infligir un daño que termine la ronda.",
+          "advanced_hook": "Las decisiones sobre el medidor afectan a si juegas de forma segura, extiendes la ofensiva o te la juegas por una remontada."
+        },
+        {
+          "name": "Movimientos especiales potenciados",
+          "category": "Ataques potenciados",
+          "summary": "Los movimientos especiales potenciados usan Puntos de Energía para fortalecer ataques clave y crear mayores giros tácticos.",
+          "beginner_use": "Usa especiales potenciados tras confirmar que es probable que tu ataque conecte o mantenga la presión.",
+          "advanced_hook": "Los especiales potenciados pueden cambiar el espaciado, los tiempos de presión y las rutas de combo."
+        },
+        {
+          "name": "Super Artes",
+          "category": "Remates cinematográficos",
+          "summary": "Las Super Artes son poderosos ataques cinematográficos que pueden cambiar el rumbo de la batalla si se usan en el momento adecuado.",
+          "beginner_use": "No lances Super Artes a lo loco. Úsalas después de un castigo, una ruta de combo o una apertura clara.",
+          "advanced_hook": "Las Super Artes recompensan la gestión del medidor, el conocimiento del enfrentamiento y una sincronización precisa."
+        },
+        {
+          "name": "Personajes de apoyo",
+          "category": "Estrategia de asistencia",
+          "summary": "Cada luchador puede elegir entre tres personajes de apoyo, y cada uno aporta habilidades únicas y opciones estratégicas.",
+          "beginner_use": "Elige un apoyo que cubra las carencias de tu luchador, como la movilidad, la presión, la defensa o el control.",
+          "advanced_hook": "La elección del apoyo puede transformar al mismo luchador para adaptarse a diferentes planes de enfrentamiento."
+        },
+        {
+          "name": "Estilos de control",
+          "category": "Identidad de los personajes",
+          "summary": "Los personajes con el mismo elemento se juegan de forma diferente, con repertorios de movimientos definidos por su personalidad, estilo de lucha y papel en la historia.",
+          "beginner_use": "No elijas a un luchador solo por su elemento. Prueba cómo se mueve, ataca y utiliza el Flow.",
+          "advanced_hook": "Azula utiliza movilidad aérea, trampas, el Modo Concentrado y el Modo Señor del Fuego, mientras que Sokka juega con armas, movimientos engañosos y cancelaciones de Flow en lugar de usar el control."
+        },
+        {
+          "name": "Combate en línea",
+          "category": "Multijugador",
+          "summary": "El juego en línea incluye netcode de rollback, crossplay, partidas clasificatorias y amistosas, salas, modo espectador y repeticiones.",
+          "beginner_use": "Empieza en partidas amistosas o salas antes de jugar partidas clasificatorias.",
+          "advanced_hook": "Las repeticiones y el modo espectador ayudan a los jugadores a estudiar hábitos, errores en los enfrentamientos y secuencias de presión."
+        },
+        {
+          "name": "Herramientas de entrenamiento",
+          "category": "Práctica",
+          "summary": "El modo entrenamiento incluye hitboxes, frame data, estados de guardado y otras herramientas para aprender ataques y rutas.",
+          "beginner_use": "Usa el modo entrenamiento para probar tus botones más seguros, opciones antiaéreas y la sincronización de los apoyos.",
+          "advanced_hook": "El frame data y las hitboxes ayudan a los jugadores competitivos a perfeccionar los castigos, el espaciado y la preparación de los enfrentamientos."
+        }
+      ]
+    },
+    "avatarLegendsOnlineCrossplay": {
+      "eyebrow": "Juego en línea",
+      "title": "Avatar Legends: The Fighting Game - Crossplay online, clasificatorias y netcode de rollback",
+      "subtitle": "Avatar Legends: The Fighting Game admite combates en línea 1v1 con netcode de rollback y crossplay en plataformas modernas y PC. Las partidas clasificatorias, amistosas, salas, el modo espectador y las repeticiones están integrados en el paquete en línea.",
+      "intro": "Usa esta sección para consultar las funciones en línea antes de comprar o reservar. El juego está diseñado en torno al juego competitivo 1v1, con netcode de rollback, crossplay, partidas clasificatorias y amistosas, salas, modo espectador y repeticiones.",
+      "items": [
+        {
+          "feature": "Netcode de rollback",
+          "availability": "Incluido",
+          "details": "El juego utiliza un netcode de rollback propio para combates en línea más fluidos y un juego competitivo con mejor respuesta."
+        },
+        {
+          "feature": "Crossplay",
+          "availability": "Incluido",
+          "details": "El crossplay es compatible entre plataformas modernas y PC, lo que permite a los jugadores luchar fuera de una sola plataforma."
+        },
+        {
+          "feature": "Partidas clasificatorias",
+          "availability": "Incluido",
+          "details": "El juego en línea clasificatorio se incluye como parte del conjunto multijugador competitivo."
+        },
+        {
+          "feature": "Partidas casuales",
+          "availability": "Incluido",
+          "details": "Las partidas en línea casuales están disponibles para los jugadores que quieren combates en línea sin la presión directa de las clasificatorias."
+        },
+        {
+          "feature": "Salas en línea",
+          "availability": "Incluido",
+          "details": "Se admite el juego en salas para organizar sesiones en línea con otros jugadores."
+        },
+        {
+          "feature": "Modo espectador",
+          "availability": "Incluido",
+          "details": "El modo espectador está incluido para ver partidas, aprender enfrentamientos o gestionar salas de la comunidad."
+        },
+        {
+          "feature": "Repeticiones",
+          "availability": "Incluido",
+          "details": "El soporte para repeticiones se incluye como parte del conjunto de funciones en línea, lo que permite a los jugadores revisar los combates después de la partida."
+        },
+        {
+          "feature": "Cantidad de jugadores en línea",
+          "availability": "1v1",
+          "details": "Las tiendas de las plataformas listan el multijugador en línea como juego en línea para 2 jugadores, coincidiendo con el formato de lucha 1v1 del juego."
+        },
+        {
+          "feature": "Requisitos de conexión en línea para consolas",
+          "availability": "Depende de la plataforma",
+          "details": "El juego en línea en PS5 requiere PlayStation Plus. El multijugador en línea en consolas Xbox requiere Xbox Game Pass Essential, Premium o Ultimate. Steam lista compatibilidad con PvP en línea."
+        }
+      ]
+    },
+    "avatarLegendsStoryArcadeModes": {
+      "eyebrow": "Modos de juego",
+      "title": "Historia, Arcade y Modos de juego de Avatar Legends: The Fighting Game",
+      "subtitle": "El juego incluye contenido para un jugador, versus local, versus en línea, entrenamiento, espectador y galería. Los jugadores pueden usar esta sección para comprender rápidamente cada modo principal antes del lanzamiento.",
+      "intro": "Avatar Legends: The Fighting Game está diseñado con múltiples formas de jugar: un modo Historia original, rutas de Arcade para cada personaje, Versus sin conexión y en línea, herramientas de Entrenamiento, Desafíos de combos, Lecciones de personajes, modo Espectador y una Galería de arte.",
+      "items": [
+        {
+          "mode": "Modo historia",
+          "category": "Un jugador",
+          "details": "Una narrativa original esbozada por Michael Dante DiMartino y Tim Hedrick, centrada en moldear el destino del tiempo y el espacio en el modo historia principal."
+        },
+        {
+          "mode": "Modo arcade",
+          "category": "Un jugador",
+          "details": "Las rutas de Arcade presentan historias únicas para cada personaje jugable."
+        },
+        {
+          "mode": "Versus sin conexión",
+          "category": "Juego local",
+          "details": "El modo versus sin conexión admite combates locales 1v1 para partidas rápidas con amigos y familiares."
+        },
+        {
+          "mode": "Versus en línea",
+          "category": "Juego en línea",
+          "details": "El juego en línea incluye partidas clasificatorias, partidas casuales, salas, modo espectador, repeticiones, rollback netcode y crossplay."
+        },
+        {
+          "mode": "Modo entrenamiento",
+          "category": "Práctica",
+          "details": "El Modo Entrenamiento incluye herramientas avanzadas como hitboxes, datos de fotogramas, estados de guardado y otras funciones de práctica."
+        },
+        {
+          "mode": "Desafíos de combos",
+          "category": "Práctica",
+          "details": "Los desafíos de combos se incluyen como parte del contenido de la Edición Estándar para la práctica estructurada de los personajes."
+        },
+        {
+          "mode": "Lecciones de personajes",
+          "category": "Práctica",
+          "details": "Las lecciones de personajes se enumeran junto a los desafíos de combos como contenido de aprendizaje para luchadores individuales."
+        },
+        {
+          "mode": "Modo Espectador",
+          "category": "Comunidad",
+          "details": "El Modo Espectador permite a los jugadores ver partidas, seguir series en las salas y estudiar a otros jugadores."
+        },
+        {
+          "mode": "Galería de arte",
+          "category": "Colección",
+          "details": "La galería incluye ilustraciones originales y arte conceptual que celebran a los personajes, el mundo y el estilo de juego de lucha dibujado a mano de Avatar."
+        }
+      ]
+    },
+    "avatarLegendsPreOrderBeta": {
+      "eyebrow": "Reserva",
+      "title": "Bonificaciones de reserva y beta cerrada de Avatar Legends: The Fighting Game",
+      "subtitle": "Las reservas incluyen acceso a la beta cerrada del 2 al 5 de julio, a Appa samurái, colores dorados exclusivos y derechos de voto del Pase del Año 1. La Edición Digital Deluxe añade el Pase del Año 1 y extras digitales.",
+      "intro": "Esta tabla separa las bonificaciones de reserva del contenido de la Edición Digital Deluxe para que los jugadores puedan ver rápidamente qué incluye cada edición y qué requiere una reserva.",
+      "items": [
+        {
+          "content": "Precio",
+          "standard_edition": "$29.99",
+          "digital_deluxe_edition": "$49.99",
+          "details": "La Edición Estándar es el juego base. La Edición Digital Deluxe incluye el juego base más contenido digital prémium."
+        },
+        {
+          "content": "Juego base",
+          "standard_edition": "Incluido",
+          "digital_deluxe_edition": "Incluido",
+          "details": "Ambas ediciones incluyen Avatar Legends: The Fighting Game."
+        },
+        {
+          "content": "Contenido de juego estándar",
+          "standard_edition": "Incluido",
+          "digital_deluxe_edition": "Incluido",
+          "details": "Incluye 12 personajes jugables, Modo Historia, Modo Arcade, Modo Entrenamiento, Desafíos de combos, Lecciones de personajes, Modo Galería y multijugador en línea igualado, casual y de salas."
+        },
+        {
+          "content": "Acceso a la beta cerrada",
+          "standard_edition": "Incluido con la reserva",
+          "digital_deluxe_edition": "Incluido con la reserva",
+          "details": "El acceso a la beta cerrada estará disponible del 2 al 5 de julio de 2026. La beta cuenta con Aang, Korra, Katara, Toph, Zuko, Sokka y Azula."
+        },
+        {
+          "content": "Aspecto de personaje de apoyo de Appa samurái",
+          "standard_edition": "Incluido con la reserva",
+          "digital_deluxe_edition": "Incluido con la reserva",
+          "details": "Appa samurái es un aspecto alternativo para Appa cuando se selecciona como personaje de apoyo."
+        },
+        {
+          "content": "Colores dorados exclusivos",
+          "standard_edition": "Incluido con la reserva",
+          "digital_deluxe_edition": "Incluido con la reserva",
+          "details": "Los bonos de pre-order incluyen variantes de color dorado para Aang, Korra, Zuko, Katara, Toph y Sokka."
+        },
+        {
+          "content": "Votación de personaje del Year 1 Pass",
+          "standard_edition": "Incluido con la pre-order",
+          "digital_deluxe_edition": "Incluido con la pre-order",
+          "details": "Los jugadores que realicen la pre-order reciben derechos de votación para un personaje del Year 1 Pass."
+        },
+        {
+          "content": "Libro de arte digital",
+          "standard_edition": "No incluido",
+          "digital_deluxe_edition": "Incluido",
+          "details": "La Digital Deluxe Edition incluye un libro de arte digital curado con arte de personajes, escenarios y más."
+        },
+        {
+          "content": "Banda sonora original digital",
+          "standard_edition": "No incluido",
+          "digital_deluxe_edition": "Incluido",
+          "details": "La Digital Deluxe Edition incluye la banda sonora digital del juego."
+        },
+        {
+          "content": "HUDs únicos",
+          "standard_edition": "No incluido",
+          "digital_deluxe_edition": "Incluido",
+          "details": "Los HUDs únicos se listan como parte del paquete Digital Deluxe Edition."
+        },
+        {
+          "content": "Year 1 Pass",
+          "standard_edition": "No incluido",
+          "digital_deluxe_edition": "Incluido",
+          "details": "El Year 1 Pass añade cinco personajes jugables adicionales a lo largo de la temporada."
+        }
+      ]
+    },
+    "avatarLegendsDlcYear1Pass": {
+      "eyebrow": "DLC",
+      "title": "Avatar Legends: The Fighting Game DLC y Year 1 Pass",
+      "subtitle": "La Digital Deluxe Edition incluye el Year 1 Pass, que añade cinco personajes jugables adicionales. Cuatro están confirmados: Uncle Iroh, Ty Lee, Lin Beifong y Bolin, y el quinto será elegido mediante una votación de los jugadores.",
+      "intro": "El Year 1 Pass es la principal expansión del roster post-lanzamiento para Avatar Legends: The Fighting Game. Añade cinco personajes jugables adicionales a lo largo de la temporada, incluyendo cuatro fighters confirmados y un personaje votado por los jugadores.",
+      "items": [
+        {
+          "roadmap_item": "Year 1 Pass",
+          "type": "Contenido del pase",
+          "status": "Incluido en la Digital Deluxe Edition",
+          "details": "Añade cinco personajes jugables adicionales a lo largo de la temporada."
+        },
+        {
+          "roadmap_item": "Uncle Iroh",
+          "type": "Fighter de DLC confirmado",
+          "status": "Year 1 Pass",
+          "details": "Un personaje jugable adicional confirmado para el Year 1 Pass."
+        },
+        {
+          "roadmap_item": "Ty Lee",
+          "type": "Fighter de DLC confirmado",
+          "status": "Year 1 Pass",
+          "details": "Un personaje jugable adicional confirmado para el Year 1 Pass."
+        },
+        {
+          "roadmap_item": "Lin Beifong",
+          "type": "Fighter de DLC confirmado",
+          "status": "Year 1 Pass",
+          "details": "Un personaje jugable adicional confirmado para el Year 1 Pass."
+        },
+        {
+          "roadmap_item": "Bolin",
+          "type": "Luchador DLC confirmado",
+          "status": "Year 1 Pass",
+          "details": "Un personaje jugable adicional confirmado para el Year 1 Pass."
+        },
+        {
+          "roadmap_item": "Quinto personaje del Year 1 Pass",
+          "type": "Votación de la comunidad",
+          "status": "Espacio votado por los jugadores",
+          "details": "El último personaje del Year 1 Pass se elige a través de la Year 1 Character Vote para los jugadores con reserva elegibles."
+        },
+        {
+          "roadmap_item": "Candidatos de la votación",
+          "type": "Votación de la comunidad",
+          "status": "Grupo de votación anunciado",
+          "details": "El grupo de candidatos anunciado incluye a Amon, Kuvira, King Bumi, Asami Sato y Tenzin."
+        },
+        {
+          "roadmap_item": "Extras de la Digital Deluxe",
+          "type": "Contenido de la edición",
+          "status": "Digital Deluxe Edition",
+          "details": "La Digital Deluxe Edition incluye el juego completo, el Year 1 Pass, Original Digital Soundtrack, Digital Artbook y HUDs únicos."
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "Preguntas",
+    "titleHighlight": "Frecuentes",
+    "subtitle": "Todo lo que necesitas saber sobre Avatar Legends: The Fighting Game",
+    "questions": [
+      {
+        "question": "¿Cuándo es la fecha de lanzamiento de Avatar Legends: The Fighting Game?",
+        "answer": "Avatar Legends: The Fighting Game está programado actualmente para su lanzamiento completo el July 23, 2026 en Steam, PlayStation 5, Xbox Series X|S y Nintendo Switch, con reservas abiertas en cada tienda."
+      },
+      {
+        "question": "¿Cuántos personajes jugables hay en Avatar Legends: The Fighting Game?",
+        "answer": "Avatar Legends: The Fighting Game se lanza con 12 luchadores jugables extraídos de Avatar: The Last Airbender, The Legend of Korra y el lore de Avatar, con cinco más añadidos a través del Year 1 Pass."
+      },
+      {
+        "question": "¿Qué plataformas son compatibles con Avatar Legends: The Fighting Game?",
+        "answer": "Avatar Legends: The Fighting Game es compatible con PC a través de Steam, PlayStation 5, Xbox Series X|S y Nintendo Switch para el lanzamiento digital del July 23, 2026, con Nintendo Switch 2 y ediciones físicas llegando más adelante en 2026."
+      },
+      {
+        "question": "¿Es Avatar Legends: The Fighting Game compatible con crossplay y rollback netcode?",
+        "answer": "Sí. Avatar Legends: The Fighting Game utiliza rollback netcode propio y es compatible con crossplay completo en plataformas modernas y PC, con Ranked, Casual, lobbies, modo espectador y repeticiones integrados."
+      },
+      {
+        "question": "¿Cuánto cuesta Avatar Legends: The Fighting Game?",
+        "answer": "Avatar Legends: The Fighting Game tiene un precio de $29.99 para la Standard Edition y $49.99 para la Digital Deluxe Edition, que añade el Year 1 Pass, digital artbook, soundtrack y HUDs únicos."
+      },
+      {
+        "question": "¿Hay una Beta Cerrada para Avatar Legends: The Fighting Game?",
+        "answer": "Sí. Avatar Legends: The Fighting Game tendrá una Beta Cerrada del July 2 al July 5, 2026 para las reservas elegibles, con Aang, Korra, Katara, Toph, Zuko, Sokka y Azula."
+      }
+    ]
+  },
+  "cta": {
+    "title": "¿Listo para dominar los elementos?",
+    "description": "¡Únete a la comunidad de Avatar Legends: The Fighting Game en Discord para obtener guías de la plantilla, listas de movimientos, discusiones de enfrentamientos y actualizaciones de lanzamiento!",
+    "joinCommunity": "Unirse a Discord",
+    "joinGame": "Compra anticipada en Steam"
+  },
+  "footer": {
+    "title": "Wiki de Avatar Legends: The Fighting Game",
+    "description": "Tu centro de recursos completo para la plantilla de Avatar Legends: The Fighting Game, movimientos, supports, modos, juego en línea, lanzamiento y especificaciones del sistema.",
+    "resources": "Recursos",
+    "community": "Comunidad",
+    "legal": "Legal",
+    "discord": "Discord",
+    "twitter": "X / Twitter",
+    "steamCommunity": "YouTube",
+    "steamStore": "Tienda de Steam",
+    "about": "Acerca de",
+    "privacy": "Política de privacidad",
+    "terms": "Términos de servicio",
+    "copyrightNotice": "Copyright",
+    "copyright": "© 2026 Avatar Legends: The Fighting Game Wiki. No está afiliado con los desarrolladores de Avatar Legends: The Fighting Game.",
+    "disclaimer": "Sitio web de recursos no oficial creado por fans."
+  },
+  "pages": {
+    "release": {
+      "title": "Fecha de lanzamiento y noticias de Avatar Legends: The Fighting Game",
+      "description": "Fecha de lanzamiento oficial, horarios de lanzamiento regionales, actualizaciones de retrasos, últimas noticias y resumen de reseñas del juego.",
+      "metaTitle": "Fecha de lanzamiento y noticias de Avatar Legends: The Fighting Game - Guía de lanzamiento",
+      "metaDescription": "Sigue la fecha de lanzamiento de Avatar Legends: The Fighting Game, los horarios de lanzamiento por región, actualizaciones de retrasos, noticias y cobertura de reseñas.",
+      "categoryLabel": "LANZAMIENTO Y NOTICIAS",
+      "whatIs": "¿Cuál es la fecha de lanzamiento?",
+      "whatIsDescription": "Avatar Legends: The Fighting Game se lanza el July 23, 2026 en Steam, PS5, Xbox Series X|S y Switch. Esta sección sigue la fecha de lanzamiento oficial, los horarios de lanzamiento regionales, cualquier actualización de retrasos, noticias de última hora y la cobertura de reseñas a medida que se publiquen.",
+      "why": "¿Por qué seguir el lanzamiento?",
+      "whySteps": {
+        "step1Title": "Asegura la fecha de lanzamiento",
+        "step1Description": "Conoce la fecha exacta de lanzamiento y los horarios de lanzamiento regionales para que puedas planificar tu primera sesión.",
+        "step2Title": "Sigue los retrasos y las noticias",
+        "step2Description": "Mantente al día con los cambios de horario, anuncios de retrasos y noticias oficiales a medida que el equipo los comparta.",
+        "step3Title": "Lee las reseñas",
+        "step3Description": "Entérate de la cobertura de reseñas y las primeras impresiones antes de decidir comprar."
+      },
+      "featured": "Destacados y esenciales",
+      "all": "Todos los artículos de lanzamiento"
+    },
+    "roster": {
+      "title": "Personajes y plantilla de Avatar Legends: The Fighting Game",
+      "description": "Plantilla jugable completa, los 12 luchadores de lanzamiento, personajes de apoyo, actores de voz y maestros por elemento.",
+      "metaTitle": "Personajes y plantilla de Avatar Legends: The Fighting Game - Lista completa de luchadores",
+      "metaDescription": "Explora la plantilla completa de Avatar Legends: The Fighting Game: los 12 luchadores jugables, personajes de apoyo, actores de voz y maestros.",
+      "categoryLabel": "PERSONAJES",
+      "whatIs": "¿Qué es la plantilla?",
+      "whatIsDescription": "Avatar Legends: The Fighting Game se lanza con 12 luchadores jugables que abarcan maestros del Agua, la Tierra, el Fuego y el Aire, además de un elenco de personajes de apoyo. Esta sección cubre la plantilla de lanzamiento completa, el elemento e identidad de cada luchador, el elenco de apoyo y los actores de voz detrás de ellos.",
+      "why": "¿Por qué estudiar la plantilla?",
+      "whySteps": {
+        "step1Title": "Elige a tu personaje principal",
+        "step1Description": "Compara a los 12 luchadores por elemento y estilo de juego para encontrar al personaje que mejor se adapte a ti.",
+        "step2Title": "Conoce los personajes de apoyo",
+        "step2Description": "Combina los personajes de apoyo adecuados con tu luchador para cubrir sus debilidades.",
+        "step3Title": "Conoce al elenco",
+        "step3Description": "Descubre a los actores de voz que dan vida a cada personaje."
+      },
+      "featured": "Destacado y esencial",
+      "all": "Todos los personajes"
+    },
+    "platforms": {
+      "title": "Plataformas y compatibilidad de Avatar Legends: The Fighting Game",
+      "description": "Soporte de plataformas en PS5, PS4, Xbox, Switch, Switch 2, PC y Steam Deck para el juego.",
+      "metaTitle": "Plataformas de Avatar Legends: The Fighting Game - PS5, Xbox, Switch, PC",
+      "metaDescription": "Descubre qué plataformas son compatibles con Avatar Legends: The Fighting Game: PS5, PS4, Xbox Series X|S, Switch, Switch 2, PC y Steam Deck.",
+      "categoryLabel": "PLATAFORMAS",
+      "whatIs": "¿Qué plataformas son compatibles?",
+      "whatIsDescription": "Avatar Legends: The Fighting Game está disponible en Steam (PC), PlayStation 5, PlayStation 4, Xbox Series X|S, Nintendo Switch y Nintendo Switch 2, con compatibilidad para Steam Deck. Esta sección detalla las características de cada plataforma, objetivos de rendimiento y soporte de crossplay.",
+      "why": "¿Por qué comprobar el soporte de plataformas?",
+      "whySteps": {
+        "step1Title": "Elige tu plataforma",
+        "step1Description": "Compara características y rendimiento en PS5, Xbox, Switch y PC antes de comprar.",
+        "step2Title": "Portátil y Steam Deck",
+        "step2Description": "Confirma la compatibilidad con Steam Deck y Switch para jugar de forma portátil en cualquier lugar.",
+        "step3Title": "Listo para crossplay",
+        "step3Description": "Mira qué plataformas se conectan para partidas en línea multiplataforma."
+      },
+      "featured": "Destacado y esencial",
+      "all": "Todas las plataformas"
+    },
+    "beta": {
+      "title": "Beta y playtest de Avatar Legends: The Fighting Game",
+      "description": "Alfa cerrada, beta cerrada, beta abierta, acceso a la beta y pasos de registro para los playtests.",
+      "metaTitle": "Beta de Avatar Legends: The Fighting Game - Beta cerrada, beta abierta y registro",
+      "metaDescription": "Entra en las pruebas beta de Avatar Legends: The Fighting Game: alfa cerrada, beta cerrada, beta abierta, códigos de acceso a la beta y pasos de registro.",
+      "categoryLabel": "BETA Y PLAYTEST",
+      "whatIs": "¿Qué es la beta?",
+      "whatIsDescription": "Avatar Legends: The Fighting Game realiza playtests por fases que incluyen una alfa cerrada, beta cerrada y beta abierta antes del lanzamiento. Esta sección explica cómo registrarse, cómo obtener acceso a la beta y qué incluye cada fase de prueba.",
+      "why": "¿Por qué unirse a la beta?",
+      "whySteps": {
+        "step1Title": "Regístrate pronto",
+        "step1Description": "Regístrate para la alfa cerrada y la beta cerrada antes de que se agoten los cupos.",
+        "step2Title": "Obtén acceso a la beta",
+        "step2Description": "Sigue el proceso paso a paso para reclamar tu código de acceso a la beta.",
+        "step3Title": "Juega antes",
+        "step3Description": "Entra en la beta abierta y practica con el plantel antes del día del lanzamiento."
+      },
+      "featured": "Destacado y esencial",
+      "all": "Todos los artículos de la beta"
+    },
+    "editions": {
+      "title": "Ediciones y precios de Avatar Legends: The Fighting Game",
+      "description": "Ediciones estándar, Digital Deluxe, de coleccionista y físicas, bonificaciones por reserva, precio y clasificación ESRB.",
+      "metaTitle": "Ediciones de Avatar Legends: The Fighting Game - Estándar, Deluxe y precio",
+      "metaDescription": "Compara las ediciones de Avatar Legends: The Fighting Game: estándar, Digital Deluxe, de coleccionista, copias físicas, bonificaciones por reserva, precio y clasificación ESRB.",
+      "categoryLabel": "EDICIONES",
+      "whatIs": "¿Qué ediciones están disponibles?",
+      "whatIsDescription": "Avatar Legends: The Fighting Game se vende en las ediciones Estándar ($29.99), Digital Deluxe y Coleccionista, con copias físicas y bonificaciones por reserva. Esta sección compara cada edición, el precio de cada una y la clasificación ESRB para que puedas elegir la versión correcta.",
+      "why": "¿Por qué comparar las ediciones?",
+      "whySteps": {
+        "step1Title": "Encuentra tu precio",
+        "step1Description": "Mira el precio estándar y lo que cuesta cada edición frente a frente.",
+        "step2Title": "Elige una edición",
+        "step2Description": "Compara las ediciones Estándar, Digital Deluxe y Coleccionista para elegir la opción con mejor valor.",
+        "step3Title": "Reserva con inteligencia",
+        "step3Description": "Asegura tus bonificaciones por reserva y consigue copias físicas antes del lanzamiento."
+      },
+      "featured": "Destacado y esencial",
+      "all": "Todas las ediciones"
+    },
+    "dlc": {
+      "title": "Avatar Legends: The Fighting Game - DLC y Pase del Año 1",
+      "description": "Personajes DLC, Pase del Año 1, votación de luchadores DLC y planes de contenido postlanzamiento.",
+      "metaTitle": "Avatar Legends: The Fighting Game - DLC y Pase del Año 1: Personajes DLC y votación",
+      "metaDescription": "Explora el DLC de Avatar Legends: The Fighting Game: Pase del Año 1, personajes DLC, la votación de luchadores DLC y la hoja de ruta postlanzamiento.",
+      "categoryLabel": "DLC Y HOJA DE RUTA",
+      "whatIs": "¿Qué es el DLC?",
+      "whatIsDescription": "Avatar Legends: The Fighting Game se expande después del lanzamiento con un Pase del Año 1 que añade personajes DLC, incluyendo una votación de la comunidad para un luchador adicional. Esta sección cubre los luchadores DLC confirmados, lo que incluye el Pase del Año 1 y cómo funciona la votación.",
+      "why": "¿Por qué seguir el DLC?",
+      "whySteps": {
+        "step1Title": "Conoce la plantilla de personajes DLC",
+        "step1Description": "Mira qué personajes están confirmados como próximos luchadores DLC.",
+        "step2Title": "Entiende el Pase del Año 1",
+        "step2Description": "Descubre qué incluye el Pase del Año 1 y cuándo llega cada luchador.",
+        "step3Title": "Emite tu voto",
+        "step3Description": "Únete a la votación de la comunidad para ayudar a elegir a un futuro personaje DLC."
+      },
+      "featured": "Destacado y esencial",
+      "all": "Todos los artículos de DLC"
+    },
+    "online": {
+      "title": "Avatar Legends: The Fighting Game - Online y multijugador",
+      "description": "Código de red rollback, juego cruzado, modos multijugador online, salas y funciones de espectador.",
+      "metaTitle": "Avatar Legends: The Fighting Game online: juego cruzado y multijugador",
+      "metaDescription": "Domina el juego online de Avatar Legends: The Fighting Game: código de red rollback, juego cruzado entre plataformas, modos multijugador, salas y modo espectador.",
+      "categoryLabel": "JUEGO ONLINE",
+      "whatIs": "¿Cómo funciona el juego online?",
+      "whatIsDescription": "Avatar Legends: The Fighting Game cuenta con un código de red rollback propio y juego cruzado completo entre PC, PlayStation, Xbox y Switch. Esta sección explica el multijugador online, las partidas entre plataformas, las salas, el modo espectador y lo que necesita cada consola para jugar online.",
+      "why": "¿Por qué aprender sobre el juego online?",
+      "whySteps": {
+        "step1Title": "Código de red rollback",
+        "step1Description": "Entiende cómo el rollback mantiene la fluidez de las partidas online incluso con malas conexiones.",
+        "step2Title": "Juego cruzado en todas partes",
+        "step2Description": "Enfréntate a oponentes de cualquier plataforma con el soporte completo de juego cruzado.",
+        "step3Title": "Requisitos de consola",
+        "step3Description": "Conoce qué suscripciones en línea necesita cada consola antes de entrar en la cola."
+      },
+      "featured": "Destacados y esenciales",
+      "all": "Todos los artículos en línea"
+    }
+  }
+}

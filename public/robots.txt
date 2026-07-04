@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+# 允许 AdSense 抓取
+User-agent: Mediapartners-Google
+Allow: /
+
+Sitemap: https://www.avatar-legends-the-fighting-game.wiki/sitemap.xml
