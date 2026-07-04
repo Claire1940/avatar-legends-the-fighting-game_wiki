@@ -1,0 +1,2 @@
+# 占位文件：保留空的 content/ 目录，供构建期 generate-content-manifest.mjs 扫描。
+# 实际 MDX 内容由后续阶段按 src/config/navigation.ts 的内容类型写入 content/<locale>/<type>/。

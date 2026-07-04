@@ -10,14 +10,7 @@
       "twitterDescription": "Avatar Legends Fighting Game guide covers roster, moves, platforms, preorder bonuses, and release updates."
     }
   },
-  "nav": {
-    "guides": "Guides",
-    "crafting": "Crafting",
-    "items": "Items",
-    "biomes": "Biomes",
-    "building": "Building",
-    "support": "Support"
-  },
+  "nav": {},
   "common": {
     "home": "Home",
     "more": "More",
