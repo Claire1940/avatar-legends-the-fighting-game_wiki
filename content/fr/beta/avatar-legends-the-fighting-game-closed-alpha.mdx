@@ -1,0 +1,183 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Info, Settings } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Avatar Legends: The Fighting Game Alpha Fermée : Guide d'Accès",
+  description: "Découvrez comment accéder aux sessions d'alpha et de bêta fermées d'Avatar Legends: The Fighting Game, y compris les récompenses de précommande, les détails de l'effectif et les mécaniques de combat.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/111f33/fff?text=Closed+Alpha+Access",
+  date: "2026-07-04",
+  author: "L'équipe du Wiki d'Avatar Legends: The Fighting Game",
+  keywords: "avatar legends, the fighting game, alpha fermée, guide d'accès, précommande, bêta"
+}
+
+<Callout type="info" title="Guide Rapide">
+- **Méthode d'accès** : Précommandez n'importe quelle édition pour accéder aux phases de test de l'**alpha fermée d'avatar legends the fighting game** et de la bêta.
+- **Période de test** : La phase principale de test fermé est prévue du **2 au 5 juillet 2026**.
+- **Effectif jouable** : La version à accès anticipé propose 7 combattants principaux, dont Aang, Korra et Azula.
+- **Récompenses exclusives** : Les participants et les détenteurs d'une précommande débloquent l'apparence de soutien **Appa Samouraï** et des variantes de couleur Or.
+- **Plateformes compatibles** : Disponible sur Steam, PlayStation 5 et Xbox Series X|S avec cross-play intégral activé.
+</Callout>
+
+<Section icon={Map} title="Accéder à l'Alpha Fermée d'Avatar Legends: The Fighting Game">
+
+Garantir votre place pour l'**alpha fermée d'avatar legends the fighting game** et les tests bêta suivants est principalement lié au système de précommande. Contrairement aux titres en accès libre, ce jeu de combat élémentaire en 1v1 nécessite un achat numérique vérifié sur votre plateforme préférée pour déclencher le droit de téléchargement. La période de test est spécifiquement conçue pour tester la charge de notre netcode de rollback propriétaire et du matchmaking multiplateforme avant le lancement complet le 23 juillet 2026.
+
+| Phase | Date | Condition d'accès |
+| :--- | :--- | :--- |
+| **Alpha/Bêta Fermée** | **2-5 juillet 2026** | Précommande (Standard ou Deluxe) |
+| **Sortie Officielle** | **23 juillet 2026** | Achat public |
+| **DLC 1 de l'An 1** | **Fin 2026** | Pass An 1 / Édition Deluxe |
+
+**Points forts de la vidéo :**
+- Aperçu de la période de test de juillet et méthode de téléchargement du client.
+- Premier coup d'œil à l'effectif de 7 personnages disponibles durant la phase alpha.
+- Démonstration de la mécanique de « Flow » (Flux) dans un environnement compétitif en direct.
+
+<Callout type="warning" title="Disponibilité Régionale">
+Assurez-vous que la région de votre boutique correspond à celle de votre compte pour éviter tout problème de licence avec le client bêta. Les utilisateurs de Steam doivent vérifier leur bibliothèque pour y trouver une entrée distincte « Branche de test » après avoir effectué leur précommande.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Effectif de l'Alpha et Mécaniques des Personnages">
+
+La phase de test propose une sélection soignée parmi les 12 personnages de l'effectif complet de lancement. Cela permet à l'équipe de développement de se concentrer sur l'équilibrage des interactions élémentaires entre les quatre styles de maîtrise et l'utilité unique des personnages non-maîtres comme Sokka. Chaque combattant de l'**alpha fermée d'avatar legends the fighting game** dispose de trois options de personnages de soutien distinctes, offrant une grande variété tactique même avec un effectif limité.
+
+<CardGrid cols={3}>
+  <Card title="Aang">
+    - **Style** : Maîtrise de l'Air
+    - **Force** : Grande mobilité et options de « Flow » évasives
+    - **Rôle** : Hybride zoner à mi-distance et rushdown
+  </Card>
+  <Card title="Korra">
+    - **Style** : Maîtrise Multi-élémentaire
+    - **Force** : Combat rapproché agressif
+    - **Rôle** : Bagarreur infligeant de lourds dégâts avec des attaques blindées
+  </Card>
+  <Card title="Azula">
+    - **Style** : Feu Bleu & Éclair
+    - **Force** : Pression aérienne et pièges de projectiles
+    - **Rôle** : Zoner technique avec un plafond d'exécution élevé
+  </Card>
+</CardGrid>
+
+| Personnage | Style de Maîtrise | Rôle Principal | Options de Soutien |
+| :--- | :--- | :--- | :--- |
+| **Aang** | Air | Mobilité/Évasion | Appa, Momo, Gyatso |
+| **Korra** | Eau/Feu/Terre | Bagarreur Agressif | Naga, Pabu, Tenzin |
+| **Zuko** | Feu | Dueliste Équilibré | Iroh, Mai, Ty Lee |
+| **Katara** | Eau | Contrôle/Soin | Sokka, Pakku, Kya |
+| **Toph** | Terre | Colosse/Chopeur | Taupe-blaireau, Lin, Suyin |
+| **Sokka** | Non-maître | Ruse/Tactique | Suki, Piandao, Hakoda |
+| **Azula** | Feu/Éclair | Pression/Pièges | Lo, Li, Soldat de la Nation du Feu |
+
+<Callout type="success" title="Déblocage des Variantes Or">
+En participant à la période de précommande, vous débloquez automatiquement les **Variantes de Couleur Or** pour les six personnages principaux (Aang, Korra, Zuko, Katara, Toph, Sokka) pour une utilisation à la fois dans l'alpha et dans le jeu final.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Système de Combat : Flow et Points d'Énergie">
+
+Maîtriser le combat dans l'**alpha fermée d'avatar legends the fighting game** nécessite de comprendre le système de double ressource. Contrairement aux jeux de combat traditionnels qui reposent uniquement sur une jauge de super, ce jeu introduit la mécanique de « Flow » (Flux), qui régit les déplacements et l'utilité défensive, et les « Points d'Énergie », qui alimentent les améliorations offensives.
+
+<Steps>
+  <Step num="1" title="Initialiser le Flow">
+    Utilisez la touche Flow pour effectuer une ruée, une ruée aérienne ou vous glisser sous les projectiles. Chaque personnage dispose d'un Flow-cancel unique qui lui permet de passer instantanément d'une attaque normale à une option de déplacement.
+  </Step>
+  <Step num="2" title="Accumuler des Points d'Énergie">
+    L'énergie se gagne en réussissant des coups, en bloquant efficacement et en utilisant les traits de maîtrise spécifiques aux personnages. Un jeu agressif remplit la jauge plus rapidement, mais la précision défensive vous récompense par des bonus de « Perfect Flow ».
+  </Step>
+  <Step num="3" title="Exécuter des Coups Spéciaux Améliorés">
+    Dépensez une barre d'Énergie pour effectuer un coup spécial amélioré. Ces versions ont souvent un démarrage plus rapide, des frames d'invincibilité ou des coups supplémentaires pour prolonger les combos.
+  </Step>
+  <Step num="4" title="Déchaîner les Super Arts">
+    Lorsque votre jauge d'Énergie est pleine, vous pouvez déclencher un Super Art cinématique. Ce sont des coups de grâce infligeant d'immenses dégâts qui peuvent renverser le cours d'un match, mais qui vous laissent vulnérable s'ils sont bloqués.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Synergie de Soutien">
+N'ignorez pas vos personnages de soutien. Appuyez sur la touche d'assistance pendant une ruée Flow pour faire intervenir votre soutien pour une attaque « Cross-Flow », ce qui permet de combler l'écart en toute sécurité contre les personnages de type zoner.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Récompenses de Précommande et Différences d'Éditions">
+
+Pour participer à l'**alpha fermée d'avatar legends the fighting game**, les joueurs doivent choisir entre l'édition Standard et l'édition Deluxe Numérique. Bien que toutes deux donnent accès aux phases de test, l'édition Deluxe Numérique est destinée aux joueurs à long terme qui souhaitent profiter de l'expérience complète de l'An 1 sans achats supplémentaires.
+
+| Fonctionnalité | Édition Standard (29,99 $) | Deluxe Numérique (49,99 $) |
+| :--- | :--- | :--- |
+| **Accès Alpha/Bêta Fermée** | **Inclus** | **Inclus** |
+| **Effectif de Lancement (12)** | Inclus | Inclus |
+| **Apparence Appa Samouraï** | Bonus de précommande | Bonus de précommande |
+| **Pass An 1 (5 DLC)** | Non inclus | **Inclus** |
+| **Bande-son / Artbook Numérique** | Non inclus | **Inclus** |
+| **Interfaces (HUD) Exclusives** | Non inclus | **Inclus** |
+
+<Checklist
+  id="alpha-checklist"
+  title="Objectifs de Participation à l'Alpha :"
+  items={[
+    "Précommander le jeu sur Steam, PS5 ou Xbox",
+    "Télécharger le client de la Bêta Fermée avant le 2 juillet",
+    "Terminer les tutoriels du Mode Entraînement pour les mécaniques de Flow",
+    "Tester au moins trois associations différentes de personnages de soutien",
+    "Participer à au moins 10 matchs classés pour tester le netcode"
+  ]}
+/>
+
+<Callout type="info" title="Vote pour le Pass An 1">
+Les clients ayant précommandé reçoivent un bulletin de vote spécial pour élire le cinquième personnage du Pass An 1. Les candidats actuels incluent **Amon, Kuvira, le Roi Bumi, Asami Sato et Tenzin**.
+</Callout>
+
+</Section>
+
+<Section icon={Settings} title="Configuration Requise et Fonctionnalités en Ligne">
+
+L'**alpha fermée d'avatar legends the fighting game** est un jalon technique pour la franchise, intégrant un netcode de rollback propriétaire. Cela garantit que même lors des matchs en cross-play entre PC et consoles, la latence reste minimale. Vous trouverez ci-dessous la configuration système confirmée pour les joueurs PC participant à l'alpha.
+
+| Composant | Configuration Minimale | Configuration Recommandée |
+| :--- | :--- | :--- |
+| **Système d'exploitation** | Windows 10 (64 bits) | Windows 11 (64 bits) |
+| **Processeur** | Intel Core i5-4460 | Intel Core i7-8700K |
+| **Mémoire** | 8 Go de RAM | 16 Go de RAM |
+| **Carte graphique** | NVIDIA GeForce GTX 960 | NVIDIA GeForce RTX 2060 |
+| **DirectX** | Version 11 | Version 12 |
+| **Espace de stockage** | 30 Go d'espace disponible | 30 Go sur SSD recommandé |
+
+<Callout type="warning" title="Exigences sur Console">
+Les joueurs PlayStation 5 ont besoin d'un abonnement actif à **PlayStation Plus** pour jouer en ligne. Les joueurs Xbox ont besoin d'un abonnement **Xbox Game Pass (Core ou Ultimate)**. Les joueurs Steam n'ont besoin d'aucun abonnement secondaire pour le PvP en ligne.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Foire Aux Questions">
+
+<FAQ items={[
+  {
+    question: "Comment obtenir un code pour l'alpha fermée d'avatar legends the fighting game ?",
+    answer: "Il n'y a pas de 'codes' traditionnels pour ce test. L'accès est accordé automatiquement dans la bibliothèque de votre plateforme dès que vous précommandez le jeu sur Steam, le PlayStation Store ou le Xbox Store."
+  },
+  {
+    question: "Ma progression de l'alpha sera-t-elle conservée dans le jeu final ?",
+    answer: "Non, la progression telle que le niveau de joueur ou le classement classé sera réinitialisée. Cependant, les récompenses de précommande comme l'apparence Appa Samouraï et les couleurs Or resteront liées à votre compte."
+  },
+  {
+    question: "Puis-je jouer à l'alpha fermée hors ligne ?",
+    answer: "L'alpha se concentre sur les tests de charge en ligne, mais elle inclut un accès au Mode Entraînement et au Versus Local afin que vous puissiez vous exercer aux mécaniques sans latence réseau."
+  },
+  {
+    question: "La Nintendo Switch est-elle incluse dans l'alpha de juillet ?",
+    answer: "La période de test du 2 au 5 juillet est actuellement limitée aux PC, PS5 et Xbox Series X|S. La version Nintendo Switch est prévue pour la sortie complète le 23 juillet."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,184 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Análise de Avatar Legends: The Fighting Game: Detalhes do Combate de 2026",
+  description: "Explore nossa análise de Avatar Legends: The Fighting Game, cobrindo o elenco de 2026, mecânicas de Flow, netcode de rollback e bônus de pré-venda para PC, PS5 e Xbox.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/111f33/fff?text=Avatar+Legends+Combat+Review",
+  date: "2026-07-04",
+  author: "Equipe Wiki de Avatar Legends: The Fighting Game"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Análise de Avatar Legends: The Fighting Game**: Um jogo de luta 2D de alta fidelidade com 12 personagens no lançamento e netcode de rollback proprietário.
+- **Data de Lançamento**: O lançamento digital completo está agendado para **23 de julho de 2026**, com um beta fechado ocorrendo de 2 a 5 de julho de 2026.
+- **Mecânica Principal**: O **Sistema de Fluxo (Flow System)** redefine a movimentação, permitindo esquivas fluidas e transições aéreas específicas de cada personagem.
+- **Plataformas**: Disponível no Steam, PlayStation 5 e Xbox Series X|S por US$ 29,99 (Edição Padrão).
+- **Pós-Lançamento**: Um Passe do Ano 1 está confirmado, adicionando cinco personagens, incluindo Tio Iroh e Ty Lee.
+</Callout>
+
+<Section icon={Map} title="Análise de Avatar Legends: The Fighting Game: Visão Geral de Lançamento">
+
+A comunidade de jogos de luta aguarda há muito tempo por um jogo de luta 2D de nível competitivo ambientado no universo Avatar. Com base em nosso acesso antecipado e testes beta em julho de 2026, **Avatar Legends: The Fighting Game** entrega uma experiência mecanicamente densa que respeita o material de origem, ao mesmo tempo em que atende aos entusiastas ávidos por jogos de luta. Desenvolvido com foco na precisão 1v1, o jogo se afasta dos tropos de \"party fighter\" para adotar um estilo de animação 2D tradicional que parece uma extensão de alto orçamento da série original.
+
+| Recurso | Especificação | Detalhes |
+| :--- | :--- | :--- |
+| **Data de Lançamento** | **23 de julho de 2026** | Lançamento digital completo em todas as principais plataformas |
+| **Janela do Beta** | 2 a 5 de julho de 2026 | Exclusivo para participantes da pré-venda |
+| **Preço Padrão** | **US$ 29,99** | Jogo base + 12 lutadores de lançamento |
+| **Preço Deluxe** | US$ 49,99 | Inclui Passe do Ano 1 + Extras Digitais |
+| **Plataformas** | PC, PS5, Xbox, Switch | Switch 2 e edições físicas chegando no final de 2026 |
+
+<Callout type="tip" title="Dica de Pré-venda">
+Se você planeja entrar na cena competitiva, a pré-venda é altamente recomendada. Ela concede acesso imediato ao Beta Fechado de julho de 2026 e fornece um voto permanente para o quinto personagem do Passe do Ano 1.
+</Callout>
+
+O jogo é lançado com um elenco focado de 12 lutadores, garantindo que cada estilo de dobra pareça distinto. Ao contrário de outros títulos licenciados que muitas vezes sofrem com conjuntos de movimentos redundantes, este título trata a \"Dobra de Fogo\" de forma diferente, dependendo se você está jogando com o estilo duelista de Zuko ou com a ofensiva aérea de alta pressão de Azula.
+
+</Section>
+
+<Section icon={Swords} title="Análise do Elenco: Os 12 Lutadores de Lançamento">
+
+O coração de qualquer **análise de Avatar Legends: The Fighting Game** é o seu elenco. Os desenvolvedores selecionaram uma lista que abrange *A Lenda de Aang*, *A Lenda de Korra* e o folclore mais amplo de Avatar. Cada personagem é acompanhado por três opções de personagens de suporte, que funcionam como assistências estratégicas em vez de parceiros de troca completa (tag partners).
+
+<CardGrid cols={3}>
+  <Card title="Aang & Korra">
+    - **Estilo**: Dobra de Avatar multi-elementar
+    - **Foco**: Alta mobilidade e pressão agressiva
+    - **Variante**: Versões separadas do \"Estado Avatar\" disponíveis
+  </Card>
+  <Card title="Zuko & Azula">
+    - **Estilo**: Duelo da Nação do Fogo
+    - **Foco**: Contra-ataques e armadilhas aéreas
+    - **Identidade**: Fogo de precisão vs. pressão de relâmpago
+  </Card>
+  <Card title="Katara & Toph">
+    - **Estilo**: Mestria em Água e Terra
+    - **Foco**: Controle de zona e golpes de grande potência
+    - **Identidade**: Transições fluidas vs. defesa inabalável
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Diversidade de Personagens">
+A inclusão de não-dobradores como Sokka garante que o meta não seja apenas sobre guerras de projéteis. O uso da Espada de Meteorito e do bumerangue por Sokka cria um arquétipo \"traiçoeiro\" único que pune dobradores excessivamente ansiosos.
+</Callout>
+
+| Personagem | Série de Origem | Arquétipo de Luta | Elemento de Dobra |
+| :--- | :--- | :--- | :--- |
+| **Aang** | ATLA | Rushdown / Equilibrado | Ar (Primário) |
+| **Korra** | TLOK | Brawler Agressivo | Todos os Elementos |
+| **Zuko** | ATLA | Duelista de Médio Alcance | Fogo |
+| **Katara** | ATLA | Zoner / Curandeiro | Água |
+| **Toph** | ATLA | Grappler / Poder | Terra |
+| **Azula** | ATLA | Pressão Aérea | Fogo Azul / Relâmpago |
+| **Sokka** | ATLA | Gadget / Mix-up | Não-dobrador (Espada) |
+| **Zaheer** | TLOK | Voo de Alta Mobilidade | Ar |
+| **Kyoshi** | Lore | Batedor Pesado | Terra / Leques |
+| **Ozai** | ATLA | Arquétipo de Chefe | Fogo |
+
+</Section>
+
+<Section icon={Target} title="Mecânicas de Combate: Os Sistemas de Fluxo e Energia">
+
+O que separa este título de outros jogos licenciados é sua profundidade mecânica. O combate é construído sobre a **Mecânica de Fluxo (Flow)** e **Pontos de Energia**. O Fluxo não é apenas uma ferramenta de movimento; é um sistema universal que permite a cada personagem cancelar animações em avanços evasivos ou deslizes.
+
+<Steps>
+  <Step num="1" title="Dominando o Fluxo">
+    O Fluxo permite que você deslize sob projéteis ou se lance no ar com um único comando. Aprender as rotas específicas de Fluxo para o seu personagem principal é o primeiro passo para o jogo de alto nível.
+  </Step>
+  <Step num="2" title="Acumulando Energia">
+    Pontos de Energia (EP) são ganhos através de ataques bem-sucedidos e bloqueios no tempo certo. Você pode armazenar até três barras de Energia para fortalecer seus movimentos mais devastadores.
+  </Step>
+  <Step num="3" title="Movimentos Especiais Aprimorados">
+    Ao gastar uma barra de Energia, você pode aprimorar um movimento especial (ex: o giro de fogo de Zuko), adicionando armadura, golpes extras ou melhores frames de recuperação.
+  </Step>
+  <Step num="4" title="Artes Super Cinematográficas">
+    A expressão máxima da dobra. Gastar todas as três barras ativa uma Arte Super cinematográfica que causa dano massivo e pode virar o jogo em um round perdido.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Gerenciamento de Barra">
+Não desperdice sua Energia em especiais aprimorados se eles não garantirem um nocaute. No meta atual de 2026, economizar a barra para uma punição com Arte Super é frequentemente mais eficaz do que pequenos aumentos de dano.
+</Callout>
+
+Os estilos de dobra também estão profundamente integrados aos dados de frames. Dobradores de terra geralmente têm frames de início mais lentos, mas propriedades de \"super armadura\" mais altas, enquanto dobradores de ar têm os frames de recuperação mais rápidos do jogo, tornando-os incrivelmente difíceis de punir no bloqueio.
+
+</Section>
+
+<Section icon={Shield} title="Infraestrutura Online e Modos de Jogo">
+
+Para um jogo de luta competitivo em 2026, o netcode é tudo. Esta **análise de Avatar Legends: The Fighting Game** confirma que os desenvolvedores implementaram um **netcode de rollback proprietário** juntamente com suporte total para cross-play. Isso garante que um jogador de PS5 em Nova York possa lutar contra um jogador de PC em Londres com problemas mínimos de latência.
+
+| Modo | Categoria | Descrição |
+| :--- | :--- | :--- |
+| **Modo História** | Um Jogador | Narrativa original por Michael Dante DiMartino |
+| **Modo Arcade** | Um Jogador | Finais individuais de personagens e lore |
+| **Partida Ranqueada** | Online | 1v1 competitivo com matchmaking baseado em habilidade |
+| **Casual/Lobbies** | Online | Partidas sem estresse e hubs de comunidade |
+| **Modo Treino** | Prática | Inclui dados de frames e visualização de hitbox |
+| **Espectador/Replay** | Comunidade | Estude partidas de alto nível ou analise as suas próprias |
+
+<Callout type="info" title="Detalhes do Cross-Play">
+O cross-play está ativado por padrão. No entanto, jogadores de console podem optar por filtrar por plataforma se preferirem permanecer nos ecossistemas PlayStation ou Xbox para torneios específicos.
+</Callout>
+
+O Modo História é um destaque significativo, apresentando uma narrativa original centrada no destino do tempo e do espaço. Ao contrário de muitos jogos de luta onde a história é secundária, a apresentação cinematográfica aqui rivaliza com a série animada original, tornando-o obrigatório para os fãs de lore.
+
+</Section>
+
+<Section icon={Trophy} title="Edições, Bônus de Pré-venda e DLC do Ano 1">
+
+O jogo tem um preço agressivo de US$ 29,99 para a Edição Padrão, tornando-o altamente acessível. No entanto, a Edição Digital Deluxe oferece um valor significativo para aqueles comprometidos com o crescimento a longo prazo do jogo.
+
+<Checklist
+  id="preorder-bonuses"
+  title="Lista de Recompensas de Pré-venda:"
+  items={[
+    "Acesso ao Beta Fechado de 2 a 5 de julho",
+    "Skin de Personagem de Suporte Appa Samurai",
+    "Cores Douradas exclusivas para Aang, Korra, Zuko, Katara, Toph e Sokka",
+    "Direito a voto para o 5º personagem do Passe do Ano 1"
+  ]}
+/>
+
+| Edição | Preço | Conteúdo Principal |
+| :--- | :--- | :--- |
+| **Padrão** | **US$ 29,99** | Jogo Base, 12 Lutadores, Todos os Modos Principais |
+| **Digital Deluxe** | **US$ 49,99** | Jogo Base + Passe do Ano 1 + Artbook/Trilha Sonora Digital |
+
+<Callout type="success" title="Valor do Passe do Ano 1">
+O Passe do Ano 1 adiciona cinco personagens jogáveis. Quatro já estão confirmados: **Tio Iroh**, **Ty Lee**, **Lin Beifong** e **Bolin**. A quinta vaga está sendo decidida atualmente por uma votação da comunidade entre candidatos como Amon e Rei Bumi.
+</Callout>
+
+O roteiro para 2026 sugere um fluxo constante de conteúdo, incluindo novos cenários como as \"Selvas Espirituais\" e personagens de suporte adicionais para manter o meta tático atualizado.
+
+</Section>
+
+<Section icon={Sparkles} title="Perguntas Frequentes (FAQ) de Avatar Legends: The Fighting Game">
+
+<FAQ items={[
+  {
+    question: "Existe uma edição física de Avatar Legends: The Fighting Game?",
+    answer: "Uma edição física está planejada para o final de 2026. O lançamento inicial em 23 de julho é apenas digital para PC, PS5 e Xbox Series X|S."
+  },
+  {
+    question: "O jogo suporta multiplayer local?",
+    answer: "Sim, o jogo suporta partidas versus locais 1v2 em todas as plataformas, incluindo opções de tela compartilhada/dividida no Xbox e PlayStation."
+  },
+  {
+    question: "Como funcionam os personagens de suporte no combate?",
+    answer: "Cada lutador escolhe um de três personagens de suporte. Eles podem ser chamados para realizar um movimento de assistência específico que ajuda em combos, defesa ou controle de espaço."
+  },
+  {
+    question: "O netcode de rollback está disponível em todas as plataformas?",
+    answer: "Sim, o netcode de rollback proprietário está implementado no Steam, PS5 e Xbox Series X|S para garantir uma experiência competitiva consistente."
+  }
+]} />
+
+</Section>

@@ -1,1 +1,706 @@
-{}
+{
+  "en": {
+    "beta": [
+      {
+        "slug": "avatar-legends-the-fighting-game-beta-access",
+        "file": "avatar-legends-the-fighting-game-beta-access"
+      },
+      {
+        "slug": "avatar-legends-the-fighting-game-beta-sign-up",
+        "file": "avatar-legends-the-fighting-game-beta-sign-up"
+      },
+      {
+        "slug": "avatar-legends-the-fighting-game-beta",
+        "file": "avatar-legends-the-fighting-game-beta"
+      },
+      {
+        "slug": "avatar-legends-the-fighting-game-closed-alpha",
+        "file": "avatar-legends-the-fighting-game-closed-alpha"
+      },
+      {
+        "slug": "avatar-legends-the-fighting-game-closed-beta",
+        "file": "avatar-legends-the-fighting-game-closed-beta"
+      },
+      {
+        "slug": "avatar-legends-the-fighting-game-open-beta",
+        "file": "avatar-legends-the-fighting-game-open-beta"
+      }
+    ],
+    "dlc": [
+      {
+        "slug": "avatar-legends-the-fighting-game-dlc-characters",
+        "file": "avatar-legends-the-fighting-game-dlc-characters"
+      },
+      {
+        "slug": "avatar-legends-the-fighting-game-dlc",
+        "file": "avatar-legends-the-fighting-game-dlc"
+      },
+      {
+        "slug": "avatar-legends-the-fighting-game-vote",
+        "file": "avatar-legends-the-fighting-game-vote"
+      },
+      {
+        "slug": "avatar-legends-the-fighting-game-year-1-pass-vote",
+        "file": "avatar-legends-the-fighting-game-year-1-pass-vote"
+      },
+      {
+        "slug": "avatar-legends-the-fighting-game-year-1-pass",
+        "file": "avatar-legends-the-fighting-game-year-1-pass"
+      }
+    ],
+    "editions": [
+      {
+        "slug": "avatar-legends-the-fighting-game-collector-s-edition",
+        "file": "avatar-legends-the-fighting-game-collector's-edition"
+      },
+      {
+        "slug": "avatar-legends-the-fighting-game-deluxe-edition",
+        "file": "avatar-legends-the-fighting-game-deluxe-edition"
+      },
+      {
+        "slug": "avatar-legends-the-fighting-game-esrb",
+        "file": "avatar-legends-the-fighting-game-esrb"
+      },
+      {
+        "slug": "avatar-legends-the-fighting-game-physical-copy",
+        "file": "avatar-legends-the-fighting-game-physical-copy"
+      },
+      {
+        "slug": "avatar-legends-the-fighting-game-physical-edition",
+        "file": "avatar-legends-the-fighting-game-physical-edition"
+      },
+      {
+        "slug": "avatar-legends-the-fighting-game-pre-order",
+        "file": "avatar-legends-the-fighting-game-pre-order"
+      },
+      {
+        "slug": "avatar-legends-the-fighting-game-price",
+        "file": "avatar-legends-the-fighting-game-price"
+      }
+    ],
+    "online": [
+      {
+        "slug": "avatar-legends-the-fighting-game-crossplay",
+        "file": "avatar-legends-the-fighting-game-crossplay"
+      },
+      {
+        "slug": "avatar-legends-the-fighting-game-multiplayer",
+        "file": "avatar-legends-the-fighting-game-multiplayer"
+      },
+      {
+        "slug": "avatar-legends-the-fighting-game-online",
+        "file": "avatar-legends-the-fighting-game-online"
+      }
+    ],
+    "platforms": [
+      {
+        "slug": "avatar-legends-the-fighting-game-pc",
+        "file": "avatar-legends-the-fighting-game-pc"
+      },
+      {
+        "slug": "avatar-legends-the-fighting-game-platforms",
+        "file": "avatar-legends-the-fighting-game-platforms"
+      },
+      {
+        "slug": "avatar-legends-the-fighting-game-ps4",
+        "file": "avatar-legends-the-fighting-game-ps4"
+      },
+      {
+        "slug": "avatar-legends-the-fighting-game-ps5",
+        "file": "avatar-legends-the-fighting-game-ps5"
+      },
+      {
+        "slug": "avatar-legends-the-fighting-game-steam-deck",
+        "file": "avatar-legends-the-fighting-game-steam-deck"
+      },
+      {
+        "slug": "avatar-legends-the-fighting-game-switch-2",
+        "file": "avatar-legends-the-fighting-game-switch-2"
+      },
+      {
+        "slug": "avatar-legends-the-fighting-game-switch",
+        "file": "avatar-legends-the-fighting-game-switch"
+      },
+      {
+        "slug": "avatar-legends-the-fighting-game-xbox",
+        "file": "avatar-legends-the-fighting-game-xbox"
+      }
+    ],
+    "release": [
+      {
+        "slug": "avatar-legends-the-fighting-game-delay",
+        "file": "avatar-legends-the-fighting-game-delay"
+      },
+      {
+        "slug": "avatar-legends-the-fighting-game-news",
+        "file": "avatar-legends-the-fighting-game-news"
+      },
+      {
+        "slug": "avatar-legends-the-fighting-game-release-date",
+        "file": "avatar-legends-the-fighting-game-release-date"
+      },
+      {
+        "slug": "avatar-legends-the-fighting-game-release-time-pst",
+        "file": "avatar-legends-the-fighting-game-release-time-pst"
+      },
+      {
+        "slug": "avatar-legends-the-fighting-game-review",
+        "file": "avatar-legends-the-fighting-game-review"
+      }
+    ],
+    "roster": [
+      {
+        "slug": "avatar-legends-the-fighting-game-all-characters",
+        "file": "avatar-legends-the-fighting-game-all-characters"
+      },
+      {
+        "slug": "avatar-legends-the-fighting-game-character-roster",
+        "file": "avatar-legends-the-fighting-game-character-roster"
+      },
+      {
+        "slug": "avatar-legends-the-fighting-game-characters",
+        "file": "avatar-legends-the-fighting-game-characters"
+      },
+      {
+        "slug": "avatar-legends-the-fighting-game-roster",
+        "file": "avatar-legends-the-fighting-game-roster"
+      },
+      {
+        "slug": "avatar-legends-the-fighting-game-support-characters",
+        "file": "avatar-legends-the-fighting-game-support-characters"
+      },
+      {
+        "slug": "avatar-legends-the-fighting-game-voice-actors",
+        "file": "avatar-legends-the-fighting-game-voice-actors"
+      }
+    ]
+  },
+  "es": {
+    "beta": [
+      {
+        "slug": "avatar-legends-the-fighting-game-beta-access",
+        "file": "avatar-legends-the-fighting-game-beta-access"
+      },
+      {
+        "slug": "avatar-legends-the-fighting-game-beta-sign-up",
+        "file": "avatar-legends-the-fighting-game-beta-sign-up"
+      },
+      {
+        "slug": "avatar-legends-the-fighting-game-beta",
+        "file": "avatar-legends-the-fighting-game-beta"
+      },
+      {
+        "slug": "avatar-legends-the-fighting-game-closed-alpha",
+        "file": "avatar-legends-the-fighting-game-closed-alpha"
+      },
+      {
+        "slug": "avatar-legends-the-fighting-game-closed-beta",
+        "file": "avatar-legends-the-fighting-game-closed-beta"
+      },
+      {
+        "slug": "avatar-legends-the-fighting-game-open-beta",
+        "file": "avatar-legends-the-fighting-game-open-beta"
+      }
+    ],
+    "dlc": [
+      {
+        "slug": "avatar-legends-the-fighting-game-dlc-characters",
+        "file": "avatar-legends-the-fighting-game-dlc-characters"
+      },
+      {
+        "slug": "avatar-legends-the-fighting-game-dlc",
+        "file": "avatar-legends-the-fighting-game-dlc"
+      },
+      {
+        "slug": "avatar-legends-the-fighting-game-vote",
+        "file": "avatar-legends-the-fighting-game-vote"
+      },
+      {
+        "slug": "avatar-legends-the-fighting-game-year-1-pass-vote",
+        "file": "avatar-legends-the-fighting-game-year-1-pass-vote"
+      },
+      {
+        "slug": "avatar-legends-the-fighting-game-year-1-pass",
+        "file": "avatar-legends-the-fighting-game-year-1-pass"
+      }
+    ],
+    "editions": [
+      {
+        "slug": "avatar-legends-the-fighting-game-collector-s-edition",
+        "file": "avatar-legends-the-fighting-game-collector's-edition"
+      },
+      {
+        "slug": "avatar-legends-the-fighting-game-deluxe-edition",
+        "file": "avatar-legends-the-fighting-game-deluxe-edition"
+      },
+      {
+        "slug": "avatar-legends-the-fighting-game-esrb",
+        "file": "avatar-legends-the-fighting-game-esrb"
+      },
+      {
+        "slug": "avatar-legends-the-fighting-game-physical-copy",
+        "file": "avatar-legends-the-fighting-game-physical-copy"
+      },
+      {
+        "slug": "avatar-legends-the-fighting-game-physical-edition",
+        "file": "avatar-legends-the-fighting-game-physical-edition"
+      },
+      {
+        "slug": "avatar-legends-the-fighting-game-pre-order",
+        "file": "avatar-legends-the-fighting-game-pre-order"
+      },
+      {
+        "slug": "avatar-legends-the-fighting-game-price",
+        "file": "avatar-legends-the-fighting-game-price"
+      }
+    ],
+    "online": [
+      {
+        "slug": "avatar-legends-the-fighting-game-crossplay",
+        "file": "avatar-legends-the-fighting-game-crossplay"
+      },
+      {
+        "slug": "avatar-legends-the-fighting-game-multiplayer",
+        "file": "avatar-legends-the-fighting-game-multiplayer"
+      },
+      {
+        "slug": "avatar-legends-the-fighting-game-online",
+        "file": "avatar-legends-the-fighting-game-online"
+      }
+    ],
+    "platforms": [
+      {
+        "slug": "avatar-legends-the-fighting-game-pc",
+        "file": "avatar-legends-the-fighting-game-pc"
+      },
+      {
+        "slug": "avatar-legends-the-fighting-game-platforms",
+        "file": "avatar-legends-the-fighting-game-platforms"
+      },
+      {
+        "slug": "avatar-legends-the-fighting-game-ps4",
+        "file": "avatar-legends-the-fighting-game-ps4"
+      },
+      {
+        "slug": "avatar-legends-the-fighting-game-ps5",
+        "file": "avatar-legends-the-fighting-game-ps5"
+      },
+      {
+        "slug": "avatar-legends-the-fighting-game-steam-deck",
+        "file": "avatar-legends-the-fighting-game-steam-deck"
+      },
+      {
+        "slug": "avatar-legends-the-fighting-game-switch-2",
+        "file": "avatar-legends-the-fighting-game-switch-2"
+      },
+      {
+        "slug": "avatar-legends-the-fighting-game-switch",
+        "file": "avatar-legends-the-fighting-game-switch"
+      },
+      {
+        "slug": "avatar-legends-the-fighting-game-xbox",
+        "file": "avatar-legends-the-fighting-game-xbox"
+      }
+    ],
+    "release": [
+      {
+        "slug": "avatar-legends-the-fighting-game-delay",
+        "file": "avatar-legends-the-fighting-game-delay"
+      },
+      {
+        "slug": "avatar-legends-the-fighting-game-news",
+        "file": "avatar-legends-the-fighting-game-news"
+      },
+      {
+        "slug": "avatar-legends-the-fighting-game-release-date",
+        "file": "avatar-legends-the-fighting-game-release-date"
+      },
+      {
+        "slug": "avatar-legends-the-fighting-game-release-time-pst",
+        "file": "avatar-legends-the-fighting-game-release-time-pst"
+      },
+      {
+        "slug": "avatar-legends-the-fighting-game-review",
+        "file": "avatar-legends-the-fighting-game-review"
+      }
+    ],
+    "roster": [
+      {
+        "slug": "avatar-legends-the-fighting-game-all-characters",
+        "file": "avatar-legends-the-fighting-game-all-characters"
+      },
+      {
+        "slug": "avatar-legends-the-fighting-game-character-roster",
+        "file": "avatar-legends-the-fighting-game-character-roster"
+      },
+      {
+        "slug": "avatar-legends-the-fighting-game-characters",
+        "file": "avatar-legends-the-fighting-game-characters"
+      },
+      {
+        "slug": "avatar-legends-the-fighting-game-roster",
+        "file": "avatar-legends-the-fighting-game-roster"
+      },
+      {
+        "slug": "avatar-legends-the-fighting-game-support-characters",
+        "file": "avatar-legends-the-fighting-game-support-characters"
+      },
+      {
+        "slug": "avatar-legends-the-fighting-game-voice-actors",
+        "file": "avatar-legends-the-fighting-game-voice-actors"
+      }
+    ]
+  },
+  "fr": {
+    "beta": [
+      {
+        "slug": "avatar-legends-the-fighting-game-beta-access",
+        "file": "avatar-legends-the-fighting-game-beta-access"
+      },
+      {
+        "slug": "avatar-legends-the-fighting-game-beta-sign-up",
+        "file": "avatar-legends-the-fighting-game-beta-sign-up"
+      },
+      {
+        "slug": "avatar-legends-the-fighting-game-beta",
+        "file": "avatar-legends-the-fighting-game-beta"
+      },
+      {
+        "slug": "avatar-legends-the-fighting-game-closed-alpha",
+        "file": "avatar-legends-the-fighting-game-closed-alpha"
+      },
+      {
+        "slug": "avatar-legends-the-fighting-game-closed-beta",
+        "file": "avatar-legends-the-fighting-game-closed-beta"
+      },
+      {
+        "slug": "avatar-legends-the-fighting-game-open-beta",
+        "file": "avatar-legends-the-fighting-game-open-beta"
+      }
+    ],
+    "dlc": [
+      {
+        "slug": "avatar-legends-the-fighting-game-dlc-characters",
+        "file": "avatar-legends-the-fighting-game-dlc-characters"
+      },
+      {
+        "slug": "avatar-legends-the-fighting-game-dlc",
+        "file": "avatar-legends-the-fighting-game-dlc"
+      },
+      {
+        "slug": "avatar-legends-the-fighting-game-vote",
+        "file": "avatar-legends-the-fighting-game-vote"
+      },
+      {
+        "slug": "avatar-legends-the-fighting-game-year-1-pass-vote",
+        "file": "avatar-legends-the-fighting-game-year-1-pass-vote"
+      },
+      {
+        "slug": "avatar-legends-the-fighting-game-year-1-pass",
+        "file": "avatar-legends-the-fighting-game-year-1-pass"
+      }
+    ],
+    "editions": [
+      {
+        "slug": "avatar-legends-the-fighting-game-collector-s-edition",
+        "file": "avatar-legends-the-fighting-game-collector's-edition"
+      },
+      {
+        "slug": "avatar-legends-the-fighting-game-deluxe-edition",
+        "file": "avatar-legends-the-fighting-game-deluxe-edition"
+      },
+      {
+        "slug": "avatar-legends-the-fighting-game-esrb",
+        "file": "avatar-legends-the-fighting-game-esrb"
+      },
+      {
+        "slug": "avatar-legends-the-fighting-game-physical-copy",
+        "file": "avatar-legends-the-fighting-game-physical-copy"
+      },
+      {
+        "slug": "avatar-legends-the-fighting-game-physical-edition",
+        "file": "avatar-legends-the-fighting-game-physical-edition"
+      },
+      {
+        "slug": "avatar-legends-the-fighting-game-pre-order",
+        "file": "avatar-legends-the-fighting-game-pre-order"
+      },
+      {
+        "slug": "avatar-legends-the-fighting-game-price",
+        "file": "avatar-legends-the-fighting-game-price"
+      }
+    ],
+    "online": [
+      {
+        "slug": "avatar-legends-the-fighting-game-crossplay",
+        "file": "avatar-legends-the-fighting-game-crossplay"
+      },
+      {
+        "slug": "avatar-legends-the-fighting-game-multiplayer",
+        "file": "avatar-legends-the-fighting-game-multiplayer"
+      },
+      {
+        "slug": "avatar-legends-the-fighting-game-online",
+        "file": "avatar-legends-the-fighting-game-online"
+      }
+    ],
+    "platforms": [
+      {
+        "slug": "avatar-legends-the-fighting-game-pc",
+        "file": "avatar-legends-the-fighting-game-pc"
+      },
+      {
+        "slug": "avatar-legends-the-fighting-game-platforms",
+        "file": "avatar-legends-the-fighting-game-platforms"
+      },
+      {
+        "slug": "avatar-legends-the-fighting-game-ps4",
+        "file": "avatar-legends-the-fighting-game-ps4"
+      },
+      {
+        "slug": "avatar-legends-the-fighting-game-ps5",
+        "file": "avatar-legends-the-fighting-game-ps5"
+      },
+      {
+        "slug": "avatar-legends-the-fighting-game-steam-deck",
+        "file": "avatar-legends-the-fighting-game-steam-deck"
+      },
+      {
+        "slug": "avatar-legends-the-fighting-game-switch-2",
+        "file": "avatar-legends-the-fighting-game-switch-2"
+      },
+      {
+        "slug": "avatar-legends-the-fighting-game-switch",
+        "file": "avatar-legends-the-fighting-game-switch"
+      },
+      {
+        "slug": "avatar-legends-the-fighting-game-xbox",
+        "file": "avatar-legends-the-fighting-game-xbox"
+      }
+    ],
+    "release": [
+      {
+        "slug": "avatar-legends-the-fighting-game-delay",
+        "file": "avatar-legends-the-fighting-game-delay"
+      },
+      {
+        "slug": "avatar-legends-the-fighting-game-news",
+        "file": "avatar-legends-the-fighting-game-news"
+      },
+      {
+        "slug": "avatar-legends-the-fighting-game-release-date",
+        "file": "avatar-legends-the-fighting-game-release-date"
+      },
+      {
+        "slug": "avatar-legends-the-fighting-game-release-time-pst",
+        "file": "avatar-legends-the-fighting-game-release-time-pst"
+      },
+      {
+        "slug": "avatar-legends-the-fighting-game-review",
+        "file": "avatar-legends-the-fighting-game-review"
+      }
+    ],
+    "roster": [
+      {
+        "slug": "avatar-legends-the-fighting-game-all-characters",
+        "file": "avatar-legends-the-fighting-game-all-characters"
+      },
+      {
+        "slug": "avatar-legends-the-fighting-game-character-roster",
+        "file": "avatar-legends-the-fighting-game-character-roster"
+      },
+      {
+        "slug": "avatar-legends-the-fighting-game-characters",
+        "file": "avatar-legends-the-fighting-game-characters"
+      },
+      {
+        "slug": "avatar-legends-the-fighting-game-roster",
+        "file": "avatar-legends-the-fighting-game-roster"
+      },
+      {
+        "slug": "avatar-legends-the-fighting-game-support-characters",
+        "file": "avatar-legends-the-fighting-game-support-characters"
+      },
+      {
+        "slug": "avatar-legends-the-fighting-game-voice-actors",
+        "file": "avatar-legends-the-fighting-game-voice-actors"
+      }
+    ]
+  },
+  "pt": {
+    "beta": [
+      {
+        "slug": "avatar-legends-the-fighting-game-beta-access",
+        "file": "avatar-legends-the-fighting-game-beta-access"
+      },
+      {
+        "slug": "avatar-legends-the-fighting-game-beta-sign-up",
+        "file": "avatar-legends-the-fighting-game-beta-sign-up"
+      },
+      {
+        "slug": "avatar-legends-the-fighting-game-beta",
+        "file": "avatar-legends-the-fighting-game-beta"
+      },
+      {
+        "slug": "avatar-legends-the-fighting-game-closed-alpha",
+        "file": "avatar-legends-the-fighting-game-closed-alpha"
+      },
+      {
+        "slug": "avatar-legends-the-fighting-game-closed-beta",
+        "file": "avatar-legends-the-fighting-game-closed-beta"
+      },
+      {
+        "slug": "avatar-legends-the-fighting-game-open-beta",
+        "file": "avatar-legends-the-fighting-game-open-beta"
+      }
+    ],
+    "dlc": [
+      {
+        "slug": "avatar-legends-the-fighting-game-dlc-characters",
+        "file": "avatar-legends-the-fighting-game-dlc-characters"
+      },
+      {
+        "slug": "avatar-legends-the-fighting-game-dlc",
+        "file": "avatar-legends-the-fighting-game-dlc"
+      },
+      {
+        "slug": "avatar-legends-the-fighting-game-vote",
+        "file": "avatar-legends-the-fighting-game-vote"
+      },
+      {
+        "slug": "avatar-legends-the-fighting-game-year-1-pass-vote",
+        "file": "avatar-legends-the-fighting-game-year-1-pass-vote"
+      },
+      {
+        "slug": "avatar-legends-the-fighting-game-year-1-pass",
+        "file": "avatar-legends-the-fighting-game-year-1-pass"
+      }
+    ],
+    "editions": [
+      {
+        "slug": "avatar-legends-the-fighting-game-collector-s-edition",
+        "file": "avatar-legends-the-fighting-game-collector's-edition"
+      },
+      {
+        "slug": "avatar-legends-the-fighting-game-deluxe-edition",
+        "file": "avatar-legends-the-fighting-game-deluxe-edition"
+      },
+      {
+        "slug": "avatar-legends-the-fighting-game-esrb",
+        "file": "avatar-legends-the-fighting-game-esrb"
+      },
+      {
+        "slug": "avatar-legends-the-fighting-game-physical-copy",
+        "file": "avatar-legends-the-fighting-game-physical-copy"
+      },
+      {
+        "slug": "avatar-legends-the-fighting-game-physical-edition",
+        "file": "avatar-legends-the-fighting-game-physical-edition"
+      },
+      {
+        "slug": "avatar-legends-the-fighting-game-pre-order",
+        "file": "avatar-legends-the-fighting-game-pre-order"
+      },
+      {
+        "slug": "avatar-legends-the-fighting-game-price",
+        "file": "avatar-legends-the-fighting-game-price"
+      }
+    ],
+    "online": [
+      {
+        "slug": "avatar-legends-the-fighting-game-crossplay",
+        "file": "avatar-legends-the-fighting-game-crossplay"
+      },
+      {
+        "slug": "avatar-legends-the-fighting-game-multiplayer",
+        "file": "avatar-legends-the-fighting-game-multiplayer"
+      },
+      {
+        "slug": "avatar-legends-the-fighting-game-online",
+        "file": "avatar-legends-the-fighting-game-online"
+      }
+    ],
+    "platforms": [
+      {
+        "slug": "avatar-legends-the-fighting-game-pc",
+        "file": "avatar-legends-the-fighting-game-pc"
+      },
+      {
+        "slug": "avatar-legends-the-fighting-game-platforms",
+        "file": "avatar-legends-the-fighting-game-platforms"
+      },
+      {
+        "slug": "avatar-legends-the-fighting-game-ps4",
+        "file": "avatar-legends-the-fighting-game-ps4"
+      },
+      {
+        "slug": "avatar-legends-the-fighting-game-ps5",
+        "file": "avatar-legends-the-fighting-game-ps5"
+      },
+      {
+        "slug": "avatar-legends-the-fighting-game-steam-deck",
+        "file": "avatar-legends-the-fighting-game-steam-deck"
+      },
+      {
+        "slug": "avatar-legends-the-fighting-game-switch-2",
+        "file": "avatar-legends-the-fighting-game-switch-2"
+      },
+      {
+        "slug": "avatar-legends-the-fighting-game-switch",
+        "file": "avatar-legends-the-fighting-game-switch"
+      },
+      {
+        "slug": "avatar-legends-the-fighting-game-xbox",
+        "file": "avatar-legends-the-fighting-game-xbox"
+      }
+    ],
+    "release": [
+      {
+        "slug": "avatar-legends-the-fighting-game-delay",
+        "file": "avatar-legends-the-fighting-game-delay"
+      },
+      {
+        "slug": "avatar-legends-the-fighting-game-news",
+        "file": "avatar-legends-the-fighting-game-news"
+      },
+      {
+        "slug": "avatar-legends-the-fighting-game-release-date",
+        "file": "avatar-legends-the-fighting-game-release-date"
+      },
+      {
+        "slug": "avatar-legends-the-fighting-game-release-time-pst",
+        "file": "avatar-legends-the-fighting-game-release-time-pst"
+      },
+      {
+        "slug": "avatar-legends-the-fighting-game-review",
+        "file": "avatar-legends-the-fighting-game-review"
+      }
+    ],
+    "roster": [
+      {
+        "slug": "avatar-legends-the-fighting-game-all-characters",
+        "file": "avatar-legends-the-fighting-game-all-characters"
+      },
+      {
+        "slug": "avatar-legends-the-fighting-game-character-roster",
+        "file": "avatar-legends-the-fighting-game-character-roster"
+      },
+      {
+        "slug": "avatar-legends-the-fighting-game-characters",
+        "file": "avatar-legends-the-fighting-game-characters"
+      },
+      {
+        "slug": "avatar-legends-the-fighting-game-roster",
+        "file": "avatar-legends-the-fighting-game-roster"
+      },
+      {
+        "slug": "avatar-legends-the-fighting-game-support-characters",
+        "file": "avatar-legends-the-fighting-game-support-characters"
+      },
+      {
+        "slug": "avatar-legends-the-fighting-game-voice-actors",
+        "file": "avatar-legends-the-fighting-game-voice-actors"
+      }
+    ]
+  }
+}

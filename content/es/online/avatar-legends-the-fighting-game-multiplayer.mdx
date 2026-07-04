@@ -1,0 +1,220 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Multijugador de Avatar Legends the Fighting Game: Guía de Modos en Línea",
+  description: "Domina el multijugador de Avatar Legends the Fighting Game con nuestra guía sobre rollback netcode, crossplay, modos competitivos y mecánicas de control elemental.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Multiplayer+Online+Guide",
+  date: "2026-07-04",
+  author: "Equipo de la Wiki de Avatar Legends the Fighting Game",
+  keywords: "avatar legends, multijugador, rollback netcode, crossplay, guía de juego de lucha"
+}
+
+<Callout type="info" title="Guía Rápida">
+- El **multijugador de Avatar Legends the Fighting Game** cuenta con un sistema propio de **rollback netcode** para combates en línea 1v1 fluidos en todas las plataformas.
+- Se confirma el **soporte de Crossplay** para PC (Steam), PS5 y Xbox Series X|S, permitiendo una base de jugadores global unificada.
+- El juego ofrece **modos Clasificatorio, Casual y Salas (Lobby)**, junto con herramientas avanzadas de espectador y repetición para el estudio competitivo.
+- Los **Personajes de Apoyo** añaden una capa táctica al multijugador, permitiendo a los jugadores personalizar su estrategia de asistencia para cada combate.
+- La reserva del juego otorga acceso a la **Beta Cerrada (2-5 de julio de 2026)**, la primera gran oportunidad para probar el entorno en línea.
+</Callout>
+
+<Section icon={Target} title="Dominando el Multijugador de Avatar Legends the Fighting Game">
+
+El lanzamiento del **multijugador de avatar legends the fighting game** marca un hito significativo para los fans de la franquicia y la comunidad de juegos de lucha (FGC). Diseñado como un juego de lucha 2D 1v1 dedicado, el título prioriza la integridad competitiva a través de una infraestructura en línea moderna. Ya sea que estés escalando en las clasificaciones o creando salas privadas con amigos, entender los matices del entorno en línea es esencial para la victoria. El juego se aleja del simple machaqueo de botones, requiriendo que los jugadores dominen los estilos de control elemental y la mecánica propia "Flow" para triunfar en encuentros en línea de alto nivel.
+
+**Puntos Destacados del Vídeo:**
+- Resumen del sistema de combate 1v1 y la animación 2D dibujada a mano.
+- Vistazo a los 12 luchadores jugables, incluyendo a Aang, Korra y Zuko.
+- Demostración de los estilos de control elemental y las cinemáticas de las Superartes.
+- Revelación de la fecha de lanzamiento del 23 de julio de 2026 y los bonos de reserva.
+
+<YouTubeEmbed videoId="dv5rNqDdtXc" title="Avatar Legends: The Fighting Game - Tráiler de Reserva para Consolas" />
+
+El multijugador no se trata solo de fuerza bruta; se trata de cómo utilizas el entorno y a tu personaje de apoyo elegido. Con una plantilla de 12 luchadores jugables en el lanzamiento, el meta evolucionará rápidamente. Los jugadores que participen en las primeras ventanas de la beta tendrán una ventaja clara al comprender los datos de fotogramas (frame data) y los emparejamientos de personajes antes del lanzamiento completo el 23 de julio de 2026.
+
+<Callout type="tip" title="Recomendación del Editor">
+Si planeas jugar de forma competitiva, prioriza el uso de una conexión por cable Ethernet. Aunque el rollback netcode es excelente gestionando pequeñas fluctuaciones, los juegos de lucha requieren la conexión más estable posible para asegurar que tus comandos se registren exactamente cuando lo deseas.
+</Callout>
+
+| Característica | Disponibilidad | Detalles del Multijugador |
+| :--- | :--- | :--- |
+| **Máx. Jugadores** | 1v1 En línea | Formato competitivo dedicado para dos jugadores |
+| **Tipo de Netcode** | Rollback | Sistema propio para un juego de baja latencia |
+| **Crossplay** | Soporte Total | Juego unificado en PC, PS5 y Xbox Series X|S |
+| **Modo Clasificatorio**| Incluido | Emparejamiento por habilidad con niveles estacionales |
+| **Modo Casual** | Incluido | Partidas no clasificatorias para práctica y diversión |
+| **Salas en Línea** | Incluido | Salas personalizadas para grupos y comunidades |
+| **Modo Espectador** | Incluido | Mira partidas en vivo y aprende de los mejores jugadores |
+
+</Section>
+
+<Section icon={Shield} title="Netcode y Crossplay: La Base Técnica">
+
+La columna vertebral de cualquier juego de lucha moderno es su netcode. El **multijugador de Avatar Legends the Fighting Game** utiliza una solución propia de rollback netcode. A diferencia del netcode tradicional basado en retardo (delay), que pausa el juego para esperar datos, el rollback predice las entradas y "retrocede" el estado del juego si ocurre una discrepancia. Esto resulta en una experiencia en línea que se siente tan cercana al juego local como es posible, incluso contra oponentes a cientos de kilómetros de distancia.
+
+<CardGrid cols={2}>
+  <Card title="Beneficios del Rollback Netcode">
+    - **Retraso de Entrada Reducido**: Tus movimientos se ejecutan al instante sin importar el ping.
+    - **Consistencia Visual**: Animaciones fluidas incluso durante pequeñas pérdidas de paquetes.
+    - **Justicia Competitiva**: Evita el "lag switching" o ventajas injustas.
+  </Card>
+  <Card title="Ventajas del Crossplay">
+    - **Base de Jugadores Unificada**: Sin comunidades divididas entre PC y consolas.
+    - **Emparejamiento más Rápido**: Más jugadores significan menos tiempo de espera en Clasificatorias.
+    - **Juega con Amigos**: Conéctate con cualquier persona sin importar su hardware.
+  </Card>
+</CardGrid>
+
+Además del netcode, la inclusión de crossplay total asegura que la comunidad se mantenga vibrante en todas las plataformas. Ya sea que estés en Steam, PlayStation 5 o Xbox Series X|S, formarás parte del mismo grupo de emparejamiento. Esto es un gran triunfo para la salud a largo plazo del juego, ya que evita que la base de jugadores se fragmente.
+
+<Callout type="warning" title="Requisitos de Plataforma">
+Los jugadores de consola deben tener una suscripción activa a sus respectivos servicios para acceder al multijugador en línea. Esto incluye PlayStation Plus para PS5 y Xbox Game Pass (Core o Ultimate) para Xbox Series X|S.
+</Callout>
+
+| Plataforma | Servicio en Línea Requerido | Estado del Crossplay |
+| :--- | :--- | :--- |
+| **PC (Steam)** | Ninguno | Totalmente Habilitado |
+| **PlayStation 5** | PS Plus | Totalmente Habilitado |
+| **Xbox Series X|S** | Xbox Game Pass | Totalmente Habilitado |
+| **Nintendo Switch** | Switch Online | Totalmente Habilitado |
+
+</Section>
+
+<Section icon={Swords} title="Modos de Juego en Línea: De Salas Casuales a Clasificatorias">
+
+La suite multijugador está diseñada para satisfacer todos los niveles de habilidad. Para aquellos que buscan el desafío definitivo, el **Modo Clasificatorio** presenta un sistema de progresión donde ganas puntos por victorias y los pierdes por derrotas. Este modo utiliza un emparejamiento basado en la habilidad para asegurar que siempre te enfrentes a oponentes de nivel similar. A medida que subas de rango, desbloquearás recompensas cosméticas exclusivas y títulos que muestran tu dominio sobre los elementos.
+
+<Steps>
+  <Step num="1" title="Emparejamiento Casual">
+    Perfecto para calentar o probar nuevos personajes sin la presión de perder rango. Usa este modo para familiarizarte con el entorno en línea.
+  </Step>
+  <Step num="2" title="Ascenso Clasificatorio">
+    Entra en la arena competitiva para ganar tu lugar en las tablas de clasificación globales. Las partidas son estrictamente 1v1 y siguen las reglas estándar de torneo.
+  </Step>
+  <Step num="3" title="Salas Personalizadas">
+    Crea una sala privada para ti y tus amigos. Puedes establecer reglas específicas, rotar jugadores y usar el modo espectador para ver los combates.
+  </Step>
+  <Step num="4" title="Análisis de Repeticiones">
+    Cada partida en línea se guarda en tu Galería de Repeticiones. Usa esta herramienta para estudiar tus derrotas, identificar malos hábitos y analizar los datos de fotogramas de tu oponente.
+  </Step>
+</Steps>
+
+Para las comunidades y organizadores de torneos, los **modos de Sala y Espectador** son críticos. Las salas admiten múltiples jugadores, permitiendo rotaciones de "el ganador se queda" o juegos de llaves estructurados. Los espectadores pueden unirse a estas salas para ver la acción en vivo, lo cual es perfecto para transmisiones o eventos de la comunidad local. El sistema de repetición también te permite ver hitboxes y datos de fotogramas, convirtiendo cada combate en una oportunidad de aprendizaje.
+
+<Callout type="success" title="Consejo Multijugador">
+Usa el modo "Espectador" en salas de alto nivel para observar a los jugadores de Rango S. Presta mucha atención a cómo usan sus Personajes de Apoyo para romper la presión o extender combos; esto suele ser la diferencia entre un rango oro y uno platino.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Mecánicas de Combate Competitivo: Flow y Apoyos">
+
+El éxito en el multijugador depende en gran medida de dominar las mecánicas únicas del juego. La **Mecánica de Flow** es una herramienta versátil de movimiento y defensa que permite a los jugadores correr, evadir y deslizarse bajo proyectiles con un solo comando. En la arena en línea, dominar el Flow es la clave para superar a los personajes de "zoning" que dependen de proyectiles de largo alcance.
+
+Cada personaje también selecciona un **Personaje de Apoyo** antes de que comience el combate. Estos no son solo cosméticos; proporcionan asistencias únicas que pueden invocarse durante el combate. Por ejemplo, seleccionar a Appa como apoyo podría proporcionar una ráfaga de viento defensiva, mientras que otros apoyos podrían ofrecer presión ofensiva o mejoras de movimiento.
+
+| Mecánica | Propósito en el Multijugador | Estrategia Pro |
+| :--- | :--- | :--- |
+| **Flow** | Movimiento y Evasión | Úsalo para cancelar fotogramas de recuperación y mantenerte móvil |
+| **Puntos de Energía** | Gestión de Medidor | Ahórralos para las Superartes para cerrar las rondas |
+| **Asistencia de Apoyo**| Utilidad Táctica | Invócala durante una cadena de bloqueo para mantenerte a salvo |
+| **Superartes** | Remates de Gran Daño | Confírmalas tras un golpe exitoso de Flow |
+| **Estilos de Control** | Conocimiento del Matchup | Aprende el alcance del control de Tierra frente al de Aire |
+
+La sinergia entre tu luchador principal y tu personaje de apoyo define tu estilo de juego. Un jugador defensivo de Toph podría elegir un apoyo que proporcione movilidad extra para compensar su movimiento más lento, mientras que un jugador agresivo de Korra podría elegir un apoyo que añada aún más presión a sus ataques de corto alcance.
+
+<Callout type="info" title="Personalización de Apoyo">
+Reservar el juego otorga el aspecto de apoyo **Appa Samurái**. Aunque los aspectos son cosméticos, te permiten destacar en las salas en línea y mostrar tu dedicación temprana al juego.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Beneficios de Reserva y Acceso a la Beta Cerrada">
+
+Para asegurar un lanzamiento fluido, los desarrolladores organizarán una **Beta Cerrada del 2 al 5 de julio de 2026**. Este es un evento exclusivo para el multijugador diseñado para probar el estrés de los servidores y el rollback netcode. El acceso está garantizado para cualquiera que reserve las ediciones Estándar o Digital Deluxe. Es el momento perfecto para encontrar a tu "main" y empezar con ventaja en la competición.
+
+<Checklist
+  id="multiplayer-readiness"
+  title="Lista de Verificación Pre-Lanzamiento:"
+  items={[
+    "Reserva para acceder a la Beta Cerrada (2-5 de julio de 2026)",
+    "Descarga el cliente de la beta 24 horas antes del inicio",
+    "Prueba tu conexión Ethernet para asegurar estabilidad",
+    "Únete al Discord oficial para encontrar compañeros de práctica",
+    "Revisa la plantilla de 12 personajes para elegir a tu inicial"
+  ]}
+/>
+
+La Edición Digital Deluxe ($49.99) es particularmente valiosa para los entusiastas del multijugador, ya que incluye el **Pase del Año 1**. Este pase añade cinco personajes jugables adicionales tras el lanzamiento, incluyendo al Tío Iroh, Ty Lee, Lin Beifong y Bolin. Tener acceso a estos personajes temprano te permite aprender sus enfrentamientos antes de que se vuelvan comunes en las clasificaciones.
+
+| Edición | Precio | Contenido Multijugador |
+| :--- | :--- | :--- |
+| **Estándar** | $29.99 | Juego base, 12 luchadores, modos en línea |
+| **Digital Deluxe** | $49.99 | Juego base + Pase Año 1 (5 luchadores DLC) |
+| **Bono de Reserva** | N/A | Acceso Beta Cerrada, Aspecto Appa Samurái, Colores Oro |
+
+<Callout type="tip" title="Votación de la Comunidad">
+Los jugadores que reserven también podrán participar en la **Votación de Personaje del Pase del Año 1**. Esta es tu oportunidad de influir en el futuro meta multijugador ayudando a elegir al quinto personaje DLC de un grupo que incluye a Amon, Kuvira y el Rey Bumi.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Requisitos del Sistema y Conectividad de Plataforma">
+
+Para los jugadores de PC, asegurar que su hardware pueda mantener unos 60 FPS estables es obligatorio para el **multijugador de avatar legends the fighting game**. Los juegos de lucha están ligados a la tasa de fotogramas; si tu ordenador pierde fotogramas, puede desincronizar la partida en línea o hacer que el rollback netcode trabaje en exceso, creando una mala experiencia para ambos jugadores.
+
+<CardGrid cols={3}>
+  <Card title="Especificaciones Mínimas">
+    - **SO**: Windows 10 64-bit
+    - **GPU**: GTX 1050 Ti
+    - **RAM**: 8 GB
+  </Card>
+  <Card title="Especificaciones Recomendadas">
+    - **SO**: Windows 11
+    - **GPU**: RTX 2060 o superior
+    - **RAM**: 16 GB
+  </Card>
+  <Card title="Conectividad">
+    - **Internet**: 10 Mbps Subida/Bajada
+    - **Conexión**: Ethernet Requerido
+    - **Ping**: < 100ms recomendado
+  </Card>
+</CardGrid>
+
+El juego también es compatible con **Xbox Play Anywhere**, lo que significa que si compras la versión digital en Xbox, también la posees en la tienda de Windows PC con progreso compartido y rangos multijugador. Esta flexibilidad es excelente para los jugadores que se mueven entre una consola y un PC de escritorio.
+
+<Callout type="warning" title="Espacio de Almacenamiento">
+Asegúrate de tener al menos 25 GB de espacio libre. Aunque el juego utiliza recursos 2D dibujados a mano, las animaciones de alta resolución y las cinemáticas de las Superartes requieren un almacenamiento significativo para una carga fluida durante las transiciones en línea.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas Frecuentes del Multijugador">
+
+<FAQ items={[
+  {
+    question: "¿Tiene Avatar Legends the Fighting Game crossplay?",
+    answer: "Sí, el crossplay completo es compatible entre PC (Steam), PlayStation 5 y Xbox Series X|S, permitiendo que todos los jugadores compitan en el mismo grupo en línea."
+  },
+  {
+    question: "¿Cómo funciona el rollback netcode en este juego?",
+    answer: "El juego utiliza un sistema de rollback propio que predice las entradas de los jugadores para eliminar el lag percibido, asegurando una experiencia 1v1 receptiva incluso en conexiones a larga distancia."
+  },
+  {
+    question: "¿Hay alguna penalización por abandonar partidas antes de tiempo (rage-quitting)?",
+    answer: "Los desarrolladores han confirmado un sistema de 'penalización por abandono' para las partidas clasificatorias. Los que abandonen con frecuencia serán marcados, perderán puntos de rango y potencialmente serán emparejados solo con otros que abandonen."
+  },
+  {
+    question: "¿Puedo jugar al multijugador con un amigo de forma local?",
+    answer: "Sí, el juego incluye un modo Versus Local para juego 1v1 en la misma consola, además de su robusta suite multijugador en línea."
+  }
+]} />
+
+</Section>

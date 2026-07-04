@@ -1,0 +1,174 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, HelpCircle } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "avatar legends the fighting game pc : Liste des personnages & Guide système",
+  description: "Maîtrisez avatar legends the fighting game pc grâce à notre guide couvrant le roster de lancement de 12 personnages, la mécanique de Flow, les modes de jeu et la configuration PC requise.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/0b1626/fff?text=PC+Roster+and+System+Guide",
+  date: "2026-07-04",
+  author: "Équipe du Wiki avatar legends the fighting game",
+  keywords: "avatar legends, fighting game, pc, roster, guide"
+}
+
+<Callout type="info" title="Guide Rapide">
+- **Date de sortie sur PC** : Le lancement numérique complet est prévu pour le **23 juillet 2026** [1.1].
+- **Roster de lancement** : Comprend **12 personnages jouables** issus de l'univers d'Avatar [1.1, 1.4].
+- **Mécanique principale** : Les combats effrénés s'articulent autour du système de déplacement unique appelé **Flow** [4].
+- **Netcode** : Développé avec un **netcode rollback** propriétaire et une prise en charge complète du **crossplay** [1.4, 5].
+- **Tarifs** : L'Édition Standard est à **29,99 $** et l'Édition Deluxe Numérique est à **49,99 $** [1.1, 1.4].
+</Callout>
+
+<Section icon={Map} title="Avatar Legends: The Fighting Game – Sortie PC & Plateformes">
+
+Le jeu de combat élémentaire en 2D très attendu **avatar legends the fighting game pc** est officiellement programmé pour une sortie le **23 juillet 2026** [1.1]. Conçu comme un jeu de combat compétitif en 1v1 aux graphismes dessinés à la main, il transpose les arts martiaux élémentaires d'*Avatar : Le dernier maître de l'air* et de *La Légende de Korra* sur les systèmes modernes [1.4, 2]. Les joueurs PC pourront accéder au jeu via Steam, avec une intégration complète des options d'affichage modernes, de la mise à l'échelle des graphismes et de la prise en charge des manettes [1.1, 1.4].
+
+| Édition | Prix | Contenu Principal | Bonus de Précommande |
+|---|---|---|---|
+| **Édition Standard** | 29,99 $ | Jeu de base, 12 personnages de lancement, tous les modes hors ligne/en ligne | Accès Bêta Fermée, Appa Samouraï, Couleurs Or |
+| **Édition Deluxe Numérique** | 49,99 $ | Jeu de base, Pass Année 1 (5 DLC), Artbook numérique, Bande-son, HUDs | Accès Bêta Fermée, Appa Samouraï, Couleurs Or |
+
+<Callout type="tip" title="Période d'Accès de Précommande">
+La précommande de l'une ou l'autre édition offre un accès immédiat à la Bêta Fermée qui se déroulera du **2 au 5 juillet 2026**, ainsi qu'à l'apparence de soutien exclusive d'Appa Samouraï et aux variantes de couleur Or [1.1].
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Roster de Lancement & Styles de Maîtrise">
+
+Le jeu de base propose au lancement **12 personnages jouables** représentant différentes disciplines élémentaires ainsi que des styles de combat de non-maîtres [1.1, 1.4]. Chaque combattant présente des variations mécaniques uniques, même lorsqu'ils partagent le même élément, garantissant des styles de jeu bien distincts à travers tout le roster [4].
+
+| Personnage | Série d'Origine | Style de Maîtrise | Rôle Principal au Combat |
+|---|---|---|---|
+| **Aang** | ATLA | Avatar Maître de l'Air | Très mobile, style offensif (rushdown) rapide |
+| **Korra** | TLOK | Maîtrise d'Avatar | Combat rapproché agressif et percutant |
+| **Zuko** | ATLA | Maîtrise du Feu | Dueliste à mi-distance avec outils de pression |
+| **Katara** | ATLA | Maîtrise de l'Eau | Contrôle de zone, gestion de l'espace défensif, soins |
+| **Toph** | ATLA | Maîtrise de la Terre | Colosse puissant, haute défense, contrôle du terrain |
+| **Sokka** | ATLA | Armes de Non-Maître | Pièges astucieux, lancers de boomerang, attaques au sabre |
+| **Azula** | ATLA | Feu Bleu & Foudre | Pression aérienne, bonus Mode Seigneur du Feu |
+| **Ozai** | ATLA | Maîtrise du Feu | Combattant à distance (zoner) et rushdown à lourds dégâts |
+| **Zaheer** | TLOK | Maîtrise de l'Air | Spécialiste aérien du Lotus Rouge, haute esquive |
+| **Kyoshi** | Lore d'Avatar | Maîtrise d'Avatar | Défense solide à l'éventail et attaques blindées (armored) |
+| **Aang (État d'Avatar)** | ATLA | État d'Avatar | Combattant rushdown agressif de niveau boss (séparé) |
+| **Korra (État d'Avatar)** | TLOK | État d'Avatar | Combattant à forte puissance basé sur une transformation (séparé) |
+
+<CardGrid cols={3}>
+  <Card title="Maîtres de l'Eau & de l'Air">
+    Se concentrent sur des **déplacements insaisissables**, le contrôle de zone (zoning) et les contre-attaques défensives. Idéal pour les joueurs tactiques qui aiment contrôler l'espace à l'écran.
+  </Card>
+  <Card title="Maîtres de la Terre & du Feu">
+    Mettent l'accent sur les **dégâts bruts**, les pièges de frame (frame traps) et une pression constante vers l'avant pour briser rapidement la garde de l'adversaire.
+  </Card>
+  <Card title="Non-Maîtres & Personnages Spéciaux">
+    S'appuient sur des **configurations d'armes**, des lancers d'objets et des transformations uniques comme l'État d'Avatar pour surprendre l'adversaire avec des outils non conventionnels.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Entrées de Personnages Distinctes">
+Notez qu'Aang (État d'Avatar) et Korra (État d'Avatar) occupent des emplacements séparés sur l'écran de sélection des personnages et possèdent des panels de mouvements totalement différents de leurs versions de base [2].
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Progression pour Débutants">
+
+Faire ses premiers pas dans l'arène de **avatar legends the fighting game pc** requiert une bonne compréhension des mécaniques fondamentales des jeux de combat combinées aux systèmes de maîtrise élémentaire [4]. Suivez ce parcours de progression structuré pour faire évoluer vos compétences, du simple martèlement de touches jusqu'au jeu compétitif [4].
+
+<Steps>
+  <Step num="1" title="Choisir un combattant simple pour débuter">
+    Commencez avec des personnages faciles à prendre en main comme **Zuko** ou **Korra** [3]. Leurs mouvements suivent les archétypes traditionnels du jeu de combat en 2D, ce qui facilite l'apprentissage des distances de base, des attaques légères (pokes) et des combos simples [3].
+  </Step>
+  <Step num="2" title="Sélectionner un personnage de soutien complémentaire">
+    Associez votre combattant principal à l'un des trois **personnages de soutien** disponibles [4]. Choisissez un soutien qui comble les faiblesses de votre personnage ; par exemple, optez pour une assistance défensive si vous jouez un personnage très offensif [4].
+  </Step>
+  <Step num="3" title="Maîtriser la mécanique de Flow">
+    Entraînez-vous à utiliser le **système de Flow** en mode Entraînement [3, 4]. Le Flow vous permet de dasher, de vous glisser à travers les projectiles élémentaires adverses et d'annuler (cancel) des attaques normales pour enchaîner sur des options de déplacement [3, 4].
+  </Step>
+  <Step num="4" title="Gérer vos points d'énergie">
+    Apprenez à dépenser judicieusement vos **points d'énergie** [3, 4]. Conserver votre jauge pour des coups spéciaux améliorés ou des Super Arts cinématiques est crucial pour renverser le cours d'un match [3, 4].
+  </Step>
+</Steps>
+
+<Callout type="success" title="Outils d'Entraînement">
+Utilisez intensivement le mode Entraînement intégré. Il propose l'affichage des hitboxes, des données de frame détaillées et des états de sauvegarde personnalisés pour vous aider à analyser les affrontements complexes [3, 4].
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Mécaniques de Combat & Système de Flow">
+
+Le moteur de combat de **avatar legends the fighting game pc** est conçu pour récompenser les déplacements actifs et la gestion intelligente des ressources [4]. Contrairement aux jeux de combat traditionnels où la défense est purement passive, ce jeu encourage l'esquive active [4].
+
+| Mécanique | Objectif Principal | Application Débutant | Application Avancée |
+|---|---|---|---|
+| **Mécanique de Flow** | Déplacement rapide & annulations | Esquiver les projectiles de base et le zoning | Enchaîner des combinaisons d'attaques avec des dashs aériens |
+| **Points d'Énergie** | Ressource de gestion de jauge | Économiser pour des Super Arts à gros dégâts | Interrompre des combos (combo breaker) et booster les coups spéciaux EX |
+| **Soutiens** | Invocations d'assistance tactique | Utiliser les assistances pour couvrir les attaques risquées | Prolonger les combos aériens (juggles) et poser des pièges |
+| **Styles de Maîtrise** | Archétypes de personnages | Choisir son personnage selon son élément | Exploiter les interactions environnementales spécifiques aux éléments |
+
+<Callout type="info" title="Utilité des Personnages de Soutien">
+Les personnages de soutien ne sont pas de simples éléments esthétiques. Ils proposent des interruptions défensives, des extensions de combos offensifs ou des bonus utilitaires qui peuvent totalement modifier le déroulement d'un affrontement [3, 4].
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Configuration Requise & Fonctionnalités PC">
+
+Pour garantir des performances optimales lors des matchs en ligne rapides en 1v1, votre PC doit répondre aux spécifications techniques recommandées [5]. Le jeu fonctionne sur un moteur 2D personnalisé conçu pour s'adapter à une large gamme de configurations tout en maintenant un objectif de 60 FPS constants.
+
+| Spécification | Configuration Minimale | Configuration Recommandée |
+|---|---|---|
+| **Système d'exploitation** | Windows 10 (64-bit) | Windows 10 / 11 (64-bit) |
+| **Processeur** | Intel Core i3-6100 / AMD Ryzen 3 1200 | Intel Core i5-8400 / AMD Ryzen 5 2600 |
+| **Mémoire vive** | 8 Go de RAM | 16 Go de RAM |
+| **Carte graphique** | NVIDIA GTX 960 / AMD RX 470 | NVIDIA GTX 1060 / AMD RX 580 |
+| **DirectX** | Version 11 | Version 12 |
+| **Espace de stockage** | 15 Go d'espace disponible | 15 Go d'espace disponible sur SSD |
+
+<Checklist
+  id="pc-feature-checklist"
+  title="Fonctionnalités de la Version PC :"
+  items={[
+    "Configuration complète des touches du clavier et de la manette",
+    "Fréquences d'images non plafonnées en mode hors ligne (bloquées à 60 FPS en ligne pour l'intégrité du netcode)",
+    "Prise en charge des écrans ultra-larges pour les modes hors ligne et les menus",
+    "Netcode rollback propriétaire pour un jeu en ligne fluide",
+    "Matchmaking crossplay avec les joueurs PS5 et Xbox Series X/S"
+  ]}
+/>
+
+<Callout type="warning" title="Limite du Matchmaking en Ligne">
+Bien que les modes hors ligne prennent en charge des taux de rafraîchissement élevés, le multijoueur en ligne est strictement limité à 60 FPS afin d'éviter tout problème de synchronisation via le netcode rollback [5].
+</Callout>
+
+</Section>
+
+<Section icon={HelpCircle} title="Foire Aux Questions">
+
+<FAQ items={[
+  {
+    question: "Est-ce que avatar legends the fighting game pc sera disponible sur Steam ?",
+    answer: "Oui, le jeu sortira au format numérique sur Steam le 23 juillet 2026, en même temps que les versions consoles."
+  },
+  {
+    question: "La version PC prend-elle en charge le crossplay ?",
+    answer: "Oui, les joueurs PC pourront affronter en toute transparence les joueurs PlayStation 5 et Xbox Series X/S dès le jour du lancement."
+  },
+  {
+    question: "Y a-t-il des codes promotionnels à utiliser dans le jeu ?",
+    answer: "Non, il n'y a pas de système de codes promotionnels dans ce jeu. Il s'agit d'un jeu de combat 2D traditionnel premium proposé au prix de 29,99 $, et non d'un jeu mobile free-to-play ou d'un titre Roblox."
+  },
+  {
+    question: "Puis-je utiliser un stick arcade sur PC ?",
+    answer: "Oui, la version PC intègre une prise en charge native de DirectInput et XInput, ce qui la rend compatible avec presque tous les sticks arcade, hitboxes et manettes modernes."
+  }
+]} />
+
+</Section>

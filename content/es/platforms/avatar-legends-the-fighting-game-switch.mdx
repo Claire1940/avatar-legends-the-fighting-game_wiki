@@ -1,0 +1,157 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Avatar Legends: The Fighting Game - Guía de personajes y movimientos",
+  description: "Domina los elementos en Avatar Legends: The Fighting Game. Explora nuestra guía sobre el plantel de 12 luchadores de lanzamiento, mecánicas de combate y funciones en línea.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e3a8a/fff?text=Avatar+Legends+Guide",
+  date: "2026-07-04",
+  author: "Equipo de la Wiki de Avatar Legends: The Fighting Game"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Avatar Legends: The Fighting Game** se lanza el 23 de julio de 2026 en PC, PS5 y Xbox Series X|S.
+- El **plantel de lanzamiento** presenta 12 luchadores jugables, cada uno con estilos de control (bending) únicos y parejas de personajes de apoyo.
+- Domina la **mecánica de Fluidez (Flow)** y la **gestión de Energía** para dominar los combates y ejecutar Artes Súper (Super Arts) cinematográficas.
+- Utiliza las funciones de **Código de red rollback (Rollback netcode)** y **Juego cruzado (Crossplay)** para competir contra jugadores de todas las plataformas compatibles.
+- Las reservas otorgan acceso a la **Beta cerrada** y a bonificaciones digitales exclusivas como el aspecto de Appa Samurái.
+</Callout>
+
+<Section icon={Map} title="Fecha de lanzamiento y plataformas">
+
+Avatar Legends: The Fighting Game está programado para un lanzamiento mundial el 23 de julio de 2026. Los jugadores pueden asegurar su copia a través de las reservas digitales en Steam, PlayStation Store y Xbox Store. El juego está optimizado para hardware moderno y es compatible con el juego multiplataforma.
+
+**Puntos destacados del video:**
+- Revelación oficial de las bonificaciones por reservar en consola.
+- Resumen de los 12 personajes jugables disponibles en el lanzamiento.
+- Confirmación de la fecha de lanzamiento del 23 de julio de 2026.
+
+<YouTubeEmbed videoId="dv5rNqDdtXc" title="Avatar Legends: The Fighting Game Console Pre-Order Trailer" />
+
+| Plataforma | Edición | Precio | Característica clave |
+| :--- | :--- | :--- | :--- |
+| PC (Steam) | Estándar | $29.99 | Código de red rollback |
+| PS5 | Estándar | $29.99 | 1-2 jugadores |
+| Xbox Series X|S | Estándar | Xbox Play Anywhere |
+| Digital Deluxe | Deluxe | $49.99 | Pase del Año 1 incluido |
+
+<Callout type="tip" title="Beneficio de reserva">
+Reservar el juego otorga acceso anticipado a la Beta cerrada, que se llevará a cabo del 2 al 5 de julio de 2026, junto con variantes exclusivas de color dorado para los personajes.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Personajes y plantel">
+
+El plantel base consta de 12 personajes icónicos extraídos de Avatar: La leyenda de Aang y La leyenda de Korra. Cada luchador posee una identidad de combate única, que va desde una movilidad de alta velocidad hasta golpes elementales de gran impacto.
+
+<CardGrid cols={3}>
+  <Card title="Aang">
+    Luchador Avatar rápido y móvil con un control del aire (airbending) y evasión versátiles.
+  </Card>
+  <Card title="Korra">
+    Luchadora Avatar agresiva que utiliza golpes pesados y poder puro.
+  </Card>
+  <Card title="Azula">
+    Luchadora centrada en la presión que utiliza fuego azul, rayos y trampas.
+  </Card>
+  <Card title="Toph">
+    Potencia del Reino de la Tierra con una sólida defensa y control de zonas (zoning).
+  </Card>
+  <Card title="Zuko">
+    Maestro fuego técnico centrado en los duelos y el combate a corta distancia.
+  </Card>
+  <Card title="Sokka">
+    Luchador astuto que utiliza armas y juegos mentales basados en el movimiento.
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Personajes de apoyo">
+Cada luchador se puede emparejar con un personaje de apoyo. Estas asistencias son esenciales para extender combos, cubrir las debilidades de tu luchador o añadir capas defensivas a tu estrategia.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Guía de mecánicas de combate">
+
+El éxito en Avatar Legends: The Fighting Game depende de dominar el sistema de Fluidez (Flow) y gestionar tu medidor de Energía. Comprender estas mecánicas principales es el primer paso hacia el juego competitivo.
+
+<Steps>
+  <Step num="1" title="Domina el movimiento de Fluidez (Flow)">
+    Usa el sistema de Fluidez para arremeter (dash), esquivar proyectiles y reposicionarte. Esta es la base de tu juego ofensivo y defensivo.
+  </Step>
+  <Step num="2" title="Gestiona los puntos de Energía">
+    Acumula Energía mediante golpes y bloqueos exitosos. Gástala sabiamente en movimientos especiales potenciados o ahórrala para un Arte Súper (Super Art) que cambie el rumbo del combate.
+  </Step>
+  <Step num="3" title="Practica en el modo de entrenamiento">
+    Utiliza los datos de fotogramas (frame data), la visualización de cajas de golpe (hitboxes) y los estados de guardado para perfeccionar tus combos y aprender interacciones específicas de cada enfrentamiento.
+  </Step>
+</Steps>
+
+| Mecánica | Propósito | Consejo para principiantes |
+| :--- | :--- | :--- |
+| **Fluidez (Flow)** | Evasión y movimiento | Úsala para escapar de la presión |
+| **Energía** | Mejora de habilidades | Guárdala para combos grandes |
+| **Artes Súper (Super Arts)** | Remate cinematográfico | Úsalas para castigar errores |
+| **Apoyos** | Asistencia táctica | Emparéjalos para cubrir debilidades |
+
+<Callout type="warning" title="Gestión de energía">
+No desperdicies tu medidor de Energía en ataques aleatorios. El juego de alto nivel recompensa a los jugadores que esperan el momento óptimo para usar sus Artes Súper.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Funciones y modos en línea">
+
+El juego está diseñado para la integridad competitiva, con un código de red rollback propio y juego multiplataforma completo. Ya seas un jugador casual o un guerrero de clasificatorias, hay un modo para ti.
+
+| Función | Estado | Descripción |
+| :--- | :--- | :--- |
+| **Código de red rollback** | Incluido | Garantiza un combate en línea fluido |
+| **Juego cruzado (Crossplay)** | Incluido | Juega en todas las plataformas |
+| **Modo clasificatorio** | Incluido | Ascenso en la clasificación competitiva |
+| **Modo espectador** | Incluido | Observa y aprende de otros |
+
+<Checklist
+  id="game-modes"
+  title="Modos de juego disponibles:"
+  items={[
+    "Modo historia (Narrativa original)",
+    "Modo arcade (Recorridos específicos de personajes)",
+    "Versus en línea (Clasificatorio y casual)",
+    "Versus local (Juego local)",
+    "Galería de arte (Contenido desbloqueable)"
+  ]}
+/>
+
+<Callout type="success" title="Centro de la comunidad">
+Utiliza el modo espectador y el sistema de repeticiones para estudiar combates de alto nivel y mejorar tu comprensión de los enfrentamientos entre personajes.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "¿Está disponible Avatar Legends: The Fighting Game en Nintendo Switch?",
+    answer: "El juego se lanzará en PC, PS5 y Xbox Series X|S el 23 de julio de 2026. Las versiones para Switch y las ediciones físicas están planificadas para finales de 2026."
+  },
+  {
+    question: "¿La Edición Digital Deluxe incluye DLC?",
+    answer: "Sí, la Edición Digital Deluxe incluye el Pase del Año 1, que añade cinco personajes jugables adicionales durante la primera temporada."
+  },
+  {
+    question: "¿Puedo jugar en línea con amigos en diferentes plataformas?",
+    answer: "Sí, el juego cuenta con multijugador multiplataforma completo, lo que te permite jugar con amigos independientemente de la plataforma que elijan."
+  }
+]} />
+
+</Section>

@@ -10,7 +10,15 @@
       "twitterDescription": "Avatar Legends Fighting Game guide covers roster, moves, platforms, preorder bonuses, and release updates."
     }
   },
-  "nav": {},
+  "nav": {
+    "release": "Release",
+    "roster": "Roster",
+    "platforms": "Platforms",
+    "beta": "Beta",
+    "editions": "Editions",
+    "dlc": "DLC",
+    "online": "Online"
+  },
   "common": {
     "home": "Home",
     "more": "More",
@@ -726,125 +734,145 @@
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
-    "guides": {
-      "title": "Avatar Legends: The Fighting Game Guides",
-      "description": "Complete gameplay guides from beginner basics to advanced combat mechanics, roster overviews, and online play tips.",
-      "metaTitle": "Avatar Legends: The Fighting Game Guides - Beginner to Advanced Strategies",
-      "metaDescription": "Complete Avatar Legends: The Fighting Game guides covering beginner tips, combat mechanics, roster overviews, and online play strategies.",
-      "categoryLabel": "GAME GUIDES",
-      "whatIs": "What are Guides?",
-      "whatIsDescription": "Comprehensive guides covering gameplay mechanics, combat systems, and the full launch roster. Learn everything from first steps to advanced techniques.",
-      "why": "Why read guides?",
+    "release": {
+      "title": "Avatar Legends: The Fighting Game Release Date & News",
+      "description": "Official release date, regional launch times, delay updates, latest news, and review roundup for the game.",
+      "metaTitle": "Avatar Legends: The Fighting Game Release Date & News - Launch Guide",
+      "metaDescription": "Track the Avatar Legends: The Fighting Game release date, launch times by region, delay updates, news, and review coverage.",
+      "categoryLabel": "RELEASE & NEWS",
+      "whatIs": "What is the Release Date?",
+      "whatIsDescription": "Avatar Legends: The Fighting Game launches July 23, 2026 on Steam, PS5, Xbox Series X|S, and Switch. This section tracks the official launch date, regional release times, any delay updates, breaking news, and review coverage as it goes live.",
+      "why": "Why follow the release?",
       "whySteps": {
-        "step1Title": "Learn Core Mechanics",
-        "step1Description": "Understand Flow, Energy Points, and support characters to avoid common beginner mistakes",
-        "step2Title": "Fast Progression",
-        "step2Description": "Follow proven paths to master movement, defense, and offense",
-        "step3Title": "Master Strategies",
-        "step3Description": "Develop advanced tactics for matchups and ranked play"
+        "step1Title": "Lock the Launch Date",
+        "step1Description": "Know the exact launch date and regional release times so you can plan your first session.",
+        "step2Title": "Track Delays & News",
+        "step2Description": "Stay current on schedule changes, delay announcements, and official news as the team shares them.",
+        "step3Title": "Read the Reviews",
+        "step3Description": "Catch review coverage and hands-on impressions before you decide to buy."
       },
       "featured": "Featured & Essential",
-      "all": "All Guides"
+      "all": "All Release Articles"
     },
-    "crafting": {
-      "title": "Avatar Legends: The Fighting Game Combat Mechanics",
-      "description": "Master Flow, Energy Points, enhanced specials, Super Arts, support characters, and bending styles.",
-      "metaTitle": "Avatar Legends: The Fighting Game Combat Mechanics - Flow & Super Arts",
-      "metaDescription": "Master Avatar Legends: The Fighting Game combat mechanics. Learn Flow movement, Energy Points, enhanced specials, Super Arts, and support character strategy.",
-      "categoryLabel": "COMBAT SYSTEM",
-      "whatIs": "What are Combat Mechanics?",
-      "whatIsDescription": "Combat in Avatar Legends: The Fighting Game is built around Flow movement, Energy Points, enhanced special moves, cinematic Super Arts, and support characters that reshape each fighter.",
-      "why": "Why master combat mechanics?",
+    "roster": {
+      "title": "Avatar Legends: The Fighting Game Characters & Roster",
+      "description": "Full playable roster, all 12 launch fighters, support characters, voice actors, and benders by element.",
+      "metaTitle": "Avatar Legends: The Fighting Game Characters & Roster - Full Fighter List",
+      "metaDescription": "Browse the complete Avatar Legends: The Fighting Game roster: all 12 playable fighters, support characters, voice actors, and benders.",
+      "categoryLabel": "CHARACTERS",
+      "whatIs": "What is the Roster?",
+      "whatIsDescription": "Avatar Legends: The Fighting Game ships with 12 playable fighters spanning Water, Earth, Fire, and Air benders, plus a supporting cast of assist characters. This section covers the full launch roster, each fighter's element and identity, the support cast, and the voice actors behind them.",
+      "why": "Why study the roster?",
       "whySteps": {
-        "step1Title": "Understand Flow",
-        "step1Description": "Flow is the core movement and defense system every fighter relies on",
-        "step2Title": "Manage Energy",
-        "step2Description": "Spend Energy Points on enhanced specials and Super Arts at the right moment",
-        "step3Title": "Pick Supports",
-        "step3Description": "Choose support characters that cover what your fighter lacks"
+        "step1Title": "Pick Your Main",
+        "step1Description": "Compare all 12 fighters by element and playstyle to find the character that fits you.",
+        "step2Title": "Learn Supports",
+        "step2Description": "Pair the right support characters with your fighter to cover weaknesses.",
+        "step3Title": "Know the Cast",
+        "step3Description": "Discover the voice actors who bring every character to life."
       },
       "featured": "Featured & Essential",
-      "all": "All Combat Guides"
+      "all": "All Characters"
     },
-    "items": {
-      "title": "Avatar Legends: The Fighting Game Modes",
-      "description": "Story Mode, Arcade Mode, Training Mode, Combo Trials, Offline Versus, Online Versus, Spectator, and Art Gallery.",
-      "metaTitle": "Avatar Legends: The Fighting Game Modes - Story, Arcade, Training",
-      "metaDescription": "Explore every Avatar Legends: The Fighting Game mode including Story, Arcade, Training, Combo Trials, Versus, Spectator, and Art Gallery.",
-      "categoryLabel": "GAME MODES",
-      "whatIs": "What are Game Modes?",
-      "whatIsDescription": "Avatar Legends: The Fighting Game ships with Story Mode, Arcade Mode, Offline Versus, Online Versus, Training Mode, Combo Trials, Character Lessons, Spectator Mode, and an Art Gallery.",
-      "why": "Why explore game modes?",
+    "platforms": {
+      "title": "Avatar Legends: The Fighting Game Platforms & Compatibility",
+      "description": "Platform support across PS5, PS4, Xbox, Switch, Switch 2, PC, and Steam Deck for the game.",
+      "metaTitle": "Avatar Legends: The Fighting Game Platforms - PS5, Xbox, Switch, PC",
+      "metaDescription": "Find out which platforms support Avatar Legends: The Fighting Game: PS5, PS4, Xbox Series X|S, Switch, Switch 2, PC, and Steam Deck.",
+      "categoryLabel": "PLATFORMS",
+      "whatIs": "Which Platforms Are Supported?",
+      "whatIsDescription": "Avatar Legends: The Fighting Game is available on Steam (PC), PlayStation 5, PlayStation 4, Xbox Series X|S, Nintendo Switch, and Nintendo Switch 2, with Steam Deck compatibility. This section details each platform's features, performance targets, and crossplay support.",
+      "why": "Why check platform support?",
       "whySteps": {
-        "step1Title": "Learn the Cast",
-        "step1Description": "Story and Arcade modes let you test every fighter safely",
-        "step2Title": "Train Smart",
-        "step2Description": "Training Mode and Combo Trials build real matchup knowledge",
-        "step3Title": "Play Together",
-        "step3Description": "Versus, lobbies, and Spectator Mode cover local and online play"
+        "step1Title": "Pick Your Platform",
+        "step1Description": "Compare features and performance across PS5, Xbox, Switch, and PC before you buy.",
+        "step2Title": "Handheld & Steam Deck",
+        "step2Description": "Confirm Steam Deck and Switch compatibility for portable play on the go.",
+        "step3Title": "Crossplay Ready",
+        "step3Description": "See which platforms connect for cross-platform online matches."
       },
       "featured": "Featured & Essential",
-      "all": "All Modes"
+      "all": "All Platforms"
     },
-    "biomes": {
-      "title": "Avatar Legends: The Fighting Game Online Play",
-      "description": "Rollback netcode, crossplay, Ranked, Casual, lobbies, spectator mode, and replays.",
-      "metaTitle": "Avatar Legends: The Fighting Game Online - Crossplay & Rollback Netcode",
-      "metaDescription": "Avatar Legends: The Fighting Game online play guide covers rollback netcode, crossplay, Ranked, Casual, lobbies, spectator mode, and replays.",
-      "categoryLabel": "ONLINE PLAY",
-      "whatIs": "What is Online Play?",
-      "whatIsDescription": "Online play in Avatar Legends: The Fighting Game runs on proprietary rollback netcode with full crossplay, plus Ranked, Casual, lobbies, spectator mode, and replays.",
-      "why": "Why understand online play?",
+    "beta": {
+      "title": "Avatar Legends: The Fighting Game Beta & Playtest",
+      "description": "Closed alpha, closed beta, open beta, beta access, and sign-up steps for the playtests.",
+      "metaTitle": "Avatar Legends: The Fighting Game Beta - Closed Beta, Open Beta & Sign Up",
+      "metaDescription": "Get into Avatar Legends: The Fighting Game beta tests: closed alpha, closed beta, open beta, beta access codes, and sign-up steps.",
+      "categoryLabel": "BETA & PLAYTEST",
+      "whatIs": "What is the Beta?",
+      "whatIsDescription": "Avatar Legends: The Fighting Game runs phased playtests including a closed alpha, closed beta, and open beta ahead of launch. This section explains how to sign up, how to get beta access, and what each test phase includes.",
+      "why": "Why join the beta?",
       "whySteps": {
-        "step1Title": "Rollback Netcode",
-        "step1Description": "Proprietary rollback netcode keeps online fights responsive",
-        "step2Title": "Crossplay",
-        "step2Description": "Fight players across PC, PS5, Xbox, and Switch",
-        "step3Title": "Ranked Roadmap",
-        "step3Description": "Use Casual and lobbies before climbing Ranked"
+        "step1Title": "Sign Up Early",
+        "step1Description": "Register for the closed alpha and closed beta before slots fill up.",
+        "step2Title": "Get Beta Access",
+        "step2Description": "Follow the step-by-step process to claim your beta access code.",
+        "step3Title": "Play Sooner",
+        "step3Description": "Jump into the open beta and practice the roster before release day."
       },
       "featured": "Featured & Essential",
-      "all": "All Online Guides"
+      "all": "All Beta Articles"
     },
-    "building": {
-      "title": "Avatar Legends: The Fighting Game Release Info",
-      "description": "Release date, platforms, editions, pricing, pre-order bonuses, and Closed Beta details.",
-      "metaTitle": "Avatar Legends: The Fighting Game Release Date, Platforms & Editions",
-      "metaDescription": "Avatar Legends: The Fighting Game release guide covers the July 23, 2026 launch date, platforms, Standard and Digital Deluxe editions, and pre-order bonuses.",
-      "categoryLabel": "RELEASE INFO",
-      "whatIs": "What is the Release Info?",
-      "whatIsDescription": "Avatar Legends: The Fighting Game launches July 23, 2026 on Steam, PS5, Xbox Series X|S, and Switch. The Standard Edition is $29.99 and the Digital Deluxe Edition is $49.99.",
-      "why": "Why check release info?",
+    "editions": {
+      "title": "Avatar Legends: The Fighting Game Editions & Pricing",
+      "description": "Standard, Digital Deluxe, Collector's, and physical editions, pre-order bonuses, price, and ESRB rating.",
+      "metaTitle": "Avatar Legends: The Fighting Game Editions - Standard, Deluxe & Price",
+      "metaDescription": "Compare Avatar Legends: The Fighting Game editions: Standard, Digital Deluxe, Collector's, physical copies, pre-order bonuses, price, and ESRB rating.",
+      "categoryLabel": "EDITIONS",
+      "whatIs": "What Editions Are Available?",
+      "whatIsDescription": "Avatar Legends: The Fighting Game is sold in Standard ($29.99), Digital Deluxe, and Collector's editions, with physical copies and pre-order bonuses. This section compares every edition, the price of each, and the ESRB rating so you can pick the right version.",
+      "why": "Why compare editions?",
       "whySteps": {
-        "step1Title": "Confirmed Date",
-        "step1Description": "The full launch is set for July 23, 2026",
-        "step2Title": "Edition Choices",
-        "step2Description": "Compare Standard and Digital Deluxe editions",
-        "step3Title": "Pre-Order Bonuses",
-        "step3Description": "Closed Beta access, Samurai Appa, gold colors, and Year 1 Pass vote"
+        "step1Title": "Find Your Price",
+        "step1Description": "See the standard price and what each edition costs side by side.",
+        "step2Title": "Pick an Edition",
+        "step2Description": "Compare Standard, Digital Deluxe, and Collector's editions to choose the best value.",
+        "step3Title": "Pre-Order Smart",
+        "step3Description": "Lock in pre-order bonuses and secure physical copies before launch."
       },
       "featured": "Featured & Essential",
-      "all": "All Release Info"
+      "all": "All Editions"
     },
-    "support": {
-      "title": "Avatar Legends: The Fighting Game DLC and Year 1 Pass",
-      "description": "Year 1 Pass, confirmed DLC fighters, community character vote, and Digital Deluxe extras.",
-      "metaTitle": "Avatar Legends: The Fighting Game DLC - Year 1 Pass & Characters",
-      "metaDescription": "Avatar Legends: The Fighting Game DLC guide covers the Year 1 Pass, confirmed fighters, community character vote, and Digital Deluxe Edition extras.",
-      "categoryLabel": "DLC & UPDATES",
+    "dlc": {
+      "title": "Avatar Legends: The Fighting Game DLC & Year 1 Pass",
+      "description": "DLC characters, Year 1 Pass, DLC fighter voting, and post-launch content plans.",
+      "metaTitle": "Avatar Legends: The Fighting Game DLC & Year 1 Pass - DLC Characters & Vote",
+      "metaDescription": "Explore Avatar Legends: The Fighting Game DLC: Year 1 Pass, DLC characters, the DLC fighter vote, and the post-launch roadmap.",
+      "categoryLabel": "DLC & ROADMAP",
       "whatIs": "What is the DLC?",
-      "whatIsDescription": "The Year 1 Pass adds five additional playable characters to Avatar Legends: The Fighting Game, including four confirmed fighters and one player-voted character.",
+      "whatIsDescription": "Avatar Legends: The Fighting Game expands after launch with a Year 1 Pass that adds DLC characters, including a community vote for an additional fighter. This section covers the confirmed DLC fighters, what the Year 1 Pass includes, and how the voting works.",
       "why": "Why follow the DLC?",
       "whySteps": {
-        "step1Title": "Year 1 Pass",
-        "step1Description": "Five additional playable characters over the season",
-        "step2Title": "Confirmed Fighters",
-        "step2Description": "Uncle Iroh, Ty Lee, Lin Beifong, and Bolin",
-        "step3Title": "Community Vote",
-        "step3Description": "Players vote on the fifth Year 1 Pass character"
+        "step1Title": "Know the DLC Roster",
+        "step1Description": "See which characters are confirmed as upcoming DLC fighters.",
+        "step2Title": "Understand the Year 1 Pass",
+        "step2Description": "Learn what the Year 1 Pass includes and when each fighter arrives.",
+        "step3Title": "Cast Your Vote",
+        "step3Description": "Join the community vote to help pick a future DLC character."
       },
       "featured": "Featured & Essential",
-      "all": "All DLC Guides"
+      "all": "All DLC Articles"
+    },
+    "online": {
+      "title": "Avatar Legends: The Fighting Game Online & Multiplayer",
+      "description": "Rollback netcode, crossplay, online multiplayer modes, lobbies, and spectator features.",
+      "metaTitle": "Avatar Legends: The Fighting Game Online - Crossplay & Multiplayer",
+      "metaDescription": "Master Avatar Legends: The Fighting Game online play: rollback netcode, crossplay across platforms, multiplayer modes, lobbies, and spectating.",
+      "categoryLabel": "ONLINE PLAY",
+      "whatIs": "How Does Online Play Work?",
+      "whatIsDescription": "Avatar Legends: The Fighting Game features proprietary rollback netcode and full crossplay across PC, PlayStation, Xbox, and Switch. This section explains online multiplayer, cross-platform matches, lobbies, spectating, and what each console needs to play online.",
+      "why": "Why learn online play?",
+      "whySteps": {
+        "step1Title": "Rollback Netcode",
+        "step1Description": "Understand how rollback keeps online matches responsive even on bad connections.",
+        "step2Title": "Crossplay Everywhere",
+        "step2Description": "Fight opponents on any platform with full crossplay support.",
+        "step3Title": "Console Requirements",
+        "step3Description": "Know which online subscriptions each console needs before you queue up."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Online Articles"
     }
   }
 }

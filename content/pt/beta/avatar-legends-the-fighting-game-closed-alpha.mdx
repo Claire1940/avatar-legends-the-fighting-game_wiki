@@ -1,0 +1,183 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Info, Settings } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Guia de Acesso ao Alpha Fechado de Avatar Legends: The Fighting Game",
+  description: "Saiba como acessar as sessões de alpha e beta fechados de Avatar Legends: The Fighting Game, incluindo recompensas de pré-venda, detalhes do elenco e mecânicas de combate.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/111f33/fff?text=Closed+Alpha+Access",
+  date: "2026-07-04",
+  author: "Equipe da Wiki de Avatar Legends: The Fighting Game",
+  keywords: "avatar legends the fighting game, alpha fechado, acesso, pré-venda, elenco, combate"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Método de Acesso**: Faça a pré-venda de qualquer edição para garantir sua entrada nos períodos de testes do **avatar legends the fighting game closed alpha** e beta.
+- **Período de Testes**: A principal fase de testes fechados está agendada de **2 a 5 de julho de 2026**.
+- **Elenco Jogável**: A versão de acesso antecipado conta com 7 lutadores principais, incluindo Aang, Korra e Azula.
+- **Recompensas Exclusivas**: Os participantes e compradores da pré-venda desbloqueiam a skin de suporte do **Appa Samurai** e variantes de cor Dourada.
+- **Plataformas Suportadas**: Disponível no Steam, PlayStation 5 e Xbox Series X|S com cross-play totalmente habilitado.
+</Callout>
+
+<Section icon={Map} title="Como Acessar o Alpha Fechado de Avatar Legends: The Fighting Game">
+
+Garantir uma vaga no **avatar legends the fighting game closed alpha** e nos testes beta subsequentes está atrelado principalmente ao sistema de pré-venda. Ao contrário de títulos de acesso aberto, este jogo de luta elemental 1v1 exige uma compra digital verificada na sua plataforma de preferência para liberar o download do cliente de teste. O período de testes foi projetado especificamente para testar o estresse do netcode de rollback proprietário e o matchmaking multiplataforma antes do lançamento completo em 23 de julho de 2026.
+
+| Fase | Data | Requisito de Acesso |
+| :--- | :--- | :--- |
+| **Alpha/Beta Fechado** | **2 a 5 de julho de 2026** | Pré-venda (Padrão ou Deluxe) |
+| **Lançamento Completo** | **23 de julho de 2026** | Compra Pública |
+| **DLC 1 do Ano 1** | **Final de 2026** | Passe do Ano 1 / Edição Deluxe |
+
+**Destaques do Vídeo:**
+- Visão geral do período de testes de julho e como baixar o cliente.
+- Primeira olhada no elenco de 7 personagens disponíveis durante a fase alpha.
+- Demonstração da mecânica de "Fluxo" (Flow) em um ambiente competitivo real.
+
+<Callout type="warning" title="Disponibilidade Regional">
+Certifique-se de que a região da sua loja corresponde à região de residência da sua conta para evitar problemas de licenciamento com o cliente beta. Usuários do Steam devem verificar sua biblioteca em busca de uma entrada separada de "Ramo de Testes" (Testing Branch) após a pré-compra.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Elenco do Alpha e Mecânicas de Personagem">
+
+A fase de testes oferece uma seleção selecionada do elenco completo de 12 personagens do lançamento. Isso permite que a equipe de desenvolvimento se concentre em equilibrar as interações elementais entre os quatro estilos de dobra e a utilidade única de personagens não-dobradores, como Sokka. Cada lutador no **avatar legends the fighting game closed alpha** vem com três opções distintas de personagens de suporte, proporcionando uma profunda variedade tática mesmo com um elenco limitado.
+
+<CardGrid cols={3}>
+  <Card title="Aang">
+    - **Estilo**: Domínio da Dobra de Ar
+    - **Força**: Alta mobilidade e opções evasivas de "Fluxo"
+    - **Função**: Híbrido de zoner de médio alcance e rushdown
+  </Card>
+  <Card title="Korra">
+    - **Estilo**: Dobra Multi-elemental
+    - **Força**: Combate corpo a corpo agressivo
+    - **Função**: Brawler de alto dano com movimentos blindados (armored)
+  </Card>
+  <Card title="Azula">
+    - **Estilo**: Fogo Azul e Raios
+    - **Força**: Pressão aérea e armadilhas de projéteis
+    - **Função**: Zoner técnico com alto teto de execução
+  </Card>
+</CardGrid>
+
+| Personagem | Estilo de Dobra | Função Principal | Opções de Suporte |
+| :--- | :--- | :--- | :--- |
+| **Aang** | Ar | Mobilidade/Evasão | Appa, Momo, Gyatso |
+| **Korra** | Água/Fogo/Terra | Brawler Agressivo | Naga, Pabu, Tenzin |
+| **Zuko** | Fogo | Duelista Equilibrado | Iroh, Mai, Ty Lee |
+| **Katara** | Água | Controle/Cura | Sokka, Pakku, Kya |
+| **Toph** | Terra | Potência/Grappler | Badgermole, Lin, Suyin |
+| **Sokka** | Não-dobrador | Trapaceiro/Tático | Suki, Piandao, Hakoda |
+| **Azula** | Fogo/Raio | Pressão/Armadilhas | Lo, Li, Soldado da Nação do Fogo |
+
+<Callout type="success" title="Desbloqueio de Variante Dourada">
+Ao participar do período de pré-venda, você desbloqueia automaticamente as **Variantes de Cor Dourada** para os seis personagens principais (Aang, Korra, Zuko, Katara, Toph, Sokka) para usar tanto no alpha quanto no jogo final.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Sistema de Combate: Fluxo e Pontos de Energia">
+
+Dominar o combate no **avatar legends the fighting game closed alpha** exige a compreensão do sistema de recursos duplos. Ao contrário dos jogos de luta tradicionais que dependem exclusivamente de uma barra de especial, este jogo introduz a mecânica de "Fluxo" (Flow), que rege a mobilidade e a utilidade defensiva, e os "Pontos de Energia", que alimentam melhorias ofensivas.
+
+<Steps>
+  <Step num="1" title="Inicializar o Fluxo">
+    Use o botão de Fluxo para dar dashes, dashes aéreos ou deslizar por baixo de projéteis. Cada personagem tem um cancelamento de Fluxo único que permite a transição instantânea de um ataque normal para uma opção de movimento.
+  </Step>
+  <Step num="2" title="Acumular Pontos de Energia">
+    A energia é obtida ao acertar golpes, defender com eficiência e utilizar características de dobra específicas de cada personagem. O jogo agressivo preenche a barra mais rapidamente, mas a precisão defensiva recompensa você com bônus de "Fluxo Perfeito".
+  </Step>
+  <Step num="3" title="Executar Especiais Aprimorados">
+    Gaste uma barra de Energia para realizar um Movimento Especial Aprimorado. Essas versões costumam ter inicialização mais rápida, quadros de invencibilidade ou acertos adicionais para estender combos.
+  </Step>
+  <Step num="4" title="Liberar as Artes Supremas">
+    Quando sua barra de Energia estiver cheia, você poderá acionar uma Arte Suprema cinematográfica. Esses são golpes finais de alto dano que podem virar o rumo de uma partida, mas deixam você vulnerável se forem bloqueados.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Sinergia de Suporte">
+Não ignore seus personagens de suporte. Pressione o botão de assistência durante um dash de Fluxo para chamar seu suporte para um ataque de "Fluxo Cruzado" (Cross-Flow), que pode fechar a distância com segurança contra personagens do tipo zoner.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Recompensas de Pré-Venda e Diferenças de Edição">
+
+Para participar do **avatar legends the fighting game closed alpha**, os jogadores devem escolher entre as edições Padrão e Deluxe Digital. Embora ambas forneçam acesso às fases de teste, a edição Deluxe Digital é voltada para jogadores de longo prazo que desejam a experiência completa do Ano 1 sem compras adicionais.
+
+| Recurso | Edição Padrão ($29.99) | Deluxe Digital ($49.99) |
+| :--- | :--- | :--- |
+| **Acesso ao Alpha/Beta Fechado** | **Incluso** | **Incluso** |
+| **Elenco de Lançamento (12)** | Incluso | Incluso |
+| **Skin do Appa Samurai** | Bônus de Pré-venda | Bônus de Pré-venda |
+| **Passe do Ano 1 (5 DLCs)** | Não Incluso | **Incluso** |
+| **Trilha Sonora/Artbook Digital** | Não Incluso | **Incluso** |
+| **HUDs Exclusivas** | Não Incluso | **Incluso** |
+
+<Checklist
+  id="alpha-checklist"
+  title="Objetivos de Participação do Alpha:"
+  items={[
+    "Fazer a pré-venda do jogo no Steam, PS5 ou Xbox",
+    "Baixar o cliente do Beta Fechado antes de 2 de julho",
+    "Concluir os tutoriais do Modo de Treino para as mecânicas de Fluxo",
+    "Testar pelo menos três combinações diferentes de personagens de suporte",
+    "Participar de pelo menos 10 partidas ranqueadas para testar o netcode"
+  ]}
+/>
+
+<Callout type="info" title="Votação do Passe do Ano 1">
+Os clientes da pré-venda recebem uma cédula especial para votar no quinto personagem do Passe do Ano 1. Os candidatos atuais incluem **Amon, Kuvira, Rei Bumi, Asami Sato e Tenzin**.
+</Callout>
+
+</Section>
+
+<Section icon={Settings} title="Requisitos Técnicos e Recursos Online">
+
+O **avatar legends the fighting game closed alpha** representa um marco técnico para a franquia, apresentando um netcode de rollback proprietário. Isso garante que, mesmo em partidas cross-play entre PC e consoles, a latência permaneça mínima. Abaixo estão os requisitos de sistema confirmados para os jogadores de PC que participarão do alpha.
+
+| Componente | Requisito Mínimo | Requisito Recomendado |
+| :--- | :--- | :--- |
+| **SO** | Windows 10 (64-bit) | Windows 11 (64-bit) |
+| **Processador** | Intel Core i5-4460 | Intel Core i7-8700K |
+| **Memória** | 8 GB de RAM | 16 GB de RAM |
+| **Placa de Vídeo** | NVIDIA GeForce GTX 960 | NVIDIA GeForce RTX 2060 |
+| **DirectX** | Versão 11 | Versão 12 |
+| **Armazenamento** | 30 GB de espaço disponível | Recomendado SSD de 30 GB |
+
+<Callout type="warning" title="Requisitos de Console">
+Jogadores de PlayStation 5 precisam de uma assinatura ativa do **PlayStation Plus** para jogar online. Jogadores de Xbox precisam do **Xbox Game Pass (Core ou Ultimate)**. Jogadores do Steam não precisam de uma assinatura secundária para o PvP online.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "Como faço para conseguir um código para o alpha fechado de Avatar Legends: The Fighting Game?",
+    answer: "Não há 'códigos' tradicionais para este teste. O acesso é concedido automaticamente à biblioteca da sua plataforma assim que você realiza a pré-venda do jogo na Steam, PlayStation Store ou Xbox Store."
+  },
+  {
+    question: "Meu progresso no alpha será transferido para o jogo completo?",
+    answer: "Não, o progresso como nível de jogador ou classificação ranqueada será redefinido. No entanto, as recompensas de pré-venda, como a skin do Appa Samurai e as cores douradas, permanecerão vinculadas à sua conta."
+  },
+  {
+    question: "Posso jogar o alpha fechado offline?",
+    answer: "O foco do alpha é o teste de estresse online, mas ele inclui acesso ao Modo de Treino e ao Versus Local para que você possa praticar as mecânicas sem latência de rede."
+  },
+  {
+    question: "O Nintendo Switch está incluído no alpha de julho?",
+    answer: "O período de testes de 2 a 5 de julho está limitado atualmente ao PC, PS5 e Xbox Series X|S. A versão para Nintendo Switch está programada para o lançamento completo em 23 de julho."
+  }
+]} />
+
+</Section>
