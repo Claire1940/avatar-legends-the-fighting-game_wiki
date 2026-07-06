@@ -1,0 +1,220 @@
+import { Gamepad2, Users, Monitor, Shield, Trophy, Target } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "avatar legends the fighting game: Configuración del multijugador local",
+  description: "Aprende a configurar el multijugador local, las reglas de los combates en sofá, las herramientas de entrenamiento y las diferencias entre ediciones de Avatar Legends: The Fighting Game.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Local+Multiplayer+Guide",
+  date: "2026-07-06",
+  author: "Equipo de Wiki de avatar legends the fighting game"
+}
+
+<Callout type="info" title="Guía rápida">
+- **avatar legends the fighting game** se centra en combates 1 contra 1, lo que hace que jugar en sofá sea rápido de aprender y fácil de rotar.
+- **Offline Versus** es el modo local principal, mientras que Training te ayuda a aprender movimiento, posicionamiento y sincronización.
+- **12 personajes jugables** ofrecen suficiente variedad para sesiones locales, partidas casuales y pruebas de emparejamiento.
+- **Rollback netcode y cross-play** importan sobre todo para las partidas de seguimiento en línea después de tus sesiones locales.
+- **Controles sencillos, sistemas profundos** es la principal promesa de diseño, así que principiantes y veteranos pueden compartir la misma configuración.
+</Callout>
+
+<Section icon={Gamepad2} title="avatar legends the fighting game: Conceptos básicos del versus local">
+
+Este juego está construido en torno a combates 1 contra 1 cortos y legibles, lo que lo convierte en una gran opción para sesiones en sofá y revanchas rápidas. La página de Steam destaca **Offline & Online Versus**, además de Training, Arcade, Story, Spectator y una Art Gallery, así que el multijugador local es solo una parte de un paquete más amplio.
+
+Para jugar localmente, el detalle importante es sencillo: puedes tratar cada sesión como una noche de combates por rondas, en lugar de una larga progresión. Eso mantiene el foco en las lecturas, el posicionamiento y el aprendizaje de los hábitos de cada personaje.
+
+| Modo | Valor local | Mejor uso |
+|---|---|---|
+| Offline Versus | Modo principal en sofá | Partidas entre amigos y rondas cortas |
+| Training | Espacio de práctica | Aprender comandos, hitboxes y frame data |
+| Arcade | Calentamiento en solitario | Rápidas pasadas con personajes antes de una sala |
+| Story | Apoyo para un jugador | Practicar entre sesiones |
+| Spectator | Rotación de grupo | Ver a los ganadores y preparar la siguiente partida |
+| Art Gallery | Contenido adicional | Tiempo muerto y fans de la franquicia |
+
+<Callout type="info" title="Prioridad del juego local">
+Si tu objetivo es una buena noche en sofá, mantén la primera sesión simple: dos jugadores, reglas predeterminadas y una duración corta por set. Eso hace que el juego sea más fácil de enseñar y más rápido de rotar.
+</Callout>
+
+| Característica | Qué significa para el multijugador local |
+|---|---|
+| Diseño 1 contra 1 | Fácil pasar los mandos y hacer sets rápidos |
+| Animación 2D dibujada a mano | El estilo visual se mantiene consistente en partidas repetidas |
+| Plantel de 12 personajes | Suficiente variedad para grupos casuales y práctica de emparejamientos |
+| Controles sencillos | Los nuevos jugadores pueden entrar sin una curva de configuración larga |
+| Capa de sistemas profundos | Los jugadores experimentados aún tienen margen para optimizar |
+
+</Section>
+
+<Section icon={Monitor} title="Configuración del sofá y flujo de partidas">
+
+Prepara una configuración limpia antes de empezar el primer combate. Una buena sesión local depende menos de la mecánica pura y más de dejar la sala lista, asignar correctamente los mandos y asegurarte de que los ajustes encajen con el nivel del grupo.
+
+<Callout type="warning" title="No te saltes esto">
+Que los comandos sean sencillos no significa que las partidas sean superficiales. Si pasas por alto la comprobación de mandos y la configuración de reglas, gastarás las primeras partidas arreglando problemas evitables en lugar de jugar.
+</Callout>
+
+<Steps>
+  <Step num="1" title="Elige primero Offline Versus">
+    Empieza en el flujo de combate offline para que ambos jugadores puedan entrar directamente en las partidas locales sin ruido extra de menús.
+  </Step>
+  <Step num="2" title="Asigna los mandos con claridad">
+    Confirma qué mando pertenece a cada jugador antes de la primera ronda. Eso evita intercambios accidentales y mantiene fluidas las revanchas.
+  </Step>
+  <Step num="3" title="Ajusta el ritmo de la partida">
+    Usa combates más cortos para una noche en grupo y combates más largos para practicar. El ritmo adecuado depende de cuántas personas estén esperando.
+  </Step>
+  <Step num="4" title="Prueba una ronda antes de rotar">
+    Juega un único combate de prueba, comprueba la sensación de los controles y luego pasa a tu formato real de set cuando todos estén cómodos.
+  </Step>
+</Steps>
+
+| Ajuste | Valor recomendado | Por qué ayuda |
+|---|---|---|
+| Número de rondas | 3 rondas | Mantiene el ritmo de las partidas locales |
+| Duración del combate | Corta a media | Buena para turnarse |
+| Orden de mandos | Bloqueado antes de jugar | Evita confusiones entre jugadores |
+| Tiempo de práctica | Activado entre sets | Ayuda a los jugadores nuevos a aprender rápido |
+| Rotación de espectadores | Activada por costumbre | Hace que las noches de grupo fluyan mejor |
+
+<Callout type="tip" title="Mejor flujo para grupos">
+Para dos a cuatro personas, usa una rotación simple: una partida, una revisión, un cambio. Ese ritmo mantiene la sala activa y hace que el aprendizaje se sienta natural.
+</Callout>
+
+</Section>
+
+<Section icon={Users} title="Selección de personajes y emparejamientos locales">
+
+El plantel es donde el multijugador local obtiene su valor de rejugabilidad. Con **12 personajes jugables** en el lanzamiento, el juego ofrece suficiente variedad para que las revanchas sigan siendo frescas sin abrumar a los jugadores nuevos. El enfoque más seguro es organizar las elecciones por estilo de juego, no solo por popularidad.
+
+<Callout type="tip" title="Estrategia de plantel">
+Elige personajes que generen ritmos de combate distintos. Un jugador debería sentirse cómodo con la presión, otro con el posicionamiento y otro con una elección equilibrada de respaldo.
+</Callout>
+
+<CardGrid cols={3}>
+  <Card title="Ideal para nuevos jugadores">
+    - **Fácil de leer**
+    - Bueno para aprender posicionamiento
+    - Gran opción para invitados primerizos
+  </Card>
+  <Card title="Luchador de presión">
+    - **Ofensiva rápida**
+    - Premia la confianza y la sincronización
+    - Bueno cuando quieres rondas cortas e intensas
+  </Card>
+  <Card title="Especialista en posicionamiento">
+    - **Control ante todo**
+    - Fomenta un juego paciente
+    - Mejor cuando el grupo quiere partidas tácticas
+  </Card>
+</CardGrid>
+
+| Estilo de juego | Qué premia | Valor para el multijugador local |
+|---|---|---|
+| Rushdown | Reacciones rápidas, presión a corta distancia | Genera rondas rápidas y emocionantes |
+| Zoning | Paciencia, posicionamiento, lecturas contra la entrada | Castiga con dureza a los amigos imprudentes |
+| Equilibrado | Flexibilidad y adaptación | Mejor para grupos de nivel mixto |
+| Técnico | Precisión y gestión de recursos | Genial para sesiones serias de revancha |
+
+Una noche local funciona mejor cuando cada jugador aporta una identidad distinta a la mesa. Si todos eligen el mismo tipo de personaje, las conversaciones sobre emparejamientos se vuelven repetitivas. Si el grupo se reparte entre estilos, cada set enseña algo nuevo.
+
+También puedes usar el plantel para fijar objetivos informales. Por ejemplo, un jugador puede centrarse en un personaje con mucha movilidad, otro en una elección basada en lecturas defensivas y un tercero en una opción de control de media distancia. Eso mantiene interesante la rivalidad en sofá con el tiempo.
+
+</Section>
+
+<Section icon={Shield} title="Modo entrenamiento, ediciones y lista de preparación">
+
+El modo entrenamiento es el valor oculto del multijugador local. La página de Steam destaca **hitboxes, frame data, save states y más**, lo que significa que esto no es solo un juego de fiesta. Puedes usar las herramientas de práctica para resolver problemas entre sets en sofá y luego llevar esos ajustes de vuelta a las partidas reales.
+
+<Callout type="success" title="Mejor hábito de práctica">
+Dedica cinco minutos a Training después de cada pocas partidas locales. Suele ser tiempo suficiente para corregir un mal hábito sin romper el ritmo de la noche.
+</Callout>
+
+| Herramienta de entrenamiento | Mejor para | Beneficio local |
+|---|---|---|
+| Hitboxes | Entender los alcances | Mejor defensa y mejores castigos |
+| Frame Data | Decisiones de sincronización | Ofensiva más limpia y presión más segura |
+| Save States | Práctica de situaciones | Repetir situaciones complicadas |
+| Ejercicios básicos | Comandos y movimiento | Incorporación más rápida de nuevos jugadores |
+
+<Checklist
+  id="local-multiplayer-checklist"
+  title="Lista de verificación previa al combate:"
+  items={[
+    "Confirma que ambos mandos funcionen antes del primer set",
+    "Elige un plan de rotación breve para el grupo",
+    "Prueba un personaje en Training Mode",
+    "Selecciona un escenario y reglas antes de que empiecen las revanchas",
+    "Guarda una nota sobre lo que cada jugador debería practicar después"
+  ]}
+/>
+
+| Edición | Incluye | Impacto en el multijugador local |
+|---|---|---|
+| Standard | Juego completo | Suficiente para jugar en sofá |
+| Deluxe | Artbook digital, Year 1 Pass, banda sonora | Buena relación valor-precio, pero no es necesario para sesiones locales |
+
+Para conocer el calendario de lanzamiento actual y los detalles de las ediciones, usa la [página oficial de reserva en Steam](https://store.steampowered.com/app/2424420/Avatar_Legends_The_Fighting_Game/). El anuncio sitúa el lanzamiento el **23 de julio de 2026**, lo cual es útil si estás planeando una sesión local para la noche de estreno.
+
+| Referencia | Detalles |
+|---|---|
+| Página de Steam | Confirma el versus offline y online, 12 personajes jugables y el desglose de ediciones |
+| Ventana de lanzamiento | 23 de julio de 2026 |
+| Información de soporte de la tienda | Muestra compatibilidad de idiomas, notas del sistema y opciones de reserva |
+
+</Section>
+
+<Section icon={Trophy} title="Consejos para el multijugador local y mejores sets">
+
+El multijugador local mejora cuando la sala tiene un conjunto de reglas. Sin estructura, los jugadores pasan demasiado tiempo discutiendo las revanchas y demasiado poco aprendiendo el juego. Una configuración clara también hace que el juego se sienta más competitivo, incluso si el grupo es en su mayoría casual.
+
+<Callout type="info" title="Regla de la sesión">
+Mantén la primera noche centrada en descubrir, no en perfeccionar. Eso significa menos discusiones sobre los “mejores” personajes y más tiempo aprendiendo cómo se mueve realmente cada luchador.
+</Callout>
+
+| Consejo | Por qué funciona | Mejor momento para usarlo |
+|---|---|---|
+| Rotar después de cada partida | Mantiene a todos implicados | Grupos pequeños |
+| Practicar un emparejamiento a la vez | Reduce la sobrecarga | Después de partidas ajustadas |
+| Anotar un hábito útil | Ayuda a que la mejora se consolide | Al final de una sesión |
+| Volver primero a las reglas predeterminadas | Hace la configuración más rápida | Jugadores primerizos |
+| Comparar personajes por sensaciones | Más útil que la teoría sola | Exploración del plantel nuevo |
+
+El mayor error en el juego local es tratar las primeras partidas como juicios definitivos. Un luchador con controles sencillos aún puede premiar la sincronización, el movimiento y la calma. Dale a cada jugador suficiente tiempo para adaptarse antes de decidir qué personaje o configuración es “la mejor”.
+
+Si a tu grupo le gusta la competición, usa las sesiones locales para crear una mini tabla de clasificación. Si a tu grupo le gusta jugar de forma casual, usa la misma configuración pero acorta el ciclo de retroalimentación. En cualquier caso, el objetivo es el mismo: mantener las partidas en movimiento y el aprendizaje visible.
+
+</Section>
+
+<Section icon={Target} title="Preguntas frecuentes">
+
+<Callout type="info" title="Respuestas rápidas">
+Estas preguntas cubren las dudas más comunes sobre multijugador local, incluida la configuración, el tamaño del plantel y si la edición Deluxe cambia la experiencia en sofá.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "¿avatar legends the fighting game admite multijugador local?",
+    answer: "Sí. El juego está construido en torno a Offline Versus, que es el modo principal para sesiones en sofá y sets locales rápidos."
+  },
+  {
+    question: "¿Cuántos personajes jugables hay disponibles?",
+    answer: "La página de Steam destaca 12 personajes jugables en el lanzamiento, con luchadores adicionales previstos a través del Year 1 Pass."
+  },
+  {
+    question: "¿Necesito la Deluxe Edition para jugar localmente?",
+    answer: "No. La Standard Edition es suficiente para el multijugador local. Deluxe añade principalmente el artbook digital, la banda sonora y el contenido del Year 1 Pass."
+  },
+  {
+    question: "¿Qué debería practicar primero para las partidas locales?",
+    answer: "Empieza con movimiento, posicionamiento y uno o dos ejercicios sencillos de entrenamiento. Eso te da una base más sólida que memorizar combos avanzados primero."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,220 @@
+import { Gamepad2, Users, Monitor, Shield, Trophy, Target } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "avatar legends the fighting game: Local Multiplayer Setup",
+  description: "Learn local multiplayer setup, couch match rules, training tools, and edition differences for Avatar Legends: The Fighting Game.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Local+Multiplayer+Guide",
+  date: "2026-07-06",
+  author: "avatar legends the fighting game Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **avatar legends the fighting game** focuses on 1v1 matches, making couch play fast to learn and easy to rotate.
+- **Offline Versus** is the core local mode, while Training helps you learn movement, spacing, and timing.
+- **12 playable characters** give local sessions enough variety for casual sets and matchup testing.
+- **Rollback netcode and cross-play** matter most for online follow-up sets after your local matches.
+- **Simple controls, deep systems** is the main design promise, so beginners and veterans can share the same setup.
+</Callout>
+
+<Section icon={Gamepad2} title="avatar legends the fighting game: Local Versus Basics">
+
+This game is built around short, readable 1v1 fights, which makes it a strong fit for couch sessions and quick rematches. The Steam listing highlights **Offline & Online Versus**, plus Training, Arcade, Story, Spectator, and an Art Gallery, so local multiplayer is only one part of a bigger package.
+
+For local play, the important detail is simple: you can treat each session like a set-based fighter night instead of a long progression grind. That keeps the focus on reads, spacing, and learning character habits.
+
+| Mode | Local Value | Best Use |
+|---|---|---|
+| Offline Versus | Core couch mode | Friend matches and short sets |
+| Training | Practice space | Learn inputs, hitboxes, and frame data |
+| Arcade | Solo warm-up | Quick character runs before a lobby |
+| Story | Single-player support | Practice between sessions |
+| Spectator | Group rotation | Watch winners and queue next games |
+| Art Gallery | Bonus content | Downtime and franchise fans |
+
+<Callout type="info" title="Local Play Priority">
+If your goal is a good couch night, keep the first session simple: two players, default rules, and a short set length. That makes the game easier to teach and faster to rotate.
+</Callout>
+
+| Feature | What It Means for Local Multiplayer |
+|---|---|
+| 1v1 design | Easy to hand off controllers and run quick sets |
+| Hand-drawn 2D animation | Visual style stays consistent during repeated matches |
+| 12-character roster | Enough variety for casual pools and matchup practice |
+| Simple controls | New players can join without a long setup curve |
+| Deep system layer | Skilled players still have room to optimize |
+
+</Section>
+
+<Section icon={Monitor} title="Couch Setup and Match Flow">
+
+Use a clean setup before you start the first match. A good local session depends less on raw mechanics and more on getting the room ready, assigning controllers correctly, and making sure the settings match the group’s skill level.
+
+<Callout type="warning" title="Do Not Skip This">
+Simple inputs do not mean shallow matches. If you rush past controller checks and rule setup, you will spend the first few games fixing avoidable problems instead of playing.
+</Callout>
+
+<Steps>
+  <Step num="1" title="Pick Offline Versus First">
+    Start in the offline match flow so both players can jump straight into local sets without extra menu noise.
+  </Step>
+  <Step num="2" title="Assign Controllers Cleanly">
+    Confirm which pad belongs to which player before the first round. That prevents accidental swaps and keeps rematches smooth.
+  </Step>
+  <Step num="3" title="Set the Match Pace">
+    Use shorter matches for a group night and longer matches for practice. The right pace depends on how many people are waiting.
+  </Step>
+  <Step num="4" title="Test One Round Before Rotating">
+    Play a single test fight, check input feel, then move into your real set format once everyone is comfortable.
+  </Step>
+</Steps>
+
+| Setting | Recommended Value | Why It Helps |
+|---|---|---|
+| Round Count | 3 rounds | Keeps local sets moving |
+| Match Length | Short to medium | Good for turn-taking |
+| Controller Order | Locked before play | Prevents player confusion |
+| Practice Time | On between sets | Helps newer players learn fast |
+| Spectator Rotation | Enabled by habit | Makes group nights flow better |
+
+<Callout type="tip" title="Best Flow for Groups">
+For two to four people, run a simple rotation: one match, one review, one swap. That rhythm keeps the lobby active and makes learning feel natural.
+</Callout>
+
+</Section>
+
+<Section icon={Users} title="Roster Picks and Local Matchups">
+
+The roster is where local multiplayer gets its replay value. With **12 playable characters** at launch, the game has enough variety to keep rematches fresh without overwhelming new players. The safest approach is to organize picks by playstyle, not by popularity alone.
+
+<Callout type="tip" title="Roster Strategy">
+Choose characters that create different match rhythms. One player should be comfortable with pressure, another with spacing, and another with a balanced fallback pick.
+</Callout>
+
+<CardGrid cols={3}>
+  <Card title="New Player Friendly">
+    - **Easy to read**
+    - Good for learning spacing
+    - Strong choice for first-time guests
+  </Card>
+  <Card title="Pressure Fighter">
+    - **Fast offense**
+    - Rewards confidence and timing
+    - Good when you want short, intense rounds
+  </Card>
+  <Card title="Spacing Specialist">
+    - **Control first**
+    - Encourages patient play
+    - Best when the table wants tactical matches
+  </Card>
+</CardGrid>
+
+| Playstyle | What It Rewards | Local Multiplayer Value |
+|---|---|---|
+| Rushdown | Fast reactions, close-range pressure | Creates exciting quick rounds |
+| Zoning | Patience, spacing, anti-approach reads | Punishes reckless friends hard |
+| Balanced | Flexibility and adaptation | Best for mixed-skill groups |
+| Technical | Precision and resource awareness | Great for serious rematch sessions |
+
+A local night works best when each player brings a different identity to the table. If everyone picks the same type of character, the matchup conversations get repetitive. If the group spreads out across styles, every set teaches something new.
+
+You can also use the roster to build informal goals. For example, one player can focus on a mobility-heavy character, another on a defensive read-based pick, and a third on a midrange control option. That keeps the couch rivalry interesting over time.
+
+</Section>
+
+<Section icon={Shield} title="Training Mode, Editions, and Setup Checklist">
+
+Training mode is the hidden value of local multiplayer. The Steam page highlights **hitboxes, frame data, save states, and more**, which means this is not just a party fighter. You can use the practice tools to solve problems between couch sets and then bring those fixes back into live matches.
+
+<Callout type="success" title="Best Practice Habit">
+Spend five minutes in Training after every few local matches. That is usually enough time to clean up one bad habit without killing the momentum of the night.
+</Callout>
+
+| Training Tool | Best For | Local Benefit |
+|---|---|---|
+| Hitboxes | Understanding ranges | Better defense and better punishes |
+| Frame Data | Timing decisions | Cleaner offense and safer pressure |
+| Save States | Scenario practice | Repeating tricky situations |
+| Basic Drills | Inputs and movement | Faster onboarding for new players |
+
+<Checklist
+  id="local-multiplayer-checklist"
+  title="Pre-Match Checklist:"
+  items={[
+    "Confirm both controllers work before the first set",
+    "Pick a short rotation plan for the group",
+    "Test one character in Training Mode",
+    "Choose a stage and ruleset before rematches start",
+    "Save one note about what each player should practice next"
+  ]}
+/>
+
+| Edition | Includes | Local Multiplayer Impact |
+|---|---|---|
+| Standard | Full game | Enough for couch play |
+| Deluxe | Digital artbook, Year 1 Pass, soundtrack | Nice value, but not required for local sessions |
+
+For the current release timing and edition details, use the [official Steam pre-purchase page](https://store.steampowered.com/app/2424420/Avatar_Legends_The_Fighting_Game/). The listing places the launch on **Jul 23, 2026**, which is useful if you are planning a launch-night local session.
+
+| Reference | Details |
+|---|---|
+| Steam listing | Confirms offline and online versus, 12 playable characters, and the edition breakdown |
+| Release window | Jul 23, 2026 |
+| Store support info | Shows language support, system notes, and pre-purchase options |
+
+</Section>
+
+<Section icon={Trophy} title="Local Multiplayer Tips for Better Sets">
+
+Local multiplayer gets better when the room has a rule set. Without structure, players spend too much time debating rematches and not enough time learning the game. A clear setup also makes the game feel more competitive, even if the group is mostly casual.
+
+<Callout type="info" title="Session Rule">
+Keep the first night focused on discovery, not perfection. That means fewer arguments about “best” characters and more time learning how each fighter actually flows.
+</Callout>
+
+| Tip | Why It Works | Best Time To Use |
+|---|---|---|
+| Rotate after each match | Keeps everyone involved | Small groups |
+| Practice one matchup at a time | Reduces overload | After close games |
+| Record one useful habit | Helps improvement stick | End of a session |
+| Reset to default rules first | Makes setup faster | First-time players |
+| Compare characters by feel | More useful than theory alone | New roster exploration |
+
+The biggest mistake in local play is treating the first few games like final judgments. A fighter with simple controls can still reward timing, movement, and composure. Give each player enough time to adapt before deciding which character or setup is “best.”
+
+If your group likes competition, use the local sessions to create a mini ladder. If your group likes casual play, use the same setup but shorten the feedback loop. Either way, the goal is the same: keep the matches moving and the learning visible.
+
+</Section>
+
+<Section icon={Target} title="FAQ">
+
+<Callout type="info" title="Quick Answers">
+These questions cover the most common local multiplayer concerns, including setup, roster size, and whether the deluxe edition changes couch play.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Does avatar legends the fighting game support local multiplayer?",
+    answer: "Yes. The game is built around Offline Versus, which is the main mode for couch sessions and quick local sets."
+  },
+  {
+    question: "How many playable characters are available?",
+    answer: "The Steam listing highlights 12 playable characters at launch, with additional fighters planned through the Year 1 Pass."
+  },
+  {
+    question: "Do I need the Deluxe Edition for local play?",
+    answer: "No. The Standard Edition is enough for local multiplayer. Deluxe mainly adds the digital artbook, soundtrack, and Year 1 Pass content."
+  },
+  {
+    question: "What should I practice first for local matches?",
+    answer: "Start with movement, spacing, and one or two simple training drills. That gives you a stronger base than memorizing advanced combos first."
+  }
+]} />
+
+</Section>

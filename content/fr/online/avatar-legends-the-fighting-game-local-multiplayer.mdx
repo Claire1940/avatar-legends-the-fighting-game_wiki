@@ -1,0 +1,220 @@
+import { Gamepad2, Users, Monitor, Shield, Trophy, Target } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "avatar legends the fighting game : configuration du multijoueur local",
+  description: "Apprenez à configurer le multijoueur local, les règles des matchs en canapé, les outils d'entraînement et les différences entre les éditions pour Avatar Legends: The Fighting Game.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Local+Multiplayer+Guide",
+  date: "2026-07-06",
+  author: "Équipe du wiki d'avatar legends the fighting game"
+}
+
+<Callout type="info" title="Guide rapide">
+- **avatar legends the fighting game** se concentre sur des matchs en 1 contre 1, ce qui rend le jeu en canapé rapide à apprendre et facile à faire tourner.
+- **Offline Versus** est le mode local principal, tandis que Training vous aide à apprendre les déplacements, l'espacement et le timing.
+- **12 personnages jouables** offrent assez de variété pour des sessions locales, des sets détendus et des tests de matchup.
+- **Le netcode rollback et le cross-play** comptent surtout pour les sets de suivi en ligne après vos matchs locaux.
+- **Commandes simples, systèmes profonds** est la promesse de design principale, afin que débutants et vétérans puissent partager la même configuration.
+</Callout>
+
+<Section icon={Gamepad2} title="avatar legends the fighting game : bases du versus local">
+
+Ce jeu est construit autour de combats courts et lisibles en 1 contre 1, ce qui en fait un excellent choix pour les sessions en canapé et les rematchs rapides. La page Steam met en avant **Offline & Online Versus**, ainsi que Training, Arcade, Story, Spectator et une Art Gallery, donc le multijoueur local n’est qu’une partie d’un ensemble plus vaste.
+
+Pour le jeu local, le point essentiel est simple : vous pouvez traiter chaque session comme une soirée de jeu de combat organisée en sets, plutôt que comme une longue progression à grinder. Cela maintient l’attention sur les lectures, l’espacement et l’apprentissage des habitudes des personnages.
+
+| Mode | Valeur en local | Meilleure utilisation |
+|---|---|---|
+| Offline Versus | Mode canapé principal | Matchs entre amis et sets courts |
+| Training | Espace d’entraînement | Apprendre les commandes, les hitboxes et les frame data |
+| Arcade | Échauffement en solo | Enchaînements rapides avant un lobby |
+| Story | Support solo | S’entraîner entre deux sessions |
+| Spectator | Rotation de groupe | Regarder les gagnants et préparer les matchs suivants |
+| Art Gallery | Contenu bonus | Temps mort et fans de la licence |
+
+<Callout type="info" title="Priorité au jeu local">
+Si votre objectif est une bonne soirée en canapé, gardez la première session simple : deux joueurs, règles par défaut et format de set court. Cela rend le jeu plus facile à enseigner et plus rapide à faire tourner.
+</Callout>
+
+| Fonction | Ce que cela signifie pour le multijoueur local |
+|---|---|
+| Conception en 1 contre 1 | Facile de passer les manettes et d’enchaîner des sets rapides |
+| Animation 2D dessinée à la main | Le style visuel reste cohérent pendant les matchs répétés |
+| Roster de 12 personnages | Assez de variété pour des pools casual et de la pratique de matchup |
+| Commandes simples | Les nouveaux joueurs peuvent rejoindre sans longue phase de prise en main |
+| Couche système profonde | Les joueurs expérimentés ont encore de la marge pour optimiser |
+
+</Section>
+
+<Section icon={Monitor} title="Configuration en canapé et déroulement des matchs">
+
+Préparez une configuration propre avant de lancer le premier match. Une bonne session locale dépend moins des mécaniques brutes que de la préparation de la salle, de l’attribution correcte des manettes et du fait de s’assurer que les réglages correspondent au niveau du groupe.
+
+<Callout type="warning" title="Ne sautez pas cette étape">
+Des commandes simples ne veulent pas dire des matchs simplistes. Si vous bâclez la vérification des manettes et la configuration des règles, vous passerez les premières parties à corriger des problèmes évitables au lieu de jouer.
+</Callout>
+
+<Steps>
+  <Step num="1" title="Choisissez d’abord Offline Versus">
+    Commencez par le flux de match hors ligne afin que les deux joueurs puissent entrer directement dans les sets locaux sans bruit de menus supplémentaire.
+  </Step>
+  <Step num="2" title="Attribuez proprement les manettes">
+    Vérifiez quelle manette appartient à quel joueur avant le premier round. Cela évite les échanges accidentels et facilite les rematchs.
+  </Step>
+  <Step num="3" title="Réglez le rythme des matchs">
+    Utilisez des matchs plus courts pour une soirée à plusieurs et des matchs plus longs pour l’entraînement. Le bon rythme dépend du nombre de personnes qui attendent.
+  </Step>
+  <Step num="4" title="Testez un round avant de faire tourner">
+    Jouez un seul match de test, vérifiez la sensation des commandes, puis passez au vrai format de set une fois que tout le monde est à l’aise.
+  </Step>
+</Steps>
+
+| Réglage | Valeur recommandée | Pourquoi c’est utile |
+|---|---|---|
+| Nombre de rounds | 3 rounds | Fait avancer les sets locaux |
+| Durée du match | Courte à moyenne | Idéale pour le tour de rôle |
+| Ordre des manettes | Verrouillé avant de jouer | Évite la confusion entre joueurs |
+| Temps d’entraînement | Activé entre les sets | Aide les nouveaux joueurs à apprendre vite |
+| Rotation des spectateurs | Activée par habitude | Fluidifie les soirées en groupe |
+
+<Callout type="tip" title="Meilleur rythme pour les groupes">
+Pour deux à quatre personnes, adoptez une rotation simple : un match, une analyse, un échange. Ce rythme maintient le lobby actif et rend l’apprentissage plus naturel.
+</Callout>
+
+</Section>
+
+<Section icon={Users} title="Choix du roster et matchups locaux">
+
+Le roster est l’élément qui donne au multijoueur local sa rejouabilité. Avec **12 personnages jouables** au lancement, le jeu offre assez de variété pour garder les rematchs frais sans submerger les nouveaux joueurs. L’approche la plus sûre consiste à organiser les choix par style de jeu, pas seulement par popularité.
+
+<Callout type="tip" title="Stratégie de roster">
+Choisissez des personnages qui créent des rythmes de match différents. Un joueur doit être à l’aise avec la pression, un autre avec l’espacement, et un troisième avec un choix équilibré de secours.
+</Callout>
+
+<CardGrid cols={3}>
+  <Card title="Adapté aux nouveaux joueurs">
+    - **Facile à lire**
+    - Idéal pour apprendre l’espacement
+    - Excellent choix pour des invités qui découvrent le jeu
+  </Card>
+  <Card title="Combattant de pression">
+    - **Offensive rapide**
+    - Récompense la confiance et le timing
+    - Idéal quand vous voulez des rounds courts et intenses
+  </Card>
+  <Card title="Spécialiste de l’espacement">
+    - **Contrôle d’abord**
+    - Encourage un jeu patient
+    - Le meilleur choix quand la table veut des matchs tactiques
+  </Card>
+</CardGrid>
+
+| Style de jeu | Ce qu’il récompense | Valeur en multijoueur local |
+|---|---|---|
+| Rushdown | Réflexes rapides, pression au corps à corps | Crée des rounds rapides et excitants |
+| Zoning | Patience, espacement, lectures d’approche | Punit sévèrement les amis trop téméraires |
+| Équilibré | Flexibilité et adaptation | Idéal pour les groupes de niveaux variés |
+| Technique | Précision et gestion des ressources | Parfait pour des sessions de rematch sérieuses |
+
+Une soirée locale fonctionne mieux lorsque chaque joueur apporte une identité différente à la table. Si tout le monde choisit le même type de personnage, les discussions de matchup deviennent répétitives. Si le groupe se répartit entre plusieurs styles, chaque set enseigne quelque chose de nouveau.
+
+Vous pouvez aussi utiliser le roster pour vous fixer des objectifs informels. Par exemple, un joueur peut se concentrer sur un personnage très mobile, un autre sur un choix défensif basé sur la lecture, et un troisième sur une option de contrôle à mi-distance. Cela rend la rivalité sur le canapé intéressante sur la durée.
+
+</Section>
+
+<Section icon={Shield} title="Mode Training, éditions et checklist de configuration">
+
+Le mode Training est la valeur cachée du multijoueur local. La page Steam met en avant **les hitboxes, les frame data, les save states, et plus encore**, ce qui signifie que ce n’est pas qu’un simple jeu de fête. Vous pouvez utiliser les outils d’entraînement pour résoudre des problèmes entre deux sets en canapé, puis ramener ces corrections dans les matchs en direct.
+
+<Callout type="success" title="Bonne habitude d’entraînement">
+Passez cinq minutes dans Training après quelques matchs locaux. C’est généralement suffisant pour corriger une mauvaise habitude sans casser le rythme de la soirée.
+</Callout>
+
+| Outil d’entraînement | Idéal pour | Avantage en local |
+|---|---|---|
+| Hitboxes | Comprendre les portées | Meilleure défense et meilleurs punishes |
+| Frame Data | Décider du timing | Offensive plus propre et pression plus sûre |
+| Save States | Travailler des scénarios | Répéter les situations difficiles |
+| Exercices de base | Commandes et déplacements | Intégration plus rapide des nouveaux joueurs |
+
+<Checklist
+  id="local-multiplayer-checklist"
+  title="Checklist avant match :"
+  items={[
+    "Confirmez que les deux manettes fonctionnent avant le premier set",
+    "Choisissez un plan de rotation court pour le groupe",
+    "Testez un personnage dans le mode Training",
+    "Choisissez un stage et des règles avant de commencer les rematchs",
+    "Notez une chose que chaque joueur doit pratiquer ensuite"
+  ]}
+/>
+
+| Édition | Contenu | Impact sur le multijoueur local |
+|---|---|---|
+| Standard | Jeu complet | Suffisant pour le jeu en canapé |
+| Deluxe | Artbook numérique, Year 1 Pass, bande-son | Bon rapport qualité-prix, mais pas nécessaire pour les sessions locales |
+
+Pour connaître la date de sortie actuelle et les détails des éditions, utilisez la [page officielle de préachat Steam](https://store.steampowered.com/app/2424420/Avatar_Legends_The_Fighting_Game/). La fiche indique une sortie le **Jul 23, 2026**, ce qui est utile si vous planifiez une session locale le soir du lancement.
+
+| Référence | Détails |
+|---|---|
+| Fiche Steam | Confirme le versus hors ligne et en ligne, les 12 personnages jouables et la répartition des éditions |
+| Fenêtre de sortie | Jul 23, 2026 |
+| Informations de support de la boutique | Indiquent les langues prises en charge, les notes système et les options de préachat |
+
+</Section>
+
+<Section icon={Trophy} title="Conseils de multijoueur local pour de meilleurs sets">
+
+Le multijoueur local devient meilleur quand la salle a un ensemble de règles. Sans structure, les joueurs passent trop de temps à débattre des rematchs et pas assez à apprendre le jeu. Une configuration claire rend aussi le jeu plus compétitif, même si le groupe reste surtout casual.
+
+<Callout type="info" title="Règle de session">
+Gardez la première soirée centrée sur la découverte, pas sur la perfection. Cela signifie moins de débats sur les « meilleurs » personnages et plus de temps pour comprendre comment chaque combattant fonctionne vraiment.
+</Callout>
+
+| Conseil | Pourquoi cela fonctionne | Meilleur moment pour l’utiliser |
+|---|---|---|
+| Tournez après chaque match | Tout le monde reste impliqué | Petits groupes |
+| Travaillez un matchup à la fois | Réduit la surcharge | Après des matchs serrés |
+| Notez une habitude utile | Aide les progrès à durer | Fin de session |
+| Revenez d’abord aux règles par défaut | Accélère la configuration | Nouveaux joueurs |
+| Comparez les personnages au ressenti | Plus utile que la théorie seule | Exploration du roster |
+
+La plus grande erreur en jeu local consiste à traiter les premières parties comme des verdicts définitifs. Un combattant aux commandes simples peut quand même récompenser le timing, les déplacements et le sang-froid. Donnez à chaque joueur assez de temps pour s’adapter avant de décider quel personnage ou quelle configuration est « la meilleure ».
+
+Si votre groupe aime la compétition, utilisez les sessions locales pour créer une mini-ligue. Si votre groupe préfère le jeu casual, utilisez la même configuration mais réduisez le délai de retour d’information. Dans les deux cas, l’objectif reste le même : faire avancer les matchs et rendre l’apprentissage visible.
+
+</Section>
+
+<Section icon={Target} title="FAQ">
+
+<Callout type="info" title="Réponses rapides">
+Ces questions couvrent les préoccupations les plus courantes concernant le multijoueur local, notamment la configuration, la taille du roster et le fait que l’édition deluxe change ou non le jeu en canapé.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "avatar legends the fighting game prend-il en charge le multijoueur local ?",
+    answer: "Oui. Le jeu est conçu autour de Offline Versus, qui est le mode principal pour les sessions en canapé et les sets locaux rapides."
+  },
+  {
+    question: "Combien de personnages jouables sont disponibles ?",
+    answer: "La fiche Steam met en avant 12 personnages jouables au lancement, avec des combattants supplémentaires prévus via le Year 1 Pass."
+  },
+  {
+    question: "Ai-je besoin de l’édition Deluxe pour jouer en local ?",
+    answer: "Non. L’édition Standard suffit pour le multijoueur local. La Deluxe ajoute surtout l’artbook numérique, la bande-son et le contenu du Year 1 Pass."
+  },
+  {
+    question: "Que dois-je pratiquer en premier pour les matchs locaux ?",
+    answer: "Commencez par les déplacements, l’espacement et un ou deux exercices simples en Training. Cela vous donne une base plus solide que de mémoriser d’abord des combos avancés."
+  }
+]} />
+
+</Section>

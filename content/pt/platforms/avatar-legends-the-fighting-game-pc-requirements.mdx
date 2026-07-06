@@ -1,0 +1,205 @@
+import { Map, Shield, Target, Trophy, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Avatar Legends: The Fighting Game: Guia de Requisitos de PC",
+  description: "Confira as especificações mínimas oficiais de Avatar Legends: The Fighting Game, os requisitos de armazenamento e dicas de configuração para deixar seu PC pronto antes do lançamento.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1F2937/fff?text=PC+Requirements+Guide",
+  date: "2026-07-06",
+  author: "Equipe da Wiki de Avatar Legends: The Fighting Game"
+}
+
+<Callout type="info" title="Guia Rápido">
+- Os **requisitos de PC de avatar legends the fighting game** são modestos: Windows 7 64-bit, i5-7500 ou Ryzen 2600, GTX 970 ou RX 570.
+- O **armazenamento** é de apenas **3.600 MB**, mas deixe espaço extra para patches, cache de shaders e dados de salvamento.
+- **DirectX 11** e um **sistema operacional de 64 bits** são obrigatórios na listagem oficial.
+- As **especificações recomendadas** listam apenas armazenamento, então trate a folga de CPU e GPU como uma margem de segurança inteligente.
+- A **compatibilidade com Steam Deck** está atualmente como **Desconhecida**, então o Windows em desktop é a suposição mais segura.
+</Callout>
+
+<Section icon={Map} title="Requisitos de PC de Avatar Legends: The Fighting Game em Resumo">
+
+A página oficial da loja Steam é a referência de lançamento mais clara para quem vai jogar no PC, e ela já traz informações suficientes para uma decisão rápida antes da compra. O jogo está previsto para desbloquear em 23 de julho de 2026, então este é o momento certo para verificar se o seu sistema passa da linha mínima.
+
+<Callout type="tip" title="Leitura rápida">
+Se o seu PC já atende aos requisitos listados de CPU, GPU e sistema operacional, você está na zona mais segura para jogar no dia do lançamento.
+</Callout>
+
+<CardGrid cols={4}>
+  <Card title="Sistema Operacional">
+    **Windows 7 64-bit**
+    <br />
+    É necessário um SO de 64 bits.
+  </Card>
+  <Card title="Processador">
+    **Intel Core i5-7500**
+    <br />
+    ou **AMD Ryzen 2600**
+  </Card>
+  <Card title="Gráficos">
+    **GTX 970**
+    <br />
+    ou **RX 570**
+  </Card>
+  <Card title="Armazenamento">
+    **3.600 MB**
+    <br />
+    de espaço disponível listado
+  </Card>
+</CardGrid>
+
+| Componente | Mínimo oficial | Conclusão prática |
+| --- | --- | --- |
+| SO | Windows 7 (64-bit) | Qualquer instalação de Windows 64-bit compatível deve atender ao requisito de formato |
+| CPU | Intel Core i5-7500 / AMD Ryzen 2600 | Chips quad-core mais antigos podem ficar abaixo da base publicada |
+| GPU | GTX 970 / RX 570 | Placas modernas de entrada nesse nível ou acima são a aposta mais segura |
+| DirectX | Versão 11 | Certifique-se de que o runtime e os drivers estejam instalados corretamente |
+| Armazenamento | 3.600 MB de espaço disponível | Deixe espaço extra além do valor listado para atualizações |
+
+<Callout type="info">
+A página oficial também marca a compatibilidade com Steam Deck como **Desconhecida**, então evite assumir desempenho pronto para portátil até haver confirmação posterior.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Detalhamento das Especificações Mínimas">
+
+As especificações mínimas são compactas, mas cada item importa. Este jogo foi feito como um lutador competitivo 1v1, então o objetivo real não é apenas abrir o jogo, mas manter as partidas estáveis e responsivas. Isso torna a linha de CPU, GPU e DirectX mais importante do que o armazenamento sozinho.
+
+<Callout type="warning" title="Não chute em hardware no limite">
+Uma máquina muito próxima do mínimo listado ainda pode iniciar o jogo, mas sistemas no limite podem ter problemas de consistência, carregamento ou estabilidade online.
+</Callout>
+
+| Requisito | Por que importa | O que verificar |
+| --- | --- | --- |
+| Windows 7 64-bit | Confirma que o jogo pode rodar em um ambiente de 64 bits | Build do SO, tipo de sistema e edição |
+| i5-7500 / Ryzen 2600 | Define a base para a lógica de gameplay e o processamento das partidas | Modelo da CPU, número de núcleos e idade |
+| GTX 970 / RX 570 | Estabelece o piso para renderização e efeitos | Modelo da GPU, VRAM e status dos drivers |
+| DirectX 11 | Dá suporte à pilha de renderização usada pelo jogo | Componentes do DirectX instalados e drivers de vídeo |
+| 3.600 MB de armazenamento | O tamanho de instalação publicado na Steam | Espaço livre no disco de destino |
+
+| Item | Listado na Steam | Observações para compradores |
+| --- | --- | --- |
+| CPU mínima | Sim | Use isso como seu piso absoluto |
+| GPU mínima | Sim | Não compare com gráficos integrados por padrão |
+| CPU recomendada | Não | Não foi publicada na página |
+| GPU recomendada | Não | Não foi publicada na página |
+| Armazenamento recomendado | Sim | Também listado como 3.600 MB de espaço disponível |
+
+<Callout type="tip">
+Para jogos de luta, o melhor hábito é simples: atenda ao mínimo no papel e depois mantenha as atualizações de driver e os apps em segundo plano sob controle.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Configuração Recomendada e Planejamento de Edição">
+
+O detalhe útil aqui é que a página oficial não publica uma linha completa de CPU ou GPU recomendadas. Isso significa que você deve basear sua decisão de compra primeiro nas especificações mínimas e, depois, adicionar folga extra de hardware se quiser uma experiência de lançamento mais confortável.
+
+<Callout type="info" title="Planejamento de lançamento">
+Se o seu PC atual mal passa do mínimo, foque em entrega estável de quadros, drivers atualizados e espaço livre suficiente em disco antes de fazer o preload ou comprar.
+</Callout>
+
+| Edição | Inclui | Ideal para |
+| --- | --- | --- |
+| Edição Standard | Jogo completo | Jogadores que querem apenas o lutador principal |
+| Edição Digital Deluxe | Jogo completo, artbook digital, Passe do Ano 1, trilha sonora original | Fãs que querem conteúdo extra e valor de longo prazo |
+
+| Área de planejamento | O que fazer | Por que ajuda |
+| --- | --- | --- |
+| SO | Confirmar uma instalação do Windows 64-bit | Evita uma falha grave de compatibilidade |
+| Drivers da GPU | Atualizar antes do lançamento | Reduz problemas inesperados de renderização |
+| Armazenamento | Manter mais de 3.600 MB livres | Evita falhas de instalação e atritos com patches |
+| Apps em segundo plano | Fechar launchers e overlays pesados | Libera mais recursos para a estabilidade das partidas |
+
+<Callout type="success" title="Melhor regra de compra">
+Se estiver em dúvida, compre apenas depois que sua máquina superar os mínimos publicados e ainda tiver uma folga extra.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Checklist Pré-Compra e Passos de Configuração">
+
+Use esta seção como sua última verificação antes de finalizar a compra. O objetivo é eliminar riscos evitáveis, especialmente se você pretende entrar nas partidas online assim que o jogo desbloquear em 23 de julho de 2026.
+
+<Callout type="success" title="Prioridade pré-lançamento">
+Atualize primeiro o driver de vídeo e depois verifique CPU, GPU e espaço livre. Essa sequência pega os erros de última hora mais comuns.
+</Callout>
+
+| Verificação | Meta de status | Ação se estiver faltando |
+| --- | --- | --- |
+| Windows 64-bit | Pronto | Atualizar ou reinstalar um SO 64-bit |
+| Meta de CPU | Pronto | Compare seu modelo com i5-7500 / Ryzen 2600 |
+| Meta de GPU | Pronto | Verifique se sua placa é pelo menos da classe GTX 970 / RX 570 |
+| DirectX 11 | Pronto | Instale o runtime e atualize os drivers |
+| Espaço livre | Pronto | Libere pelo menos 3.600 MB mais uma margem extra |
+
+<Checklist
+  id="pc-readiness-checklist"
+  title="Checklist de prontidão para o lançamento:"
+  items={[
+    "Confirmar uma instalação do Windows 64-bit",
+    "Atender ou superar a base mínima de CPU listada",
+    "Atender ou superar a base mínima de GPU listada",
+    "Liberar mais de 3.600 MB no disco de instalação",
+    "Atualizar os drivers de vídeo e os componentes do DirectX"
+  ]}
+/>
+
+<Steps>
+  <Step num="1" title="Verifique o sistema operacional">
+    Abra o painel de informações do sistema e confirme que o Windows está instalado em modo 64-bit.
+  </Step>
+  <Step num="2" title="Compare os modelos de CPU e GPU">
+    Confira seu processador e sua placa de vídeo exatos em relação aos mínimos publicados antes de comprar.
+  </Step>
+  <Step num="3" title="Libere espaço de instalação">
+    Deixe mais espaço do que os 3.600 MB listados na Steam para que patches e arquivos temporários não criem problemas.
+  </Step>
+  <Step num="4" title="Atualize drivers e runtimes">
+    Atualize o driver da GPU, verifique o suporte ao DirectX 11 e feche os apps em segundo plano antes do lançamento.
+  </Step>
+</Steps>
+
+<Callout type="tip">
+Um jogo de luta é mais fácil de aproveitar quando a checagem de hardware é sem emoção. Sem emoção é bom aqui.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="FAQ">
+
+<Callout type="info" title="Perguntas comuns">
+Estas respostas se concentram na listagem publicada na Steam e nas perguntas práticas de compra que a maioria dos jogadores de PC faz antes de fazer a pré-venda.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Quais são os requisitos oficiais de PC de Avatar Legends: The Fighting Game?",
+    answer: "Os mínimos oficiais listam Windows 7 64-bit, um Intel Core i5-7500 ou AMD Ryzen 2600, uma GTX 970 ou RX 570, DirectX 11 e 3.600 MB de armazenamento disponível."
+  },
+  {
+    question: "A página da Steam lista especificações recomendadas de CPU e GPU?",
+    answer: "Não. A página mostra apenas armazenamento na seção recomendada, então a meta de desempenho publicada fica limitada à linha mínima."
+  },
+  {
+    question: "Quanto armazenamento eu preciso?",
+    answer: "A Steam lista 3.600 MB de espaço disponível. Na prática, deixar espaço livre extra é a escolha mais segura para patches e atualizações."
+  },
+  {
+    question: "A compatibilidade com Steam Deck foi confirmada?",
+    answer: "Não. A listagem da Steam mostra a compatibilidade com Steam Deck como Desconhecida no momento, então o Windows em desktop continua sendo a suposição mais segura."
+  }
+]} />
+
+<Callout type="warning">
+Se o seu PC estiver abaixo do mínimo publicado, trate o jogo como uma compra arriscada até atualizar o hardware ou ver uma verificação posterior.
+</Callout>
+
+</Section>
